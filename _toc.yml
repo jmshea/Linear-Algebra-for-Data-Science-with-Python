@@ -7,7 +7,7 @@ sections:
   sections:
   - file: 01-intro/1-who-for
   - file: 01-intro/2-why-this-book
-  - file: 01-intro/3-what-is-data-science
+  - file: 01-intro/3-terminology
   - file: 01-intro/4-what-book-covers
   - file: 01-intro/5-what-book-does-not-cover
   - file: 01-intro/6-intro-jupyter-and-python
