@@ -1,0 +1,12 @@
+jupyter-book
+matplotlib
+numpy
+pandas
+scipy
+termcolor
+ghp-import
+jupyterquiz
+jupytercards
+sphinx-sitemap
+sphinxext-opengraph
+sphinx-notfound-page
