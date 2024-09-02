@@ -12,6 +12,7 @@ sections:
   - file: 01-intro/5-what-book-does-not-cover
   - file: 01-intro/6-intro-jupyter-and-python
   - file: 01-intro/7-summary
+- file: 02-vectors/intro
 - file: 12-vector-regression/intro
   sections:
   - file: 12-vector-regression/vectors
@@ -45,6 +46,7 @@ sections:
   - file: 14-matrix-applications/ls-fitting
   - file: 14-matrix-applications/review
   - file: 14-matrix-applications/summary
+- file: 06-transforming-data/intro
 - file: 16-next-steps/next-steps
 - file: appendix/appendix
 - file: genindex
