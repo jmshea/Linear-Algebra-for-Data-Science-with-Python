@@ -1,0 +1,50 @@
+format: jb-article
+root: intro
+options:
+  numbered: true
+sections:
+- file: 01-intro/intro
+  sections:
+  - file: 01-intro/1-who-for
+  - file: 01-intro/2-why-this-book
+  - file: 01-intro/3-what-is-data-science
+  - file: 01-intro/4-what-book-covers
+  - file: 01-intro/5-what-book-does-not-cover
+  - file: 01-intro/6-intro-jupyter-and-python
+  - file: 01-intro/7-summary
+- file: 12-vector-regression/intro
+  sections:
+  - file: 12-vector-regression/vectors
+  - file: 12-vector-regression/vector-operations
+  - file: 12-vector-regression/vector-stats
+  - file: 12-vector-regression/linear-regression
+  - file: 12-vector-regression/nhst
+  - file: 12-vector-regression/nonlinear-regression
+  - file: 12-vector-regression/review
+  - file: 12-vector-regression/summary
+- file: 13-clustering-transforming/intro
+  sections:
+  - file: 13-clustering-transforming/k-means
+  - file: 13-clustering-transforming/vector-correlation
+  - file: 13-clustering-transforming/spanningsets-bases
+  - file: 13-clustering-transforming/fft
+  - file: 13-clustering-transforming/gram-schmidt
+  - file: 13-clustering-transforming/feature-extraction
+  - file: 13-clustering-transforming/review
+  - file: 13-clustering-transforming/summary
+- file: 14-matrix-applications/intro
+  sections:
+  - file: 14-matrix-applications/matrices
+  - file: 14-matrix-applications/matrix-ops
+  - file: 14-matrix-applications/matrix-multiplication
+  - file: 14-matrix-applications/determinant
+  - file: 14-matrix-applications/linear-eqs
+  - file: 14-matrix-applications/linear-eqs2
+  - file: 14-matrix-applications/matrix-inverses
+  - file: 14-matrix-applications/polynomial-interpolation
+  - file: 14-matrix-applications/ls-fitting
+  - file: 14-matrix-applications/review
+  - file: 14-matrix-applications/summary
+- file: 16-next-steps/next-steps
+- file: appendix/appendix
+- file: genindex

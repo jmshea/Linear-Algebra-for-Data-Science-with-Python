@@ -1,0 +1,9 @@
+_build
+.ipynb_checkpoints/
+.log
+.DS_Store
+*.swp
+*.bak
+*.log
+images/*.psd
+.virtual_documents

@@ -1,0 +1,105 @@
+name: deploy
+
+on:
+  # Trigger the workflow on push to main branch
+  push:
+    branches:
+      - main
+
+# This job installs dependencies, build the book, and pushes it to `gh-pages`
+jobs:
+  build-and-deploy-book:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.9]
+    steps:
+    - uses: actions/checkout@v4
+
+    # Install dependencies
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Install ghostscript
+      run: |
+        sudo apt update
+        sudo apt install ghostscript
+
+    - name: Change ImageMagick security policy
+      run: |
+        DQT='"'
+        SRC="rights=${DQT}none${DQT} pattern=${DQT}PDF${DQT}"
+        RPL="rights=${DQT}read|write${DQT} pattern=${DQT}PDF${DQT}"
+        sudo sed -i "s/$SRC/$RPL/" /etc/ImageMagick-6/policy.xml
+
+    # Build the book
+    - name: Build the book
+      run: |
+        jupyter-book build .
+
+    # Remove the sources directory
+    - name: Remove _sources
+      run: |
+        rm -rf _build/html/_sources
+
+    # Update robots.txt
+    - name: Update robots.txt
+      run: |
+        echo -e "User-agent: GPTbot\nDisallow: /\n" > _build/html/robots.txt
+        echo -e "User-agent: Google-Extended\nDisallow: /\n" >> _build/html/robots.txt
+        echo -e "\nSitemap: https://fdsp.net/sitemap.xml" >> _build/html/robots.txt
+
+    # # Update the 404 page 
+    # - name: Update the 404 page
+    #   run: |
+    #     sed -i "s/\/fdsp\///g" _build/html/404.html 
+    #     #sed -i "s/\/fdsp/https:\/\/www.fdsp.net/g" _build/html/404.html 
+
+    # Deploy the book's HTML to gh-pages branch
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3.9.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: _build/html
+
+    # # Deploy the redirects to gh-pages branch
+    # - name: GitHub Pages action copy redirects
+    #   uses: peaceiris/actions-gh-pages@v3.9.0
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: redirects
+    #     keep_files: true
+
+    # # Deploy the data to gh-pages branch
+    # - name: GitHub Pages action copy data dir
+    #   uses: peaceiris/actions-gh-pages@v3.9.0
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: data
+    #     destination_dir: data
+    #     keep_files: true
+
+    # # Deploy the notebooks to gh-pages branch
+    # - name: GitHub Pages action copy notebooks dir
+    #   uses: peaceiris/actions-gh-pages@v3.9.0
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: notebooks
+    #     destination_dir: notebooks
+    #     keep_files: true
+
+    # # Deploy the images to gh-pages branch
+    # - name: GitHub Pages action copy images dir
+    #   uses: peaceiris/actions-gh-pages@v3.9.0
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: images
+    #     destination_dir: images
+    #     keep_files: true
+
