@@ -1,0 +1,38 @@
+[
+    {
+    "question": "According to Section 1.4 of <i>Linear Algebra for Data Science with Python</i>, which of these topics are covered in the book?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "machine learning",
+                "correct": false,
+            "feedback": "Although machine learning techniques often rely on linear algebra, <i>Linear Algebra for Data Science with Python</i> focuses on more fundamental topics."
+            },
+            {
+                "answer": "vectors and vector operations",
+                "correct": true
+            },
+            {
+                "answer": "matrices and matrix operations",
+                "correct": true
+            },
+            {
+                "answer": "fitting data with lines or polynomials",
+                "correct": true
+            },
+            {
+                "answer": "probability",
+                "correct": false,
+                "feedback": "Some areas of probability rely on the concepts and tools of linear algebra, but <i>Linear Algebra for Data Science with Python</i> focuses on more fundamental topics."
+            },
+            {
+                "answer": "representing data using different bases",
+                "correct": true
+            },
+            {
+                "answer": "using linear algebra to solve systems of linear equeations",
+                "correct": true
+            }
+        ]
+    }
+]
