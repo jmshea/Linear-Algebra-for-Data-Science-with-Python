@@ -1,0 +1,33 @@
+[
+    {
+    "question": "According to Section 1.5 of <i>Linear Algebra for Data Science with Python</i>, which of these topics are <b>not</b> covered in the book?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "vector spaces",
+                "correct": true,
+                "feedback": "Vector spaces are an important topic, and I cover several key concepts related to vector spaces, such as projection and bases, but a detailed discussion of vector spaces is outside the scope of this book."
+            },
+            {
+                "answer": "sparse matrices",
+                "correct": true,
+                "feedback": "Sparse matrices are important in many big data problems, but they are beyond the scope of this book."
+            },
+            {
+                "answer": "full coverage of matrix decompositions",
+                "correct": true,
+                "feedback": "Depending on who you ask, there are around seven fundamental matrix decompositions. This book covers only four of them, and some are only briefly mentioned."
+            },
+            {
+                "answer": "systems of linear equations",
+                "correct": false,
+                "feedback": "Incorrect. This book does cover systems of linear equations and the use of matrix techniques to work with such systems."
+            },
+            {
+                "answer": "computational issues",
+                "correct": true,
+                "feedback": "Correct. Computational issues (such as complexity and accuracy) are important but are beyond the scope of this book."
+            }
+        ]
+    }
+]
