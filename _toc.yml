@@ -25,20 +25,25 @@ sections:
   sections:
   - file: 03-matrices/1-matrices
   - file: 03-matrices/2-matrix-ops
-  - file: 03-matrices/3-mat-vec-mul.ipynb
-  - file: 03-matrices/4-mat-mul.ipynb
-  - file: 03-matrices/5-determinant.ipynb
-  - file: 03-matrices/6-eigen.ipynb
-  - file: 03-matrices/7-summary.ipynb
+  - file: 03-matrices/3-mat-vec-mul
+  - file: 03-matrices/4-mat-mul
+  - file: 03-matrices/5-determinant
+  - file: 03-matrices/6-eigen
+  - file: 03-matrices/7-summary
 - file: 04-lin-eqs/intro
   sections:
-  - file: 04-lin-eqs/1-lin-eqs.ipynb
-  - file: 04-lin-eqs/2-lin-eqs.ipynb
-  - file: 04-lin-eqs/3-matrix-inverse.ipynb
-  - file: 04-lin-eqs/4-eigen.ipynb
-  - file: 04-lin-eqs/5-approx-solns.ipynb
-  - file: 04-lin-eqs/6-summary.ipynb
+  - file: 04-lin-eqs/1-lin-eqs
+  - file: 04-lin-eqs/2-lin-eqs
+  - file: 04-lin-eqs/3-matrix-inverse
+  - file: 04-lin-eqs/4-eigen
+  - file: 04-lin-eqs/5-approx-solns
+  - file: 04-lin-eqs/6-summary
+- file: 05-data-fitting/intro
+  sections:
+  - file: 05-data-fitting/1-exact
+  - file: 05-data-fitting/2-approx
+  - file: 05-data-fitting/3-summary
 - file: 06-transforming-data/intro
-- file: 16-next-steps/next-steps
-- file: appendix/appendix
-- file: genindex
+#- file: 16-next-steps/next-steps
+#- file: appendix/appendix
+#- file: genindex
