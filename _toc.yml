@@ -30,6 +30,14 @@ sections:
   - file: 03-matrices/5-determinant.ipynb
   - file: 03-matrices/6-eigen.ipynb
   - file: 03-matrices/7-summary.ipynb
+- file: 04-lin-eqs/intro
+  sections:
+  - file: 04-lin-eqs/1-lin-eqs.ipynb
+  - file: 04-lin-eqs/2-lin-eqs.ipynb
+  - file: 04-lin-eqs/3-matrix-inverse.ipynb
+  - file: 04-lin-eqs/4-eigen.ipynb
+  - file: 04-lin-eqs/5-approx-solns.ipynb
+  - file: 04-lin-eqs/6-summary.ipynb
 - file: 06-transforming-data/intro
 - file: 16-next-steps/next-steps
 - file: appendix/appendix
