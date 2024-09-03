@@ -13,41 +13,18 @@ sections:
   - file: 01-intro/6-intro-jupyter-and-python
   - file: 01-intro/7-summary
 - file: 02-vectors/intro
+  sections:
+  - file: 02-vectors/1-vectors
+  - file: 02-vectors/2-visualizing
+  - file: 02-vectors/3-applications
+  - file: 02-vectors/4-special-vectors
+  - file: 02-vectors/5-vector-ops
+  - file: 02-vectors/6-correlation-projection
+  - file: 02-vectors/7-summary
 - file: 03-matrices/intro
   sections:
   - file: 03-matrices/1-matrices
   - file: 03-matrices/2-matrix-ops
-- file: 12-vector-regression/intro
-  sections:
-  - file: 12-vector-regression/vectors
-  - file: 12-vector-regression/vector-operations
-  - file: 12-vector-regression/vector-stats
-  - file: 12-vector-regression/linear-regression
-  - file: 12-vector-regression/nhst
-  - file: 12-vector-regression/nonlinear-regression
-  - file: 12-vector-regression/review
-  - file: 12-vector-regression/summary
-- file: 13-clustering-transforming/intro
-  sections:
-  - file: 13-clustering-transforming/k-means
-  - file: 13-clustering-transforming/vector-correlation
-  - file: 13-clustering-transforming/spanningsets-bases
-  - file: 13-clustering-transforming/fft
-  - file: 13-clustering-transforming/gram-schmidt
-  - file: 13-clustering-transforming/feature-extraction
-  - file: 13-clustering-transforming/review
-  - file: 13-clustering-transforming/summary
-- file: 14-matrix-applications/intro
-  sections:
-  - file: 14-matrix-applications/matrix-multiplication
-  - file: 14-matrix-applications/determinant
-  - file: 14-matrix-applications/linear-eqs
-  - file: 14-matrix-applications/linear-eqs2
-  - file: 14-matrix-applications/matrix-inverses
-  - file: 14-matrix-applications/polynomial-interpolation
-  - file: 14-matrix-applications/ls-fitting
-  - file: 14-matrix-applications/review
-  - file: 14-matrix-applications/summary
 - file: 06-transforming-data/intro
 - file: 16-next-steps/next-steps
 - file: appendix/appendix
