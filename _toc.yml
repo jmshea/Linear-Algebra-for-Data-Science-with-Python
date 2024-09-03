@@ -25,6 +25,11 @@ sections:
   sections:
   - file: 03-matrices/1-matrices
   - file: 03-matrices/2-matrix-ops
+  - file: 03-matrices/3-mat-vec-mul.ipynb
+  - file: 03-matrices/4-mat-mul.ipynb
+  - file: 03-matrices/5-determinant.ipynb
+  - file: 03-matrices/6-eigen.ipynb
+  - file: 03-matrices/7-summary.ipynb
 - file: 06-transforming-data/intro
 - file: 16-next-steps/next-steps
 - file: appendix/appendix
