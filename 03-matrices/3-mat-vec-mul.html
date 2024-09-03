@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="3.1. Introduction to Arrays and Matrices" />
+<meta property="og:title" content="3.3. Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/03-matrices/1-matrices.html" />
+<meta property="og:url" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/03-matrices/3-mat-vec-mul.html" />
 <meta property="og:site_name" content="Project name not set" />
-<meta property="og:description" content="This is a placeholder for interactive content for Section 3.1 of Linear Algebra for Data Science with Python." />
+<meta property="og:description" content="This is a placeholder for interactive content for Linear Algebra for Data Science with Python." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/_images/social_previews/summary_03-matrices_1-matrices_2cf7e83f.png" />
-<meta property="og:image:alt" content="This is a placeholder for interactive content for Section 3.1 of Linear Algebra for Data Science with Python." />
-<meta name="description" content="This is a placeholder for interactive content for Section 3.1 of Linear Algebra for Data Science with Python." />
+<meta property="og:image" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/_images/social_previews/summary_03-matrices_3-mat-vec-mul_6d2dba46.png" />
+<meta property="og:image:alt" content="This is a placeholder for interactive content for Linear Algebra for Data Science with Python." />
+<meta name="description" content="This is a placeholder for interactive content for Linear Algebra for Data Science with Python." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>3.1. Introduction to Arrays and Matrices &#8212; Linear Algebra for Data Science with Python</title>
+    <title>3.3. Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces &#8212; Linear Algebra for Data Science with Python</title>
   
   
   
@@ -81,12 +81,12 @@
                 gtag('config', 'G-51XGJJ29T3');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '03-matrices/1-matrices';</script>
-    <link rel="canonical" href="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/03-matrices/1-matrices.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = '03-matrices/3-mat-vec-mul';</script>
+    <link rel="canonical" href="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/03-matrices/3-mat-vec-mul.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3.2. Matrix Operations, Part 1" href="2-matrix-ops.html" />
-    <link rel="prev" title="3. Matrices and Operations" href="intro.html" />
+    <link rel="next" title="3.4. Matrix Multiplication" href="4-mat-mul.html" />
+    <link rel="prev" title="3.2. Matrix Operations, Part 1" href="2-matrix-ops.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -218,9 +218,9 @@
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="intro.html">3. Matrices and Operations</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">3.1. Introduction to Arrays and Matrices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1-matrices.html">3.1. Introduction to Arrays and Matrices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="2-matrix-ops.html">3.2. Matrix Operations, Part 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="3-mat-vec-mul.html">3.3. Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">3.3. Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces</a></li>
 <li class="toctree-l2"><a class="reference internal" href="4-mat-mul.html">3.4. Matrix Multiplication</a></li>
 <li class="toctree-l2"><a class="reference internal" href="5-determinant.html">3.5. Matrix Determinant and Linear Transformations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="6-eigen.html">3.6. Eigenvalues and Eigenvectors</a></li>
@@ -282,7 +282,7 @@
       
       
       
-      <li><a href="../_sources/03-matrices/1-matrices.ipynb" target="_blank"
+      <li><a href="../_sources/03-matrices/3-mat-vec-mul.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -364,7 +364,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introduction to Arrays and Matrices</h1>
+    <h1>Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -378,9 +378,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-arrays-and-matrices">
-<h1><span class="section-number">3.1. </span>Introduction to Arrays and Matrices<a class="headerlink" href="#introduction-to-arrays-and-matrices" title="Link to this heading">#</a></h1>
-<p>This is a placeholder for interactive content for Section 3.1 of <em>Linear Algebra for Data Science with Python</em>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="matrix-multiplication-of-vectors-as-transforming-vectors-in-vector-spaces">
+<h1><span class="section-number">3.3. </span>Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces<a class="headerlink" href="#matrix-multiplication-of-vectors-as-transforming-vectors-in-vector-spaces" title="Link to this heading">#</a></h1>
+<p>This is a placeholder for interactive content for <em>Linear Algebra for Data Science with Python</em>.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -414,20 +414,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="2-matrix-ops.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">3. </span>Matrices and Operations</p>
+        <p class="prev-next-title"><span class="section-number">3.2. </span>Matrix Operations, Part 1</p>
       </div>
     </a>
     <a class="right-next"
-       href="2-matrix-ops.html"
+       href="4-mat-mul.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">3.2. </span>Matrix Operations, Part 1</p>
+        <p class="prev-next-title"><span class="section-number">3.4. </span>Matrix Multiplication</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
