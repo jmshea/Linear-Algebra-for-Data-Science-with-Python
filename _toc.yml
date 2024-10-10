@@ -44,6 +44,12 @@ sections:
   - file: 05-data-fitting/2-approx
   - file: 05-data-fitting/3-summary
 - file: 06-transforming-data/intro
+  sections:
+  - file: 06-transforming-data/1-basis-representation
+  - file: 06-transforming-data/2-universal-bases
+  - file: 06-transforming-data/3-set-specific-bases
+  - file: 06-transforming-data/4-eigen-bases
+  - file: 06-transforming-data/5-summary
 #- file: 16-next-steps/next-steps
 #- file: appendix/appendix
 #- file: genindex
