@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="6. Introduction" />
+<meta property="og:title" content="6. Transforming Data" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/06-transforming-data/intro.html" />
 <meta property="og:site_name" content="Project name not set" />
 <meta property="og:description" content="This is a placeholder." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/_images/social_previews/summary_06-transforming-data_intro_744d59d7.png" />
+<meta property="og:image" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/_images/social_previews/summary_06-transforming-data_intro_bdb21438.png" />
 <meta property="og:image:alt" content="This is a placeholder." />
 <meta name="description" content="This is a placeholder." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>6. Introduction &#8212; Linear Algebra for Data Science with Python</title>
+    <title>6. Transforming Data &#8212; Linear Algebra for Data Science with Python</title>
   
   
   
@@ -85,6 +85,7 @@
     <link rel="canonical" href="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/06-transforming-data/intro.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="6.1. Representing a Vector Using Projections: Spanning Sets and Bases" href="1-basis-representation.html" />
     <link rel="prev" title="5.3. Chapter Summary" href="../05-data-fitting/3-summary.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -203,7 +204,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../01-intro/2-why-this-book.html">1.2. Why learn linear algebra from this book?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../01-intro/3-terminology.html">1.3. Brief Introduction to Data Science Terminology</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../01-intro/4-what-book-covers.html">1.4. What topics from linear algebra does this book cover?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../01-intro/5-what-book-does-not-cover.html">1.5. What data science topics does this book <strong>not</strong> cover?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-intro/5-what-book-does-not-cover.html">1.5. What topics from linear algebra does this book <strong>not</strong> cover?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-intro/6-intro-jupyter-and-python.html">1.6. Extremely Brief Intro to Jupyter and Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-intro/7-summary.html">1.7. Chapter Summary</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../02-vectors/intro.html">2. Vectors and Vector Operations</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -217,9 +220,9 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../03-matrices/intro.html">3. Matrices and Operations</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../03-matrices/1-matrices.html">3.1. Introduction to Arrays and Matrices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../03-matrices/2-matrix-ops.html">3.2. Matrix Operations, Part 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../03-matrices/3-mat-vec-mul.html">3.3. Matrix Multiplication of Vectors as Transforming Vectors in Vector Spaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-matrices/1-matrices.html">3.1. Introduction to Matrices and Tensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-matrices/2-matrix-ops.html">3.2. Matrix Operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-matrices/3-mat-vec-mul.html">3.3. Matrix-Vector Multiplication as a Linear Transformation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03-matrices/4-mat-mul.html">3.4. Matrix Multiplication</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03-matrices/5-determinant.html">3.5. Matrix Determinant and Linear Transformations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03-matrices/6-eigen.html">3.6. Eigenvalues and Eigenvectors</a></li>
@@ -241,7 +244,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../05-data-fitting/3-summary.html">5.3. Chapter Summary</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">6. Introduction</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">6. Transforming Data</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="1-basis-representation.html">6.1. Representing a Vector Using Projections: Spanning Sets and Bases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2-universal-bases.html">6.2. Universal Bases and the Discrete Fourier Transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3-set-specific-bases.html">6.3. Set-Specific Bases: The Gram-Schmidt Algorithm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="4-eigen-bases.html">6.4. Alternative Bases via Eigendecomposition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5-summary.html">6.5. Chapter Summary</a></li>
+</ul>
+</details></li>
 </ul>
 
     </div>
@@ -378,7 +388,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introduction</h1>
+    <h1>Transforming Data</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -392,9 +402,11 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
-<h1><span class="section-number">6. </span>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="transforming-data">
+<h1><span class="section-number">6. </span>Transforming Data<a class="headerlink" href="#transforming-data" title="Link to this heading">#</a></h1>
 <p>This is a placeholder.</p>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -435,6 +447,15 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title"><span class="section-number">5.3. </span>Chapter Summary</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="1-basis-representation.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">6.1. </span>Representing a Vector Using Projections: Spanning Sets and Bases</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
