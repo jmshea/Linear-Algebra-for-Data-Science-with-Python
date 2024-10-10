@@ -68,13 +68,13 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: _build/html
 
-    # # deploy the redirects to gh-pages branch
-    # - name: github pages action copy redirects
-    #   uses: peaceiris/actions-gh-pages@v3.9.0
-    #   with:
-    #     github_token: ${{ secrets.github_token }}
-    #     publish_dir: redirects
-    #     keep_files: true
+    # deploy the redirects to gh-pages branch
+    - name: github pages action copy redirects
+      uses: peaceiris/actions-gh-pages@v3.9.0
+      with:
+        github_token: ${{ secrets.github_token }}
+        publish_dir: redirects
+        keep_files: true
 
     # # Deploy the data to gh-pages branch
     # - name: GitHub Pages action copy data dir
