@@ -1,0 +1,126 @@
+[
+    {
+        "front": "vector",
+        "back": "An ordered collection of numbers that has an accompanying set of\n  mathematical operations."
+    },
+    {
+        "front": "order",
+        "back": "The number of axes used to index the contents of a\n  mathematical object, such as a vector, matrix,  or tensor."
+    },
+    {
+        "front": "scalar",
+        "back": "A single numerical value."
+    },
+    {
+        "front": "component (vector) \\n or \\n element (vector)",
+        "back": "One of the numerical values that make up the vector."
+    },
+    {
+        "front": "component (vector) \\n or \\n element (vector)",
+        "back": "One of the numerical values that make up the vector."
+    },
+    {
+        "front": "size (vector) \\n or \\n dimension (vector)",
+        "back": "The number of components a vector contains."
+    },
+    {
+        "front": "quiver plot",
+        "back": "A (two-dimensional) plot that illustrates one or more\n  vectors as arrows that are typically specified by a location, which determines\n  the coordinates of the tail of the vector, and some specification of the\n  direction and magnitude of the vector. If no location is provided, then the\n  origin $(0,0)$ is used."
+    },
+    {
+        "front": "tail (vector)",
+        "back": "The \\textit{tail} of a vector is the starting point of a vector (the initial\npoint from which the displacement is measured)."
+    },
+    {
+        "front": "head (vector)",
+        "back": "The \\textit{head} of a vector is the ending point of a vector (the point\n  at which the vector terminates after the specified displacement from the tail)."
+    },
+    {
+        "front": "scatter plot",
+        "back": "A (two-dimensional) scatter plot takes a sequence of\n  two-dimensional data points $(x_0, y_0)$, $(x_1, y_1)$, $\\ldots$, $(x_{n-1},\n  y_{n-1})$ and plots symbols (called \\textit{markers}) that represent the\n  locations of the points in a rectangular region of a plane."
+    },
+    {
+        "front": "time-series data",
+        "back": "Data that is collected over time, usually at regular\n  intervals. Each data point is associated with a timestamp indicating when the\n  data was collected."
+    },
+    {
+        "front": "bar chart \\n or \\n bar graph",
+        "back": "Most commonly used with categorical data for which each category has an associated\n  quantity or measurement, a bar is drawn for each category, where the height or\n  width of the bar is proportional to the associated quantity or measurement."
+    },
+    {
+        "front": "zero vector",
+        "back": "A vector of all zeros."
+    },
+    {
+        "front": "ones vector",
+        "back": "A vector of all ones."
+    },
+    {
+        "front": "standard unit vector",
+        "back": "A vector with all of its components equal to zero, except one element that is equal to one."
+    },
+    {
+        "front": "addition (vectors)",
+        "back": "The sum of $n$ vectors \\(\\mathbf{a}\\) and\n  \\(\\mathbf{b}\\) is a vector \\(\\mathbf{a+b}\\) such that any component $i$ of the\n  vector sum is the sum of the \\(i\\)th components of \\(\\mathbf{a}\\) and\n  \\(\\mathbf{b}\\); i.e.\n  \\begin{equation*}\\mathbf{(a+b)}_i = a_i + b_i,~~i=0, 1,\\ldots, n-1.\\end{equation*}"
+    },
+    {
+        "front": "addition (vectors)",
+        "back": "The sum of $n$ vectors \\(\\mathbf{a}\\) and\n%   \\(\\mathbf{b}\\) is a vector \\(\\mathbf{a+b}\\) such that any component $i$ of the\n%   vector sum is the sum of the \\(i\\)th components of \\(\\mathbf{a}\\) and\n%   \\(\\mathbf{b}\\); i.e. \\(\\mathbf{(a+b)}_i = a_i + b_i,~~i=0, 1,\\ldots, n-1\\)."
+    },
+    {
+        "front": "multiplication (scalar-vector)",
+        "back": "Given a vector \\(\\mathbf{u}\\) and a\n  scalar \\(\\alpha\\), define \\(\\alpha \\mathbf{u}\\) such that each component\n  \\(i\\) of \\(\\alpha \\mathbf{u}\\) is given by \\((\\alpha \\mathbf{u})_i = \\alpha\n  u_i\\). Thus,\n  \\begin{equation*"
+    },
+    {
+        "front": "broadcasting (NumPy)",
+        "back": "In NumPy, broadcasting occurs in operations\n  involving two arrays of different shapes. The smaller array is\n  \\textit{broadcast} across the larger array by repeating values in the smaller\n  array in such a way that the shapes of the two arrays will match."
+    },
+    {
+        "front": "component-wise multiplication (vectors) \\n or \\n Hadamard product (vectors) \\n or \\n Schur product (vectors)",
+        "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the \\textit{Hadamard product} or \\textit{Schur product} is denoted \\(\\mathbf{u} \\odot \\mathbf{v}\\) and is the \\(n\\)-vector given by component-wise multiplication of \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\),\n  \\begin{equation*"
+    },
+    {
+        "front": "dot product \\n or \\n inner product (vectors)",
+        "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the \\textit{dot product} or \\textit{inner product} is denoted \\(\\mathbf{u} \\cdot \\mathbf{v}\\) or \\(\\mathbf{u}^\\tran \\mathbf{v}\\) and is the \\textbf{scalar value} given by multiplying corresponding components and summing them up:\n  \\begin{equation*"
+    },
+    {
+        "front": "norm squared",
+        "back": "For a mathematical object \\(\\mathbf{u}\\) with an\n  inner product operator \\(\\langle , \\rangle\\), the norm squared is denoted by\n  \\(\\| \\mathbf{u} \\|^2\\) and defined as\n  \\begin{equation*"
+    },
+    {
+        "front": "norm",
+        "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product\n  operator \\(\\langle ~,~ \\rangle\\), the norm is denoted by \\(\\| \\mathbf{u} \\|\\)\n  and defined as\n  \\begin{equation*"
+    },
+    {
+        "front": "unit vector",
+        "back": "A vector \\(\\mathbf{v}\\) is a \\textit{unit vector} if \\(\\| \\mathbf{v} \\| =1.\\)"
+    },
+    {
+        "front": "distance between vectors",
+        "back": "The \\textit{distance} between two \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is the norm of the difference between the vectors,\\\\\n  \\begin{equation*"
+    },
+    {
+        "front": "correlation (vectors) \\n or \\n cosine similarity",
+        "back": "The \\textit{correlation} between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*"
+    },
+    {
+        "front": "angle between vectors",
+        "back": "The angle between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*"
+    },
+    {
+        "front": "orthogonal vectors",
+        "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are \\textit{orthogonal} if and only if\n  \\begin{equation*"
+    },
+    {
+        "front": "orthonormal vectors",
+        "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are \\textit{orthonormal} if and only if\n  \\begin{equation*"
+    },
+    {
+        "front": "scalar projection",
+        "back": "Given \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\), the \\textit{scalar projection} of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\) has magnitude equal to the length of the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). The sign is positive if that component of \\(\\mathbf{b}\\) is in the same direction as \\(\\mathbf{a}\\) and negative if not. It is given by\n  \\begin{align*"
+    },
+    {
+        "front": "vector projection",
+        "back": "Let \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) be \\(n\\)-dimensional vectors. Then  the \\textit{vector projection} of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\), denoted    \\(\\operatorname{proj}_{\\mathbf{a}} \\mathbf{b}\\), is the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). It is given by\n  \\begin{equation*"
+    }
+]

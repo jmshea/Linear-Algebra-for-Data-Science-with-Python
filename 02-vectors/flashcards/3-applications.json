@@ -1,0 +1,14 @@
+[
+    {
+        "front": "scatter plot",
+        "back": "A (two-dimensional) scatter plot takes a sequence of two-dimensional data points $(x_0, y_0)$, $(x_1, y_1)$, $\\ldots$, $(x_{n-1}, y_{n-1})$ and plots symbols (called <I>markers</I>) that represent the locations of the points in a rectangular region of a plane."
+    },
+    {
+        "front": "time-series data",
+        "back": "Data that is collected over time, usually at regular intervals. Each data point is associated with a timestamp indicating when the data was collected."
+    },
+    {
+        "front": "bar chart <br> or <br> bar graph",
+        "back": "Most commonly used with categorical data for which each category has an associated quantity or measurement, a bar is drawn for each category, where the height or width of the bar is proportional to the associated quantity or measurement."
+    }
+]
