@@ -94,6 +94,16 @@ jobs:
     #     destination_dir: notebooks
     #     keep_files: true
 
+    # Deploy the notebooks to gh-pages branch
+    - name: GitHub Pages action copy notebooks dir
+      uses: peaceiris/actions-gh-pages@v3.9.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: interactive
+        destination_dir: interactive
+        keep_files: true
+
+
     # # Deploy the images to gh-pages branch
     # - name: GitHub Pages action copy images dir
     #   uses: peaceiris/actions-gh-pages@v3.9.0
