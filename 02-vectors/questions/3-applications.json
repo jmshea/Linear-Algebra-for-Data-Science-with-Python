@@ -1,0 +1,91 @@
+[
+    {
+        "question": "What does the text suggest is a better way to visualize a large number of two-dimensional data points compared to plotting vectors as arrows?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Bar charts",
+                "correct": false,
+                "feedback": "The text suggests bar charts for visualizing proportional data, not two-dimensional data points."
+            },
+            {
+                "answer": "Pie charts",
+                "correct": false,
+                "feedback": "The text actually criticizes the use of pie charts for proportional data."
+            },
+            {
+                "answer": "Scatter plots",
+                "correct": true,
+                "feedback": "Correct! "
+            },
+            {
+                "answer": "Quiver plots",
+                "correct": false,
+                "feedback": "Quiver plots are used for visualizing vectors as arrows, which the text suggests is not the best approach for visualizing a large number of data points."
+            }
+        ]
+    },
+    {
+        "question": "What type of data consists of observations of some phenomena over time, usually at regular intervals?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Distributional data",
+                "correct": false,
+                "feedback": "Distributional data refers to distributions or allocations across categories, not observations over time."
+            },
+            {
+                "answer": "Time-series data",
+                "correct": true,
+                "feedback": "Correct! Time-series data is data that is collected over time, usually at regular intervals."
+            },
+            {
+                "answer": "Multi-dimensional numerical data",
+                "correct": false,
+                "feedback": "Multi-dimensional numerical data refers to data with multiple features, not necessarily collected over time."
+            },
+            {
+                "answer": "Geometrical features data",
+                "correct": false,
+                "feedback": "Geometrical features data refers to location in space or displacements between locations, not observations over time."
+            }
+        ]
+    },
+    {
+        "question": "When treating multi-dimensional numerical data as vectors, the text mentions that data can be decomposed into vectors in two different ways. What are they?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "By treating each data point as a vector or each feature as a vector",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "By treating each row as a vector or each table as a vector",
+                "correct": false,
+                "feedback": "While treating each row as a vector is correct, treating each table as a vector is not mentioned."
+            },
+            {
+                "answer": "By treating time-series data as a vector or distributional data as a vector",
+                "correct": false,
+                "feedback": "These are different applications of vectors, not ways to decompose multi-dimensional numerical data."
+            }
+        ]
+    },
+    {
+        "question": "The text suggests that pie charts are generally better than bar charts for visualizing proportional data.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": "Incorrect. As mentioned in the text, there are many issues with pie charts, including that  people are not good at estimating proportions from angles."
+            },
+            {
+                "answer": "False",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    }
+]
