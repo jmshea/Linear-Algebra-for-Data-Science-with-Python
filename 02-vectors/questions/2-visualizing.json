@@ -1,0 +1,164 @@
+[
+    {
+        "question": "What is a quiver plot?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A plot that illustrates vectors as arrows specified by location, direction, and magnitude",
+                "correct": true,
+                "feedback": "Correct! A quiver plot is defined as a plot that illustrates one or more vectors as arrows, typically specified by a location (the tail), and some specification of the direction and magnitude."
+            },
+            {
+                "answer": "A plot that only shows vectors starting from the origin",
+                "correct": false,
+                "feedback": "While vectors are often plotted from the origin when no location is specified, quiver plots can have vectors with tails at any location."
+            },
+            {
+                "answer": "A plot that only works with 3-dimensional vectors",
+                "correct": false,
+                "feedback": "The text specifically discusses using quiver plots for 2-dimensional vectors."
+            },
+            {
+                "answer": "A plot that only displays the magnitude of vectors, not their direction",
+                "correct": false,
+                "feedback": "Quiver plots show both the magnitude and direction of vectors using arrows."
+            }
+        ]
+    },
+    {
+        "question": "In the text, how are the components of a 2-vector interpreted when visualizing?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "As $x$ and $y$ displacements",
+                "correct": true,
+                "feedback": "Correct! The text states that for 2-vectors, the components are interpreted as representing x and y displacements."
+            },
+            {
+                "answer": "As magnitude and direction",
+                "correct": false,
+                "feedback": "While vectors have magnitude and direction, the components themselves are interpreted as x and y displacements."
+            },
+            {
+                "answer": "As starting and ending points",
+                "correct": false,
+                "feedback": "The components represent displacements, not the actual coordinates of the starting and ending points."
+            },
+            {
+                "answer": "As head and tail positions",
+                "correct": false,
+                "feedback": "Components represent displacements. The head position is determined by adding these displacements to the tail position."
+            }
+        ]
+    },
+    {
+        "question": "What is the tail of a vector?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The endpoint of the vector",
+                "correct": false,
+                "feedback": "The endpoint is called the head of the vector, not the tail."
+            },
+            {
+                "answer": "The middle point of the vector",
+                "correct": false,
+                "feedback": "A vector doesn't have a defined middle point in this context."
+            },
+            {
+                "answer": "The starting point of the vector",
+                "correct": true,
+                "feedback": "Correct! The tail is defined as the starting point of a vector from which the displacement is measured."
+            },
+            {
+                "answer": "The direction of the vector",
+                "correct": false,
+                "feedback": "The tail is a point, not a direction. Direction is a property of the vector as a whole."
+            }
+        ]
+    },
+    {
+        "question": "If a vector is represented as [2,3]ᵀ and plotted with its tail at the origin, where will its head be located?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(0,0)",
+                "correct": false,
+                "feedback": "(0,0) is the tail of the vector, not the head."
+            },
+            {
+                "answer": "(2,0)",
+                "correct": false,
+                "feedback": "This would only account for the x displacement, not both x and y."
+            },
+            {
+                "answer": "(0,3)",
+                "correct": false,
+                "feedback": "This would only account for the y displacement, not both x and y."
+            },
+            {
+                "answer": "(2,3)",
+                "correct": true,
+                "feedback": "Correct! Since the tail is at the origin (0,0), the head will be at (2,3) after applying the displacements."
+            }
+        ]
+    },
+    {
+        "question": "Vectors are always visualized with their tails at the origin.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": "Incorrect. Vectors are often visualized as displacements from a point, which can be anywhere, not just the origin."
+            },
+            {
+                "answer": "False",
+                "correct": true,
+                "feedback": "Correct! While vectors are often plotted from the origin when no starting point is given, they can have their tails at any specified location."
+            }
+        ]
+    },
+    {
+        "question": "In the context of vectors, the 'head' refers to the point at which the vector terminates after the specified displacement from the tail.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct! This is exactly how the text defines the head of a vector."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "When a vector is plotted as an arrow, what is represented by the tip of the arrow?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The tail of the vector",
+                "correct": false,
+                "feedback": "The tail is the starting point of the vector, not represented by the tip of the arrow."
+            },
+            {
+                "answer": "The head of the vector",
+                "correct": true,
+                "feedback": "Correct! A vector is usually drawn as an arrow from the tail to the head, with the tip of the arrow at the head."
+            },
+            {
+                "answer": "The magnitude of the vector",
+                "correct": false,
+                "feedback": "The magnitude is represented by the length of the entire arrow, not just its tip."
+            },
+            {
+                "answer": "The direction of the vector",
+                "correct": false,
+                "feedback": "While the tip points in the direction of the vector, it specifically represents the head (endpoint) of the vector."
+            }
+        ]
+    }
+]
