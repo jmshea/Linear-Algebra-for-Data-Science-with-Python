@@ -1,7 +1,9 @@
 # Linear Algebra for Data Science with Python
 ## by John M. Shea
 
-An introduction to vectors, matrices in the context of working with data. This book uses a computational-first approach that teaches readers the fundamentals of some of the most important Python libraries, including NumPy and PyTorch. Publishing in Summer 2025.
+An introduction to vectors, matrices in the context of working with data. This book uses a computational-first approach that teaches readers the fundamentals of some of the most important Python libraries, including NumPy and PyTorch. 
+
+*Publishing in Summer 2025.*
 
 ### About the book
 
