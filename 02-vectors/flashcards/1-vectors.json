@@ -1,0 +1,22 @@
+[
+    {
+        "front": "vector",
+        "back": "An ordered collection of numbers that has an accompanying set of mathematical operations."
+    },
+    {
+        "front": "order",
+        "back": "The number of axes used to index the contents of a  mathematical object, such as a vector, matrix,  or tensor."
+    },
+    {
+        "front": "scalar",
+        "back": "A single numerical value."
+    },
+    {
+        "front": "component (vector) <br> or <br> element (vector)",
+        "back": "One of the numerical values that make up the vector."
+    },
+    {
+        "front": "size (vector) <br> or <br> dimension (vector)",
+        "back": "The number of components a vector contains."
+    }
+]
