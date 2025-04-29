@@ -1,0 +1,14 @@
+[
+    {
+        "front": "quiver plot",
+        "back": "A (two-dimensional) plot that illustrates one or more  vectors as arrows that are typically specified by a location, which determines  the coordinates of the tail of the vector, and some specification of the  direction and magnitude of the vector. If no location is provided, then the  origin $(0,0)$ is used."
+    },
+    {
+        "front": "tail (vector)",
+        "back": "The starting point of a vector (the initial\npoint from which the displacement is measured)."
+    },
+    {
+        "front": "head (vector)",
+        "back": "The ending point of a vector (the point  at which the vector terminates after the specified displacement from the tail)."
+    }
+]
