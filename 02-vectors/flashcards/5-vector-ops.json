@@ -1,0 +1,38 @@
+[
+    {
+        "front": "addition (vectors)",
+        "back": "The sum of $n$ vectors \\(\\mathbf{a}\\) and   \\(\\mathbf{b}\\) is a vector \\(\\mathbf{a+b}\\) such that any component $i$ of the   vector sum is the sum of the \\(i\\)th components of \\(\\mathbf{a}\\) and   \\(\\mathbf{b}\\); i.e. \\(\\mathbf{(a+b)}_i = a_i + b_i,~~i=0, 1,\\ldots, n-1\\)."
+    },
+    {
+        "front": "multiplication (scalar-vector)",
+        "back": "Given a vector \\(\\mathbf{u}\\) and a scalar \\(\\alpha\\), define \\(\\alpha \\mathbf{u}\\) such that each component \\(i\\) of \\(\\alpha \\mathbf{u}\\) is given by \\((\\alpha \\mathbf{u})_i = \\alpha u_i\\). "
+    },
+    {
+        "front": "broadcasting (NumPy)",
+        "back": "In NumPy, broadcasting occurs in operations involving two arrays of different shapes. The smaller array is <I>broadcast</I> across the larger array by repeating values in the smaller array in such a way that the shapes of the two arrays will match."
+    },
+    {
+        "front": "component-wise multiplication (vectors) <br> or <br> Hadamard product (vectors) <br> or <br> Schur product (vectors)",
+        "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the <I>Hadamard product</I> or <I>Schur product</I> is denoted \\(\\mathbf{u} \\odot \\mathbf{v}\\) and is the \\(n\\)-vector given by component-wise multiplication of \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), \\begin{equation*}  \\mathbf{u} \\odot \\mathbf{v} = \\left[ u_0 v_0, ~~ u_1 v_1, ~~ \\ldots,~~ u_{n-1} v_{n-1}  \\right]. \\end{equation*}"
+    },
+    {
+        "front": "dot product <br> or <br> inner product (vectors)",
+        "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the <I>dot product</I> or <I>inner product</I> is denoted \\(\\mathbf{u} \\cdot \\mathbf{v}\\) or \\(\\mathbf{u}^T \\mathbf{v}\\) and is the <B>scalar value</B> given by multiplying corresponding components and summing them up: \\begin{equation*} \\mathbf{u} \\cdot \\mathbf{v} = \\sum_{i=0}^{n-1} u_i v_i. \\end{equation*}"
+    },
+    {
+        "front": "norm squared",
+        "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product operator \\(\\langle , \\rangle\\), the norm squared is denoted by \\(\\| \\mathbf{u} \\|^2\\) and defined as \\begin{equation*}   \\| \\mathbf{u} \\|^2 = \\langle \\mathbf{u}, \\mathbf{u} \\rangle . \\end{equation*} "
+    },
+    {
+        "front": "norm",
+        "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product operator \\(\\langle ~,~ \\rangle\\), the norm is denoted by \\(\\| \\mathbf{u} \\|\\) and defined as \\begin{equation*} \\left \\Vert \\mathbf{u} \\right \\Vert = \\sqrt{\\langle \\mathbf{u}, \\mathbf{u} \\rangle }. \\end{equation*}"
+    },
+    {
+        "front": "unit vector",
+        "back": "A vector \\(\\mathbf{v}\\) is a <I>unit vector</I> if \\(\\| \\mathbf{v} \\| =1.\\)"
+    },
+    {
+        "front": "distance between vectors",
+        "back": "The <I>distance</I> between two \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is the norm of the difference between the vectors, \\begin{equation*} d\\left(\\mathbf{a}, \\mathbf{b}\\right) = \\left\\| \\mathbf{a} - \\mathbf{b} \\right\\| = \\left\\|\\mathbf{b} - \\mathbf{a} \\right\\|. \\end{equation*}"
+    }
+]
