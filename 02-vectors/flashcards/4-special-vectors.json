@@ -1,0 +1,14 @@
+[
+    {
+        "front": "zero vector",
+        "back": "A vector of all zeros.<br> <b>Ex:</b> $\\mathbf{0} = \\begin{bmatrix} 0 & 0 & 0 \\end{bmatrix}^T$"
+    },
+    {
+        "front": "ones vector",
+        "back": "A vector of all ones.<br> <b>Ex:</b> $\\mathbf{1} = \\begin{bmatrix} 1 & 1 & 1 \\end{bmatrix}^T$"
+    },
+    {
+        "front": "standard unit vector",
+        "back": "A vector with all of its components equal to zero, except one element that is equal to one.<br> <b>Ex: </b>$\\mathbf{e}_1 = \\begin{bmatrix} 1 & 0 & 0 \\end{bmatrix}^T$"
+    }
+]
