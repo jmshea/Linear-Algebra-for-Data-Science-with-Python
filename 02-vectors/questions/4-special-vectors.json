@@ -1,0 +1,184 @@
+[
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} 1 & 0 & 0 \\end{bmatrix}^T$",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": false,
+                "feedback": "Incorrect. A zero vector would have all elements equal to 0, but this vector has one element equal to 1."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": false,
+                "feedback": "Incorrect. A ones vector would have all elements equal to 1, but this vector has two elements equal to 0."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": true,
+                "feedback": "Correct! This is a standard unit vector (specifically e₁) because it has a 1 in the first position and 0s elsewhere."
+            },
+            {
+                "answer": "None of the above",
+                "correct": false,
+                "feedback": "Incorrect -- try again. "
+            }
+        ]
+    },
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} 0 & 0 & 0 & 0 \\end{bmatrix}^T$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": true,
+                "feedback": "Correct! This is a zero vector because all of its elements are 0."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": false,
+                "feedback": "Incorrect. A ones vector would have all elements equal to 1, but this vector has all elements equal to 0."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": false,
+                "feedback": "Incorrect. A standard unit vector has a single 1 in one position and 0s elsewhere, but this vector has all 0s."
+            },
+            {
+                "answer": "None of the above",
+                "correct": false,
+                "feedback": "Incorrect -- try again."
+            }
+        ]
+    },
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} 0 & 1 & 0 & 0 \\end{bmatrix}^T$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": false,
+                "feedback": "Incorrect. A zero vector would have all elements equal to 0, but this vector has one element equal to 1."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": false,
+                "feedback": "Incorrect. A ones vector would have all elements equal to 1, but this vector has three elements equal to 0."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": true,
+                "feedback": "Correct! This is a standard unit vector (specifically e₂) because it has a 1 in the second position and 0s elsewhere."
+            },
+            {
+                "answer": "None of the above",
+                "correct": false,
+                "feedback": "Incorrect -- try again."
+            }
+        ]
+    },
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} \\sqrt{2}/2 & \\sqrt{2}/2 \\end{bmatrix}^T$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": false,
+                "feedback": "Incorrect. A zero vector would have all elements equal to 0."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": false,
+                "feedback": "Incorrect. A ones vector would have all elements equal to 1."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": false,
+                "feedback": "Incorrect. A standard unit vector has a single 1 in one position and 0s elsewhere."
+            },
+            {
+                "answer": "None of the above",
+                "correct": true,
+                "feedback": "Correct! (General unit vectors have not been covered at this point in the text, but this is a unit vector, but not a standard unit vector.) "
+            }
+        ]
+    },
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} 1/2 & 1/2 \\end{bmatrix}^T$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": false,
+                "feedback": "Incorrect. A zero vector would have all elements equal to 0, but this vector has non-zero elements."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": false,
+                "feedback": "Incorrect. A ones vector would have all elements equal to 1, but this vector has all elements equal to 1/2."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": false,
+                "feedback": "Incorrect. A standard unit vector has a single 1 in one position and 0s elsewhere, but this vector has 1/2 in both positions."
+            },
+            {
+                "answer": "None of the above",
+                "correct": true,
+                "feedback": "Correct! "
+            }
+        ]
+    },
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} 1 & 1 & 1 \\end{bmatrix}^T$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": false,
+                "feedback": "Incorrect. A zero vector would have all elements equal to 0, but this vector has all elements equal to 1."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": true,
+                "feedback": "Correct! This is a ones vector because all of its elements are 1."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": false,
+                "feedback": "Incorrect. A standard unit vector has a single 1 in one position and 0s elsewhere, but this vector has 1s in all positions."
+            },
+            {
+                "answer": "None of the above",
+                "correct": false,
+                "feedback": "Incorrect -- try again."
+            }
+        ]
+    },
+    {
+        "question": "Which of these characterizes the vector $\\mathbf{x} = \\begin{bmatrix} 0 & 0 & 1/2 \\end{bmatrix}^T$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Zero vector",
+                "correct": false,
+                "feedback": "Incorrect. A zero vector would have all elements equal to 0, but this vector has one element equal to 1/2."
+            },
+            {
+                "answer": "Ones vector",
+                "correct": false,
+                "feedback": "Incorrect. A ones vector would have all elements equal to 1, but this vector has two elements equal to 0 and one element equal to 1/2."
+            },
+            {
+                "answer": "Standard unit vector",
+                "correct": false,
+                "feedback": "Incorrect. A standard unit vector has a single 1 in one position and 0s elsewhere, but this vector has 1/2 in the third position."
+            },
+            {
+                "answer": "None of the above",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    }
+]
