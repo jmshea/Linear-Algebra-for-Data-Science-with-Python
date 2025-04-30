@@ -493,13 +493,8 @@ document.write(`
 <h2>Examples of interactive materials<a class="headerlink" href="#examples-of-interactive-materials" title="Link to this heading">#</a></h2>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="fJtzWVMAYpLO" data-shufflequestions="False"
-               data-shuffleanswers="True"
-               data-preserveresponses="false"
-               data-numquestions="1000000"
-               data-maxwidth="600"
-               style="border-radius: 10px; text-align: left"> <style>
-#fJtzWVMAYpLO {
+<div class="output text_html"><div id="mWLlflqZMKEy" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="4" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#mWLlflqZMKEy {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -519,8 +514,8 @@ document.write(`
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    padding-bottom: 4px;
+/*    margin-bottom: 15px;*/
+/*    padding-bottom: 4px;*/
     padding-top: 4px;
     line-height: 1.1;
     font-size: 16pt;
@@ -579,7 +574,7 @@ document.write(`
 .Feedback {
     font-size: 16pt;
     text-align: center;
-    min-height: 2em;
+/*    min-height: 2em;*/
 }
 
 .Input {
@@ -700,117 +695,243 @@ document.write(`
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsfJtzWVMAYpLO=[
-  {
-    "question": "What are summary statistics?",
-    "type": "multiple_choice",
-    "answers": [
-      {
-        "answer": "Numerical values that summarize a dataset",
-        "correct": true
-      },
-      {
-        "answer": "Graphical representations of a dataset",
-        "correct": false
-      },
-      {
-        "answer": "Descriptive words that summarize a dataset",
-        "correct": false
-      }
-    ]
-  },
+</style></div><script type="application/javascript">var questionsmWLlflqZMKEy=[
     {
-    "question": "What is the sample mean?",
-    "type": "multiple_choice",
-    "answers": [
-      {
-        "answer": "The middle value of a dataset",
-        "correct": false
-      },
-      {
-        "answer": "The most common value in a dataset",
-        "correct": false
-      },
-      {
-        "answer": "A value that minimizes the mean-squared error to the data",
-        "correct": true
-      }
-    ]
-  },
-  {
-    "question": "What is the median?",
-    "type": "multiple_choice",
-    "answers": [
-      {
-        "answer": "A middle value of a dataset",
-        "correct": true
-      },
-      {
-        "answer": "The most common value in a dataset",
-        "correct": false
-      },
-      {
-        "answer": "A value that minimizes the mean-squared error to the data",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "question": "What is the mode?",
-    "type": "multiple_choice",
-    "answers": [
-      {
-        "answer": "The middle value of a dataset",
-        "correct": false
-      },
-      {
-        "answer": "A value that appears the most in a dataset",
-        "correct": true
-      },
-      {
-        "answer": "A value that minimizes the mean-squared error to the data",
-        "correct": false
-      }
-    ]
-  },
+        "question": "What is a vector defined as in the text?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A mathematical object with only magnitude",
+                "correct": false,
+                "feedback": "The text defines a vector as an ordered collection of numbers with mathematical operations, not just a magnitude."
+            },
+            {
+                "answer": "An ordered collection of numbers with an accompanying set of mathematical operations",
+                "correct": true,
+                "feedback": "Correct! This is the definition provided in the text."
+            },
+            {
+                "answer": "A collection of numbers indexed along multiple axes",
+                "correct": false,
+                "feedback": "The text specifies that vectors are indexed along a single axis, not multiple axes."
+            },
+            {
+                "answer": "A single numerical value with direction",
+                "correct": false,
+                "feedback": "This is incorrect. A single numerical value is a scalar, not a vector."
+            }
+        ]
+    },
     {
-      "question": "Which of these summary statistics always has a unique value for a given dataset?",
-      "type": "multiple_choice",
-      "answers": [
-          {
-          "answer": "median",
-          "correct": false,
-          "feedback": "Incorrect. When the number of points in a dataset is even, there is not a single data value in the middle of the dataset. In this case, the value of the median can be defined in different ways."
-      },
-          {
-          "answer": "mode",
-          "correct": false,
-          "feedback": "Incorrect. There may be multiple values that all occur the same number of times, and there is no unique mode in such a case."
-      },
-          {
-          "answer": "mean",
-          "correct": true
-      }
-      ]
-  }, {
-      "question": "Which of these statistics is less sensitive to outliers?",
-      "type": "multiple_choice",
-      "answers": [
-          {
-          "answer": "sample mean",
-          "correct": false,
-          "feedback": "Incorrect. The sample mean can change significantly in the presence of outliers."
-      },
-          {
-          "answer": "median",
-          "correct": true,
-          "feedback": "Correct. Because the median returns a value in the middle of the dataset, it is not significantly affected by the particular values of outliers."
-      }
-      ]
-  }
+        "question": "What is the order of a vector?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0",
+                "correct": false,
+                "feedback": "Scalars are of order zero, not vectors."
+            },
+            {
+                "answer": "1",
+                "correct": true,
+                "feedback": "Correct! The text explicitly states that all vectors are of order one."
+            },
+            {
+                "answer": "2",
+                "correct": false,
+                "feedback": "The order of a vector is 1, not 2. Order 2 would be a matrix."
+            },
+            {
+                "answer": "Depends on the number of components",
+                "correct": false,
+                "feedback": "The order of a vector is always 1, regardless of the number of components."
+            }
+        ]
+    },
+    {
+        "question": "In the text, how are vectors typographically represented?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Bold, uppercase letters",
+                "correct": false,
+                "feedback": "The text specifies bold, lowercase letters, not uppercase."
+            },
+            {
+                "answer": "Bold, lowercase letters",
+                "correct": true,
+                "feedback": "Correct! The text states that vectors are written as bold, lowercase letters."
+            },
+            {
+                "answer": "Non-bold, lowercase letters",
+                "correct": false,
+                "feedback": "Non-bold, lowercase letters are used for scalars, not vectors."
+            },
+            {
+                "answer": "Lowercase letters with right-pointing arrows",
+                "correct": false,
+                "feedback": "The text mentions this notation is used in other books, but not in this text."
+            }
+        ]
+    },
+    {
+        "question": "What is the size of the vector $\\mathbf{u} = [0.75, -1, 1.75, 2.5]ᵀ$?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 4,
+                "correct": true,
+                "feedback": "Correct! The vector has 4 components, so its size is 4."
+            },
+            {
+                "type": "value",
+                "value": 1,
+                "correct": false,
+                "feedback": "Every vector has order 1, but the size is the number of components."
+            },
+            {
+                "type": "range",
+                "range": [-1e12, -1e-12],
+                "correct": false,
+                "feedback": "A vector cannot have a negative size. The size is always a non-negative integer."
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. The size of a vector is the number of components it contains."
+            }
+        ]
+    },
+    {
+        "question": "How would you access the third element  of a NumPy vector u?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "u(2)",
+                "correct": false,
+                "feedback": "This is incorrect syntax. NumPy uses square brackets for indexing, not parentheses."
+            },
+            {
+                "answer": "u[2]",
+                "correct": true,
+                "feedback": "Correct! NumPy uses zero-based indexing with square brackets."
+            },
+            {
+                "answer": "u.get(2)",
+                "correct": false,
+                "feedback": "NumPy arrays don't have a get() method for accessing elements."
+            },
+            {
+                "answer": "u[3]",
+                "correct": false,
+                "feedback": "This would access the fourth element (index 3), not the third element (index 2)."
+            }
+        ]
+    },
+    {
+        "question": "What is returned when indexing into a PyTorch tensor?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A Python scalar",
+                "correct": false,
+                "feedback": "PyTorch indexing returns a tensor, not a scalar."
+            },
+            {
+                "answer": "A NumPy array",
+                "correct": false,
+                "feedback": "PyTorch indexing returns a tensor, not a NumPy array."
+            },
+            {
+                "answer": "A tensor",
+                "correct": true,
+                "feedback": "Correct! The text explains that indexing into a PyTorch tensor always returns a tensor."
+            },
+            {
+                "answer": "A list",
+                "correct": false,
+                "feedback": "PyTorch indexing returns a tensor, not a Python list."
+            }
+        ]
+    },
+    {
+        "question": "What notation is used in the text to represent the set of all n-vectors whose components can be any real number?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "ℝ",
+                "correct": false,
+                "feedback": "ℝ represents the set of all real numbers, not n-vectors."
+            },
+            {
+                "answer": "ℝⁿ",
+                "correct": true,
+                "feedback": "Correct! The text uses ℝⁿ to denote the set of all n-vectors with real components."
+            },
+            {
+                "answer": "ℝ^T",
+                "correct": false,
+                "feedback": "This is not the notation used in the text."
+            },
+            {
+                "answer": "ℕⁿ",
+                "correct": false,
+                "feedback": "ℕ typically denotes natural numbers, not real numbers."
+            }
+        ]
+    },
+    {
+        "question": "The 'order' of a mathematical object refers to the number of axes used to index its contents.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct! The text defines order as the number of axes used to index the contents of a mathematical object."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect. This is exactly how the text defines 'order'."
+            }
+        ]
+    },
+    {
+        "question": "The terms 'dimension' and 'size' of a vector refer to the same property.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct! The text defines these terms as synonymous, referring to the number of components a vector contains."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect. The text defines both terms as referring to the number of components a vector contains."
+            }
+        ]
+    },
+    {
+        "question": "Both NumPy arrays and PyTorch tensors use the same methods and operators for most mathematical operations covered in the text.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct! For most of the mathematical operations considered in the book, NumPy arrays and PyTorch tensors have the same methods and operators."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect. They have the same methods and operators for most mathematical operations."
+            }
+        ]
+    }
 ]
 ;
-    // Make a random ID
+// Make a random ID
 function makeid(length) {
     var result = [];
     var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
@@ -819,6 +940,118 @@ function makeid(length) {
         result.push(characters.charAt(Math.floor(Math.random() * charactersLength)));
     }
     return result.join('');
+}
+// Convert LaTeX delimiters and markdown links to HTML
+function jaxify(string) {
+    let mystring = string;
+    let count = 0, count2 = 0;
+    let loc = mystring.search(/([^\\]|^)(\$)/);
+    let loc2 = mystring.search(/([^\\]|^)(\$\$)/);
+    while (loc >= 0 || loc2 >= 0) {
+        if (loc2 >= 0) {
+            mystring = mystring.replace(/([^\\]|^)(\$\$)/, count2 % 2 ? '$1\\]' : '$1\\[');
+            count2++;
+        } else {
+            mystring = mystring.replace(/([^\\]|^)(\$)/, count % 2 ? '$1\\)' : '$1\\(');
+            count++;
+        }
+        loc = mystring.search(/([^\\]|^)(\$)/);
+        loc2 = mystring.search(/([^\\]|^)(\$\$)/);
+    }
+    // Replace markdown links
+    mystring = mystring.replace(/<(.*?)>/g, '<a href="$1" target="_blank" class="Link">$1</a>');
+    mystring = mystring.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" class="Link">$1</a>');
+    return mystring;
+}
+
+// Base class for question types
+class Question {
+    static registry = {};
+    static register(type, cls) {
+        Question.registry[type] = cls;
+    }
+    static create(qa, id, index, options, rootDiv) {
+        const Cls = Question.registry[qa.type];
+        if (!Cls) {
+            console.error(`No question class registered for type "${qa.type}"`);
+            return;
+        }
+        const q = new Cls(qa, id, index, options, rootDiv);
+        q.render();
+    }
+
+    constructor(qa, id, index, options, rootDiv) {
+        this.qa = qa;
+        this.id = id;
+        this.index = index;
+        this.options = options;
+        this.rootDiv = rootDiv;
+        // wrapper
+        this.wrapper = document.createElement('div');
+        this.wrapper.id = `quizWrap${id}`;
+        this.wrapper.className = 'Quiz';
+        this.wrapper.dataset.qnum = index;
+        this.wrapper.style.maxWidth = `${options.maxWidth}px`;
+        rootDiv.appendChild(this.wrapper);
+        // question container
+        this.outerqDiv = document.createElement('div');
+        this.outerqDiv.id = `OuterquizQn${id}${index}`;
+        this.wrapper.appendChild(this.outerqDiv);
+        // question text
+        this.qDiv = document.createElement('div');
+        this.qDiv.id = `quizQn${id}${index}`;
+        if (qa.question) {
+            this.qDiv.innerHTML = jaxify(qa.question);
+            this.outerqDiv.appendChild(this.qDiv);
+        }
+        // code block
+        if (qa.code) {
+            const codeDiv = document.createElement('div');
+            codeDiv.id = `code${id}${index}`;
+            codeDiv.className = 'QuizCode';
+            const pre = document.createElement('pre');
+            const codeEl = document.createElement('code');
+            codeEl.innerHTML = qa.code;
+            pre.appendChild(codeEl);
+            codeDiv.appendChild(pre);
+            this.outerqDiv.appendChild(codeDiv);
+        }
+        // answer container
+        this.aDiv = document.createElement('div');
+        this.aDiv.id = `quizAns${id}${index}`;
+        this.aDiv.className = 'Answer';
+        this.wrapper.appendChild(this.aDiv);
+        // feedback container (append after answers)
+        this.fbDiv = document.createElement('div');
+        this.fbDiv.id = `fb${id}`;
+        this.fbDiv.className = 'Feedback';
+        this.fbDiv.dataset.answeredcorrect = 0;
+    }
+
+    render() {
+        throw new Error('render() not implemented');
+    }
+
+    preserveResponse(val) {
+        if (!this.options.preserveResponses) return;
+        const resp = document.getElementById(`responses${this.rootDiv.id}`);
+        if (!resp) return;
+        const arr = JSON.parse(resp.dataset.responses);
+        arr[this.index] = val;
+        resp.dataset.responses = JSON.stringify(arr);
+        printResponses(resp);
+    }
+
+    typeset(container) {
+        if (typeof MathJax !== 'undefined') {
+            const v = MathJax.version;
+            if (v[0] === '2') {
+                MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
+            } else {
+                MathJax.typeset([container]);
+            }
+        }
+    }
 }
 
 // Choose a random subset of an array. Can also be used to shuffle the array
@@ -1022,9 +1255,9 @@ function check_mc() {
         var numcorrect = fb.dataset.numcorrect;
         var answeredcorrect = fb.dataset.answeredcorrect;
         if (answeredcorrect >= 0) {
-            fb.textContent = feedback + " [" + answeredcorrect + "/" + numcorrect + "]";
+            fb.innerHTML = feedback + " [" + answeredcorrect + "/" + numcorrect + "]";
         } else {
-            fb.textContent = feedback + " [" + 0 + "/" + numcorrect + "]";
+            fb.innerHTML = feedback + " [" + 0 + "/" + numcorrect + "]";
         }
 
 
@@ -1126,6 +1359,28 @@ function make_mc(qa, shuffle_answers, outerqDiv, qDiv, aDiv, id) {
     return num_correct;
 
 }
+// Object-oriented wrapper for MC/MANY choice
+class MCQuestion extends Question {
+    constructor(qa, id, idx, opts, rootDiv) { super(qa, id, idx, opts, rootDiv); }
+    render() {
+        const numCorrect = make_mc(
+            this.qa,
+            this.options.shuffleAnswers,
+            this.outerqDiv,
+            this.qDiv,
+            this.aDiv,
+            this.id
+        );
+        if ('answer_cols' in this.qa) {
+            this.aDiv.style.gridTemplateColumns =
+                'repeat(' + this.qa.answer_cols + ', 1fr)';
+        }
+        this.fbDiv.dataset.numcorrect = numCorrect;
+        this.wrapper.appendChild(this.fbDiv);
+    }
+}
+Question.register('multiple_choice', MCQuestion);
+Question.register('many_choice', MCQuestion);
 function check_numeric(ths, event) {
 
     if (event.keyCode === 13) {
@@ -1153,24 +1408,27 @@ function check_numeric(ths, event) {
 
         var fb = document.getElementById("fb" + id);
         fb.style.display = "none";
-        fb.textContent = "Incorrect -- try again.";
+        fb.innerHTML = "Incorrect -- try again.";
 
         var answers = JSON.parse(ths.dataset.answers);
         //console.log(answers);
-        console.log(submission);
 
         var defaultFB = "Incorrect. Try again.";
         var correct;
         var done = false;
         answers.every(answer => {
-        //console.log(answer.type);
+            //console.log(answer.type);
 
             correct = false;
             // if (answer.type=="value"){
             if ('value' in answer) {
-                console.log(answer.value);
-                console.log(submission == answer.value);
-                if (submission == answer.value) {
+                var value;
+                if ("precision" in ths.dataset) {
+                    value = answer.value.toPrecision(ths.dataset.precision);
+                } else {
+                    value = answer.value;
+                }
+                if (submission == value) {
                     if ("feedback" in answer) {
                         fb.innerHTML = jaxify(answer.feedback);
                     } else {
@@ -1180,6 +1438,7 @@ function check_numeric(ths, event) {
                     //console.log(answer.correct);
                     done = true;
                 }
+
                 // } else if (answer.type=="range") {
             } else if ('range' in answer) {
                 console.log(answer.range);
@@ -1256,6 +1515,17 @@ function check_numeric(ths, event) {
     }
 
 }
+// Object-oriented wrapper for numeric questions
+class NumericQuestion extends Question {
+    constructor(qa, id, idx, opts, rootDiv) {
+        super(qa, id, idx, opts, rootDiv);
+    }
+    render() {
+        make_numeric(this.qa, this.outerqDiv, this.qDiv, this.aDiv, this.id);
+        this.wrapper.appendChild(this.fbDiv);
+    }
+}
+Question.register('numeric', NumericQuestion);
 
 function isValid(el, charC) {
     //console.log("Input char: ", charC);
@@ -1340,7 +1610,7 @@ function make_numeric(qa, outerqDiv, qDiv, aDiv, id) {
 
     var lab = document.createElement("label");
     lab.className = "InpLabel";
-    lab.textContent = "Type numeric answer here:";
+    lab.innerHTML = "Type numeric answer here:";
     aDiv.append(lab);
 
     var inp = document.createElement("input");
@@ -1375,165 +1645,49 @@ function make_numeric(qa, outerqDiv, qDiv, aDiv, id) {
 
 
 }
-function jaxify(string) {
-    var mystring = string;
-
-    var count = 0;
-    var loc = mystring.search(/([^\\]|^)(\$)/);
-
-    var count2 = 0;
-    var loc2 = mystring.search(/([^\\]|^)(\$\$)/);
-
-    //console.log(loc);
-
-    while ((loc >= 0) || (loc2 >= 0)) {
-
-        /* Have to replace all the double $$ first with current implementation */
-        if (loc2 >= 0) {
-            if (count2 % 2 == 0) {
-                mystring = mystring.replace(/([^\\]|^)(\$\$)/, "$1\\[");
-            } else {
-                mystring = mystring.replace(/([^\\]|^)(\$\$)/, "$1\\]");
-            }
-            count2++;
-        } else {
-            if (count % 2 == 0) {
-                mystring = mystring.replace(/([^\\]|^)(\$)/, "$1\\(");
-            } else {
-                mystring = mystring.replace(/([^\\]|^)(\$)/, "$1\\)");
-            }
-            count++;
-        }
-        loc = mystring.search(/([^\\]|^)(\$)/);
-        loc2 = mystring.search(/([^\\]|^)(\$\$)/);
-        //console.log(mystring,", loc:",loc,", loc2:",loc2);
+// Override show_questions to use object-oriented Question API
+function show_questions(json, container) {
+    // Accept container element or element ID
+    if (typeof container === 'string') {
+        container = document.getElementById(container);
+    }
+    if (!container) {
+        console.error('show_questions: invalid container', container);
+        return;
     }
 
-    //console.log(mystring);
-    return mystring;
-}
+    const shuffleQuestions = container.dataset.shufflequestions === 'True';
+    const shuffleAnswers = container.dataset.shuffleanswers === 'True';
+    const preserveResponses = container.dataset.preserveresponses === 'true';
+    const maxWidth = parseInt(container.dataset.maxwidth, 10) || 0;
+    let numQuestions = parseInt(container.dataset.numquestions, 10) || json.length;
+    if (numQuestions > json.length) numQuestions = json.length;
 
-
-function show_questions(json, mydiv) {
-    console.log('show_questions');
-    //var mydiv=document.getElementById(myid);
-    var shuffle_questions = mydiv.dataset.shufflequestions;
-    var num_questions = mydiv.dataset.numquestions;
-    var shuffle_answers = mydiv.dataset.shuffleanswers;
-    var max_width = mydiv.dataset.maxwidth;
-
-    if (num_questions > json.length) {
-        num_questions = json.length;
+    let questions = json;
+    if (shuffleQuestions || numQuestions < json.length) {
+        questions = getRandomSubarray(json, numQuestions);
     }
 
-    var questions;
-    if ((num_questions < json.length) || (shuffle_questions == "True")) {
-        //console.log(num_questions+","+json.length);
-        questions = getRandomSubarray(json, num_questions);
-    } else {
-        questions = json;
-    }
-
-    //console.log("SQ: "+shuffle_questions+", NQ: " + num_questions + ", SA: ", shuffle_answers);
-
-    // Iterate over questions
-    questions.forEach((qa, index, array) => {
-        //console.log(qa.question); 
-
-        var id = makeid(8);
-        //console.log(id);
-
-
-        // Create Div to contain question and answers
-        var iDiv = document.createElement('div');
-        //iDiv.id = 'quizWrap' + id + index;
-        iDiv.id = 'quizWrap' + id;
-        iDiv.className = 'Quiz';
-        iDiv.setAttribute('data-qnum', index);
-        iDiv.style.maxWidth  =max_width+"px";
-        mydiv.appendChild(iDiv);
-        // iDiv.innerHTML=qa.question;
-        
-        var outerqDiv = document.createElement('div');
-        outerqDiv.id = "OuterquizQn" + id + index;
-        // Create div to contain question part
-        var qDiv = document.createElement('div');
-        qDiv.id = "quizQn" + id + index;
-        
-        if (qa.question) {
-            iDiv.append(outerqDiv);
-
-            //qDiv.textContent=qa.question;
-            qDiv.innerHTML = jaxify(qa.question);
-            outerqDiv.append(qDiv);
-        }
-
-        // Create div for code inside question
-        var codeDiv;
-        if ("code" in qa) {
-            codeDiv = document.createElement('div');
-            codeDiv.id = "code" + id + index;
-            codeDiv.className = "QuizCode";
-            var codePre = document.createElement('pre');
-            codeDiv.append(codePre);
-            var codeCode = document.createElement('code');
-            codePre.append(codeCode);
-            codeCode.innerHTML = qa.code;
-            outerqDiv.append(codeDiv);
-            //console.log(codeDiv);
-        }
-
-
-        // Create div to contain answer part
-        var aDiv = document.createElement('div');
-        aDiv.id = "quizAns" + id + index;
-        aDiv.className = 'Answer';
-        iDiv.append(aDiv);
-
-        //console.log(qa.type);
-
-        var num_correct;
-        if ((qa.type == "multiple_choice") || (qa.type == "many_choice") ) {
-            num_correct = make_mc(qa, shuffle_answers, outerqDiv, qDiv, aDiv, id);
-            if ("answer_cols" in qa) {
-                //aDiv.style.gridTemplateColumns = 'auto '.repeat(qa.answer_cols);
-                aDiv.style.gridTemplateColumns = 'repeat(' + qa.answer_cols + ', 1fr)';
-            }
-        } else if (qa.type == "numeric") {
-            //console.log("numeric");
-            make_numeric(qa, outerqDiv, qDiv, aDiv, id);
-        }
-
-
-        //Make div for feedback
-        var fb = document.createElement("div");
-        fb.id = "fb" + id;
-        //fb.style="font-size: 20px;text-align:center;";
-        fb.className = "Feedback";
-        fb.setAttribute("data-answeredcorrect", 0);
-        fb.setAttribute("data-numcorrect", num_correct);
-        iDiv.append(fb);
-
-
+    questions.forEach((qa, index) => {
+        const id = makeid(8);
+        const options = {
+            shuffleAnswers: shuffleAnswers,
+            preserveResponses: preserveResponses,
+            maxWidth: maxWidth
+        };
+        Question.create(qa, id, index, options, container);
     });
-    var preserveResponses = mydiv.dataset.preserveresponses;
-    console.log(preserveResponses);
-    console.log(preserveResponses == "true");
-    if (preserveResponses == "true") {
-        console.log(preserveResponses);
-        // Create Div to contain record of answers
-        var iDiv = document.createElement('div');
-        iDiv.id = 'responses' + mydiv.id;
-        iDiv.className = 'JCResponses';
-        // Create a place to store responses as an empty array
-        iDiv.setAttribute('data-responses', '[]');
 
-        // Dummy Text
-        iDiv.innerHTML="<b>Select your answers and then follow the directions that will appear here.</b>"
-        //iDiv.className = 'Quiz';
-        mydiv.appendChild(iDiv);
+    if (preserveResponses) {
+        const respDiv = document.createElement('div');
+        respDiv.id = 'responses' + container.id;
+        respDiv.className = 'JCResponses';
+        respDiv.dataset.responses = JSON.stringify([]);
+        respDiv.innerHTML = '<b>Select your answers and then follow the directions that will appear here.</b>';
+        container.appendChild(respDiv);
     }
-//console.log("At end of show_questions");
+
+    // Trigger MathJax typesetting if available
     if (typeof MathJax != 'undefined') {
         console.log("MathJax version", MathJax.version);
         var version = MathJax.version;
@@ -1544,7 +1698,7 @@ function show_questions(json, mydiv) {
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
             } else if (version[0] == "3") {
                 if (MathJax.hasOwnProperty('typeset') ) {
-                    MathJax.typeset([mydiv]);
+                    MathJax.typeset([container]);
                 } else {
                     console.log('WARNING: Trying to force load MathJax 3');
                     window.MathJax = {
@@ -1572,7 +1726,7 @@ if (typeof version == 'undefined') {
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
             } else if (version[0] == "3") {
                 if (MathJax.hasOwnProperty('typeset') ) {
-                    MathJax.typeset([mydiv]);
+                    MathJax.typeset([container]);
                 } else {
                     console.log('WARNING: Trying to force load MathJax 3');
                     window.MathJax = {
@@ -1596,39 +1750,212 @@ if (typeof version == 'undefined') {
             }
         }
     }
-    return false;
+    // if (typeof MathJax !== 'undefined') {
+    //     const v = MathJax.version;
+    //     if (v[0] === '2') {
+    //         MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
+    //     } else if (v[0] === '3') {
+    //         MathJax.typeset([container]);
+    //     }
+    // }
+
+    // Prevent link clicks from bubbling up
+    Array.from(container.getElementsByClassName('Link')).forEach(link => {
+        link.addEventListener('click', e => e.stopPropagation());
+    });
 }
-/* This is to handle asynchrony issues in loading Jupyter notebooks
-           where the quiz has been previously run. The Javascript was generally
-           being run before the div was added to the DOM. I tried to do this
-           more elegantly using Mutation Observer, but I didn't get it to work.
+function levenshteinDistance(a, b) {
+    if (a.length === 0) return b.length;
+    if (b.length === 0) return a.length;
 
-           Someone more knowledgeable could make this better ;-) */
+    const matrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
 
-        function try_show() {
-          if(document.getElementById("fJtzWVMAYpLO")) {
-            show_questions(questionsfJtzWVMAYpLO,  fJtzWVMAYpLO); 
-          } else {
-             setTimeout(try_show, 200);
-          }
-        };
-    
-        //console.log(element);
-        {
-        const jmscontroller = new AbortController();
-        const signal = jmscontroller.signal;
+    for (let i = 0; i <= a.length; i++) {
+        matrix[0][i] = i;
+    }
 
-        setTimeout(() => jmscontroller.abort(), 5000);
+    for (let j = 0; j <= b.length; j++) {
+        matrix[j][0] = j;
+    }
 
-        fetch("https://raw.githubusercontent.com/jmshea/Foundations-of-Data-Science-with-Python/main/03-first-data/questions/4-summary-stats.json", {signal})
-        .then(response => response.json())
-        .then(json => show_questions(json, fJtzWVMAYpLO))
-        .catch(err => {
-        console.log("Fetch error or timeout");
-        show_questions(questionsfJtzWVMAYpLO, fJtzWVMAYpLO);
-        });
+    for (let j = 1; j <= b.length; j++) {
+        for (let i = 1; i <= a.length; i++) {
+            const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+            matrix[j][i] = Math.min(
+                matrix[j - 1][i] + 1, // Deletion
+                matrix[j][i - 1] + 1, // Insertion
+                matrix[j - 1][i - 1] + cost // Substitution
+            );
         }
-        </script></div>
+    }
+    return matrix[b.length][a.length];
+}
+// Object-oriented wrapper for string input questions
+class StringQuestion extends Question {
+    constructor(qa, id, idx, opts, rootDiv) {
+        super(qa, id, idx, opts, rootDiv);
+    }
+    render() {
+        make_string(this.qa, this.outerqDiv, this.qDiv, this.aDiv, this.id);
+        this.wrapper.appendChild(this.fbDiv);
+    }
+}
+Question.register('string', StringQuestion);
+
+function check_string(ths, event) {
+    if (event.keyCode === 13) {
+        ths.blur();
+
+        var id = ths.id.split('-')[0];
+        var submission = ths.value.trim();
+        var fb = document.getElementById("fb" + id);
+        fb.style.display = "none";
+        fb.innerHTML = "Incorrect -- try again.";
+
+        var answers = JSON.parse(ths.dataset.answers);
+        var defaultFB = "Incorrect. Try again.";
+        var correct;
+        var done = false;
+
+        answers.every(answer => {
+            correct = false;
+
+            let match = false;
+            if (answer.match_case) {
+                match = submission === answer.answer;
+            } else {
+                match = submission.toLowerCase() === answer.answer.toLowerCase();
+            }
+            console.log(submission);
+            console.log(answer.answer);
+            console.log(match);
+
+            if (match) {
+                if ("feedback" in answer) {
+                    fb.innerHTML = jaxify(answer.feedback);
+                } else {
+                    fb.innerHTML = jaxify("Correct");
+                }
+                correct = answer.correct;
+                done = true;
+            } else if (answer.fuzzy_threshold) {
+                var max_length = Math.max(submission.length, answer.answer.length);
+                var ratio;
+                if (answer.match_case) {
+                    ratio = 1- (levenshteinDistance(submission, answer.answer) / max_length);
+                } else {
+                    ratio = 1- (levenshteinDistance(submission.toLowerCase(),
+                                                    answer.answer.toLowerCase()) / max_length);
+                }
+                if (ratio >= answer.fuzzy_threshold) {
+                    if ("feedback" in answer) {
+                        fb.innerHTML = jaxify("(Fuzzy) " + answer.feedback);
+                    } else {
+                        fb.innerHTML = jaxify("Correct");
+                    }
+                    correct = answer.correct;
+                    done = true;
+                }
+
+            }
+
+            if (done) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+
+        if ((!done) && (defaultFB != "")) {
+            fb.innerHTML = jaxify(defaultFB);
+        }
+
+        fb.style.display = "block";
+        if (correct) {
+            ths.className = "Input-text";
+            ths.classList.add("correctButton");
+            fb.className = "Feedback";
+            fb.classList.add("correct");
+        } else {
+            ths.className = "Input-text";
+            ths.classList.add("incorrectButton");
+            fb.className = "Feedback";
+            fb.classList.add("incorrect");
+        }
+
+        var outerContainer = fb.parentElement.parentElement;
+        var responsesContainer = document.getElementById("responses" + outerContainer.id);
+        if (responsesContainer) {
+            var qnum = document.getElementById("quizWrap" + id).dataset.qnum;
+            var responses = JSON.parse(responsesContainer.dataset.responses);
+            responses[qnum] = submission;
+            responsesContainer.setAttribute('data-responses', JSON.stringify(responses));
+            printResponses(responsesContainer);
+        }
+
+        if (typeof MathJax != 'undefined') {
+            var version = MathJax.version;
+            if (version[0] == "2") {
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            } else if (version[0] == "3") {
+                MathJax.typeset([fb]);
+            }
+        } else {
+            console.log('MathJax not detected');
+        }
+        return false;
+    }
+}
+
+function string_keypress(evnt) {
+    var charC = (evnt.which) ? evnt.which : evnt.keyCode;
+
+    if (charC == 13) {
+        check_string(this, evnt);
+    } 
+}
+
+
+function make_string(qa, outerqDiv, qDiv, aDiv, id) {
+    outerqDiv.className = "StringQn";
+    aDiv.style.display = 'block';
+
+    var lab = document.createElement("label");
+    lab.className = "InpLabel";
+    lab.innerHTML = "Type your answer here:";
+    aDiv.append(lab);
+
+    var inp = document.createElement("input");
+    inp.type = "text";
+    inp.id = id + "-0";
+    inp.className = "Input-text";
+    inp.setAttribute('data-answers', JSON.stringify(qa.answers));
+    aDiv.append(inp);
+
+    inp.onkeypress = string_keypress;
+    inp.onpaste = event => false;
+
+    inp.addEventListener("focus", function (event) {
+        this.value = "";
+        return false;
+    });
+}
+/*
+ * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
+ */
+{
+  const controller = new AbortController();
+  const signal = controller.signal;
+  // Abort fetch after 5 seconds
+  setTimeout(() => controller.abort(), 5000);
+  fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/1-vectors.json", { signal })
+    .then(response => response.json())
+    .then(json => show_questions(json, mWLlflqZMKEy))
+    .catch(err => {
+      console.log("Fetch error or timeout", err);
+      show_questions(questionsmWLlflqZMKEy, mWLlflqZMKEy);
+    });
+}</script></div>
 </div>
 <p><strong>Flashcards</strong></p>
 <div class="cell tag_remove-input docutils container">
@@ -1895,7 +2222,7 @@ if (typeof version == 'undefined') {
     }
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="MtbFxXeHjwgH" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="MtbFxXeHjwgH-next" onclick="window.checkFlip('MtbFxXeHjwgH')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="MwPfODYABBgP" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="MwPfODYABBgP-next" onclick="window.checkFlip('MwPfODYABBgP')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -2369,47 +2696,17 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
 
 
         function try_create() {
-          if(document.getElementById("MtbFxXeHjwgH")) {
-            createCards("MtbFxXeHjwgH", "True", "False", "False", "", "");
+          if(document.getElementById("MwPfODYABBgP")) {
+            createCards("MwPfODYABBgP", "True", "False", "False", "", "");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsMtbFxXeHjwgH=[
-    {
-        "front": "data",
-        "back": "Collections of measurements, characteristics, or facts about a group."
-    },
-    {
-        "front": "data science",
-        "back": "The process of extracting meaning from data."
-    },
-    {
-        "front": "data point",
-        "back": "A collection of one or more pieces of information collected about a single individual or entity."
-    },
-    {
-        "front": "variables",
-        "back": "Particular characteristics, measurements, or facts that make up a data point."
-    },
-    {
-        "front": "features",
-        "back": "Individual piece of information in a data set. While a variable typically represents unprocessed or raw data, features can include both variables and processed versions of the variables."
-    },
-    {
-        "front": "quantitative data",
-        "back": "Numeric data."
-    },
-    {
-        "front": "qualitative data",
-        "back": "Non-numeric or categorical data."
-    }
-]
-;
-var frontColorsMtbFxXeHjwgH= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsMtbFxXeHjwgH= ["var(--dark-blue-gray)" ];
-var textColorsMtbFxXeHjwgH= ["var(--snow)" ];
+var cardsMwPfODYABBgP=[{"front": "data", "back": "Collections of measurements, characteristics, or facts about a group."}, {"front": "data science", "back": "The process of extracting meaning from data."}, {"front": "data point", "back": "A collection of one or more pieces of information collected about a single individual or entity."}, {"front": "variables", "back": "Particular characteristics, measurements, or facts that make up a data point."}, {"front": "features", "back": "Individual piece of information in a data set. While a variable typically represents unprocessed or raw data, features can include both variables and processed versions of the variables."}, {"front": "quantitative data", "back": "Numeric data."}, {"front": "qualitative data", "back": "Non-numeric or categorical data."}];
+var frontColorsMwPfODYABBgP= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsMwPfODYABBgP= ["var(--dark-blue-gray)" ];
+var textColorsMwPfODYABBgP= ["var(--snow)" ];
 
 
         {
@@ -2420,7 +2717,7 @@ var textColorsMtbFxXeHjwgH= ["var(--snow)" ];
 
         fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/01-intro/flashcards/3-terminology.json", {signal})
         .then(response => response.json())
-        .then(json => createCards("MtbFxXeHjwgH", "True", "False", "False", "", ""))
+        .then(json => createCards("MwPfODYABBgP", "True", "False", "False", "", ""))
         .catch(err => {
         console.log("Fetch error or timeout");
         try_create(); 
