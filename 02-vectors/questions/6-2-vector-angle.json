@@ -1,0 +1,170 @@
+[
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 45,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 2 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}4 & 4 & 2\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees. Give your answer to 1 decimal place.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 29.7,
+                "correct": true,
+                "feedback": "Correct!",
+                "tolerance": 0.1
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 4\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 90,
+                "correct": true,
+                "feedback": "Correct!",
+                "tolerance": 0.1
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 3 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & -1 & 2\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees. Give your answer to 1 decimal place.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 83.7,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-4 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees. Give your answer to 1 decimal place.",
+        "type": "numeric",
+        "precision": 4,
+        "answers": [
+            {
+                "type": "value",
+                "value": 108.4,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & -1\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 90,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}4 & 2 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 1 & 0\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees. Give your answer to 1 decimal place.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 12.6,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & -1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-1 & 1 & -2\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 180,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & -2 & -1\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees. Give your answer to 1 decimal place.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 79.7,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the angle between two vectors is given by $\\cos^{-1} \\left( \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{||\\mathbf{a}|| ||\\mathbf{b}||} \\right)$."
+            }
+        ]
+    }
+]
