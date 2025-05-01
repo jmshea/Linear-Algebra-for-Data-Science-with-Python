@@ -1,0 +1,181 @@
+[
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}4 & 6\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & 0 & 1\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}0 & 0 & 0\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 3.162,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-2 & 5\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}3 & 0\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 7.071,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.732,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}0 & 0\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-1 & -1 & -1\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 3.464,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}5 & 5\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}2 & 1\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-3 & 4 & 0\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}0 & 0 & 5\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 7.071,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-4 & -3\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}-5 & -3\\end{bmatrix}^T$. Find the distance between $\\mathbf{u}$ and $\\mathbf{v}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+            }
+
+        ]
+    },
+    {
+        "type": "default",
+        "feedback": "Incorrect. Recall that the distance between $\\mathbf{u}$ and $\\mathbf{v}$ is given by $\\|\\mathbf{u} - \\mathbf{v}\\|$."
+    }
+
+]
