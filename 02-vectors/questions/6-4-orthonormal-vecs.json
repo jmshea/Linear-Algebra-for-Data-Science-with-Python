@@ -1,0 +1,162 @@
+[
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}}\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}\\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{3}}\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}}\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} &  -\\frac{1}{\\sqrt{2} } & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Even though these vectors have unit norm, the dot vector is not zero. Therefore, they are not orthonormal."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 0.5\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.5 & 0.5 & 0.5\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-0.5 & 0.5 & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-1 & 1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.6 & 0.8\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0.8 & -0.6\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.7 & 0.7\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0.7 & -0.7\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "These vectors are orthogonal. However, their norms are not equal to 1 (even though they are close to 1). Therefore, they are not orthonormal."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.5 & 0.5 & 0.5\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0.5 & -0.5 & -0.5\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    }
+]
