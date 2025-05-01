@@ -1,0 +1,172 @@
+[
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}6 & 8\\end{bmatrix}^T$. Find the cosine similarity between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of cosine similarity is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 1 & 0\\end{bmatrix}^T$. Find the correlation between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of correlation is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & -1\\end{bmatrix}^T$. Find the cosine similarity between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of cosine similarity is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 3 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-2 & -3 & -1\\end{bmatrix}^T$. Find the correlation between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of correlation is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 2\\end{bmatrix}^T$. Find the cosine similarity between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.707,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of cosine similarity is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 0 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 5 & 0\\end{bmatrix}^T$. Find the correlation between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of correlation is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$. Find the cosine similarity between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of cosine similarity is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 2 & 3\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}4 & 5 & 6\\end{bmatrix}^T$. Find the correlation between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.974,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of correlation is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}4 & 3\\end{bmatrix}^T$. Find the cosine similarity between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of cosine similarity is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}5 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & 4 & 0\\end{bmatrix}^T$. Find the correlation between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.6,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the definition of correlation is $\\mathbf{a} \\cdot \\mathbf{b} / (||\\mathbf{a}|| ||\\mathbf{b}||)$."
+            }
+        ]
+    }
+]
