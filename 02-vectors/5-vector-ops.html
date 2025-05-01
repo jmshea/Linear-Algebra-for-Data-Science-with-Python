@@ -413,8 +413,8 @@ document.write(`
 <p>The following question can be used to check your understanding of the material covered in Section 2.5 of <em>Linear Algebra for Data Science with Python</em>.</p>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="RUpTDJpgdryR" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="4" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#RUpTDJpgdryR {
+<div class="output text_html"><div id="tuzispqwidOw" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="4" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#tuzispqwidOw {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -615,7 +615,7 @@ document.write(`
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsRUpTDJpgdryR=[
+</style></div><script type="application/javascript">var questionstuzispqwidOw=[
     {
         "question": "Calculate the sum of the vectors $\\mathbf{a} = \\begin{bmatrix} 2 & -3 \\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix} 1 & 4 \\end{bmatrix}^T$. What is the first component of the resulting vector?",
         "type": "numeric",
@@ -738,6 +738,8 @@ document.write(`
     }
 ]
 ;
+
+if (typeof Question === 'undefined') {
 // Make a random ID
 function makeid(length) {
     var result = [];
@@ -1757,17 +1759,19 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/5-vector-addition.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, RUpTDJpgdryR))
+    .then(json => show_questions(json, tuzispqwidOw))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsRUpTDJpgdryR, RUpTDJpgdryR);
+      show_questions(questionstuzispqwidOw, tuzispqwidOw);
     });
-}</script></div>
+}
+}
+</script></div>
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="DgjrZuAYEusv" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#DgjrZuAYEusv {
+<div class="output text_html"><div id="arUwKqvdpTcj" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#arUwKqvdpTcj {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -1968,7 +1972,7 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsDgjrZuAYEusv=[
+</style></div><script type="application/javascript">var questionsarUwKqvdpTcj=[
     {
         "question": "Let $\\mathbf{v} = \\begin{bmatrix}3 & -1\\end{bmatrix}^T$ and $\\alpha = 2$. What is the first component of $\\alpha\\mathbf{v}$?",
         "type": "numeric",
@@ -2140,6 +2144,8 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
     }
 ]
 ;
+
+if (typeof Question === 'undefined') {
 /*
  * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
  */
@@ -2150,17 +2156,19 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/5-scalar-vector-mult.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, DgjrZuAYEusv))
+    .then(json => show_questions(json, arUwKqvdpTcj))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsDgjrZuAYEusv, DgjrZuAYEusv);
+      show_questions(questionsarUwKqvdpTcj, arUwKqvdpTcj);
     });
-}</script></div>
+}
+}
+</script></div>
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="qlJMWFItaPMv" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#qlJMWFItaPMv {
+<div class="output text_html"><div id="NZgbyOFWdASd" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#NZgbyOFWdASd {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -2361,7 +2369,7 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsqlJMWFItaPMv=[
+</style></div><script type="application/javascript">var questionsNZgbyOFWdASd=[
     {
         "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & 1\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}2 & 4\\end{bmatrix}^T$. Find the first component of $\\mathbf{u} - \\mathbf{v}$.",
         "type": "numeric",
@@ -2532,6 +2540,8 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
     }
 ]
 ;
+
+if (typeof Question === 'undefined') {
 /*
  * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
  */
@@ -2542,12 +2552,386 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/5-vector-subtraction.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, qlJMWFItaPMv))
+    .then(json => show_questions(json, NZgbyOFWdASd))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsqlJMWFItaPMv, qlJMWFItaPMv);
+      show_questions(questionsNZgbyOFWdASd, NZgbyOFWdASd);
     });
-}</script></div>
+}
+}
+</script></div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div id="UNMiMfgSToAr" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#UNMiMfgSToAr {
+   --jq-multiple-choice-bg: #345995;
+   --jq-mc-button-bg: #fafafa;
+   --jq-mc-button-border: #e0e0e0e0;
+   --jq-mc-button-inset-shadow: #555555;
+   --jq-many-choice-bg: #e26d5a;
+   --jq-numeric-bg: #5bc0eb;
+   --jq-numeric-input-bg: #c0c0c0;
+   --jq-numeric-input-label: #101010;
+   --jq-numeric-input-shadow: #999999;
+   --jq-incorrect-color: #666666;
+   --jq-correct-color: #87a878;
+   --jq-text-color: #fafafa;
+}
+
+.Quiz {
+    max-width: 600px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-bottom: 15px;*/
+/*    padding-bottom: 4px;*/
+    padding-top: 4px;
+    line-height: 1.1;
+    font-size: 16pt;
+    border-radius: inherit;
+}
+
+.QuizCode {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.QuizCode>pre {
+    padding: 4px;
+}
+
+.Quiz code {
+    background-color: lightgray;
+    color: black;
+}
+
+.Quiz .QuizCode code {
+    background-color: inherit;
+    color: inherit;
+}
+
+
+.Quiz .MCButton code {
+    background-color: inherit;
+    color: inherit;
+}
+
+.MCButton .QuizCode {
+    text-align: left;
+}
+
+
+
+
+.Answer {
+    border-radius: inherit;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:480px) {
+    .Answer {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.Feedback {
+    font-size: 16pt;
+    text-align: center;
+/*    min-height: 2em;*/
+}
+
+.Input {
+    align: left;
+    font-size: 20pt;
+}
+
+.Input-text {
+    display: block;
+    margin: 10px;
+    color: inherit;
+    width: 140px;
+    background-color: var(--jq-numeric-input-bg);
+    color: var(--jq-text-color);
+    padding: 5px;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: 20pt;
+    border: none;
+    border-radius: 0.2rem;
+    transition: box-shadow 0.1s);
+}
+
+.Input-text:focus {
+    /*outline: none;*/
+    background-color: var(--jq-numeric-input-bg);
+    box-shadow: 0.6rem 0.8rem 1.4rem -0.5rem var(--jq-numeric-input-shadow);
+}
+
+.MCButton {
+    background: var(--jq-mc-button-bg);
+    border: 1px solid var(--jq-mc-button-border);
+    border-radius: inherit;
+    color: #333333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MCButton p {
+    color: inherit;
+}
+
+.MultipleChoiceQn {
+    padding: 10px;
+    background: var(--jq-multiple-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.ManyChoiceQn {
+    padding: 10px;
+    background: var(--jq-many-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.NumericQn {
+    background: var(--jq-numeric-bg);
+    border-radius: inherit;
+    color: var(--jq-text-color);
+    padding: 10px;
+}
+
+.NumericQn p {
+    color: inherit;
+}
+
+.InpLabel {
+    color: var(--jq-numeric-input-label);
+    float: left;
+    font-size: 15pt;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.incorrect {
+    color: var(--jq-incorrect-color);
+}
+
+.correct {
+    color: var(--jq-correct-color);
+}
+
+.correctButton {
+    /*
+    background: var(--jq-correct-color);
+   */
+    animation: correct-anim 0.6s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+.incorrectButton {
+    animation: incorrect-anim 0.8s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+@keyframes incorrect-anim {
+    100% {
+        background-color: var(--jq-incorrect-color);
+    }
+}
+
+@keyframes correct-anim {
+    100% {
+        background-color: var(--jq-correct-color);
+    }
+}
+</style></div><script type="application/javascript">var questionsUNMiMfgSToAr=[
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & -2\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}4 & 1\\end{bmatrix}^T$. Find the first component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 12,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & -2\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}4 & 1\\end{bmatrix}^T$. Find the second component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -2,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-1 & 0 & 5\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}3 & 2 & -2\\end{bmatrix}^T$. Find the first component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-1 & 0 & 5\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}3 & 2 & -2\\end{bmatrix}^T$. Find the third component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -10,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}2 & 2\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}3 & -4\\end{bmatrix}^T$. Find the second component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -8,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}0 & -3 & 1\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}5 & 2 & 0\\end{bmatrix}^T$. Find the second component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -6,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-2 & -2 & -2\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}-1 & 0 & 3\\end{bmatrix}^T$. Find the first component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}5 & 4 & 3\\end{bmatrix}^T$. Find the third component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-3 & -4\\end{bmatrix}^T$ and $\\mathbf{v} = \\begin{bmatrix}-2 & 1\\end{bmatrix}^T$. Find the second component of the Hadamard product $\\mathbf{u} \\odot \\mathbf{v}$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -4,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the Hadamard product calculates the vector of componentwise products."
+            }
+        ]
+    }
+]
+;
+
+if (typeof Question === 'undefined') {
+/*
+ * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
+ */
+{
+  const controller = new AbortController();
+  const signal = controller.signal;
+  // Abort fetch after 5 seconds
+  setTimeout(() => controller.abort(), 5000);
+  fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/5-hadamard-prod.json", { signal })
+    .then(response => response.json())
+    .then(json => show_questions(json, UNMiMfgSToAr))
+    .catch(err => {
+      console.log("Fetch error or timeout", err);
+      show_questions(questionsUNMiMfgSToAr, UNMiMfgSToAr);
+    });
+}
+}
+</script></div>
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
@@ -2813,7 +3197,7 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
     }
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="gfacRIMuKubB" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="gfacRIMuKubB-next" onclick="window.checkFlip('gfacRIMuKubB')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="TnyaziMxtbko" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="TnyaziMxtbko-next" onclick="window.checkFlip('TnyaziMxtbko')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -3287,17 +3671,17 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
 
 
         function try_create() {
-          if(document.getElementById("gfacRIMuKubB")) {
-            createCards("gfacRIMuKubB", "True", "False", "False", "", "");
+          if(document.getElementById("TnyaziMxtbko")) {
+            createCards("TnyaziMxtbko", "True", "False", "False", "", "");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsgfacRIMuKubB=[{"front": "addition (vectors)", "back": "The sum of $n$ vectors \\(\\mathbf{a}\\) and   \\(\\mathbf{b}\\) is a vector \\(\\mathbf{a+b}\\) such that any component $i$ of the   vector sum is the sum of the \\(i\\)th components of \\(\\mathbf{a}\\) and   \\(\\mathbf{b}\\); i.e. \\(\\mathbf{(a+b)}_i = a_i + b_i,~~i=0, 1,\\ldots, n-1\\)."}, {"front": "multiplication (scalar-vector)", "back": "Given a vector \\(\\mathbf{u}\\) and a scalar \\(\\alpha\\), define \\(\\alpha \\mathbf{u}\\) such that each component \\(i\\) of \\(\\alpha \\mathbf{u}\\) is given by \\((\\alpha \\mathbf{u})_i = \\alpha u_i\\). "}, {"front": "broadcasting (NumPy)", "back": "In NumPy, broadcasting occurs in operations involving two arrays of different shapes. The smaller array is <I>broadcast</I> across the larger array by repeating values in the smaller array in such a way that the shapes of the two arrays will match."}, {"front": "component-wise multiplication (vectors) <br> or <br> Hadamard product (vectors) <br> or <br> Schur product (vectors)", "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the <I>Hadamard product</I> or <I>Schur product</I> is denoted \\(\\mathbf{u} \\odot \\mathbf{v}\\) and is the \\(n\\)-vector given by component-wise multiplication of \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), \\begin{equation*}  \\mathbf{u} \\odot \\mathbf{v} = \\left[ u_0 v_0, ~~ u_1 v_1, ~~ \\ldots,~~ u_{n-1} v_{n-1}  \\right]. \\end{equation*}"}, {"front": "dot product <br> or <br> inner product (vectors)", "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the <I>dot product</I> or <I>inner product</I> is denoted \\(\\mathbf{u} \\cdot \\mathbf{v}\\) or \\(\\mathbf{u}^T \\mathbf{v}\\) and is the <B>scalar value</B> given by multiplying corresponding components and summing them up: \\begin{equation*} \\mathbf{u} \\cdot \\mathbf{v} = \\sum_{i=0}^{n-1} u_i v_i. \\end{equation*}"}, {"front": "norm squared", "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product operator \\(\\langle , \\rangle\\), the norm squared is denoted by \\(\\| \\mathbf{u} \\|^2\\) and defined as \\begin{equation*}   \\| \\mathbf{u} \\|^2 = \\langle \\mathbf{u}, \\mathbf{u} \\rangle . \\end{equation*} "}, {"front": "norm", "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product operator \\(\\langle ~,~ \\rangle\\), the norm is denoted by \\(\\| \\mathbf{u} \\|\\) and defined as \\begin{equation*} \\left \\Vert \\mathbf{u} \\right \\Vert = \\sqrt{\\langle \\mathbf{u}, \\mathbf{u} \\rangle }. \\end{equation*}"}, {"front": "unit vector", "back": "A vector \\(\\mathbf{v}\\) is a <I>unit vector</I> if \\(\\| \\mathbf{v} \\| =1.\\)"}, {"front": "distance between vectors", "back": "The <I>distance</I> between two \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is the norm of the difference between the vectors, \\begin{equation*} d\\left(\\mathbf{a}, \\mathbf{b}\\right) = \\left\\| \\mathbf{a} - \\mathbf{b} \\right\\| = \\left\\|\\mathbf{b} - \\mathbf{a} \\right\\|. \\end{equation*}"}];
-var frontColorsgfacRIMuKubB= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsgfacRIMuKubB= ["var(--dark-blue-gray)" ];
-var textColorsgfacRIMuKubB= ["var(--snow)" ];
+var cardsTnyaziMxtbko=[{"front": "addition (vectors)", "back": "The sum of $n$ vectors \\(\\mathbf{a}\\) and   \\(\\mathbf{b}\\) is a vector \\(\\mathbf{a+b}\\) such that any component $i$ of the   vector sum is the sum of the \\(i\\)th components of \\(\\mathbf{a}\\) and   \\(\\mathbf{b}\\); i.e. \\(\\mathbf{(a+b)}_i = a_i + b_i,~~i=0, 1,\\ldots, n-1\\)."}, {"front": "multiplication (scalar-vector)", "back": "Given a vector \\(\\mathbf{u}\\) and a scalar \\(\\alpha\\), define \\(\\alpha \\mathbf{u}\\) such that each component \\(i\\) of \\(\\alpha \\mathbf{u}\\) is given by \\((\\alpha \\mathbf{u})_i = \\alpha u_i\\). "}, {"front": "broadcasting (NumPy)", "back": "In NumPy, broadcasting occurs in operations involving two arrays of different shapes. The smaller array is <I>broadcast</I> across the larger array by repeating values in the smaller array in such a way that the shapes of the two arrays will match."}, {"front": "component-wise multiplication (vectors) <br> or <br> Hadamard product (vectors) <br> or <br> Schur product (vectors)", "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the <I>Hadamard product</I> or <I>Schur product</I> is denoted \\(\\mathbf{u} \\odot \\mathbf{v}\\) and is the \\(n\\)-vector given by component-wise multiplication of \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), \\begin{equation*}  \\mathbf{u} \\odot \\mathbf{v} = \\left[ u_0 v_0, ~~ u_1 v_1, ~~ \\ldots,~~ u_{n-1} v_{n-1}  \\right]. \\end{equation*}"}, {"front": "dot product <br> or <br> inner product (vectors)", "back": "Given \\(n\\)-vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the <I>dot product</I> or <I>inner product</I> is denoted \\(\\mathbf{u} \\cdot \\mathbf{v}\\) or \\(\\mathbf{u}^T \\mathbf{v}\\) and is the <B>scalar value</B> given by multiplying corresponding components and summing them up: \\begin{equation*} \\mathbf{u} \\cdot \\mathbf{v} = \\sum_{i=0}^{n-1} u_i v_i. \\end{equation*}"}, {"front": "norm squared", "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product operator \\(\\langle , \\rangle\\), the norm squared is denoted by \\(\\| \\mathbf{u} \\|^2\\) and defined as \\begin{equation*}   \\| \\mathbf{u} \\|^2 = \\langle \\mathbf{u}, \\mathbf{u} \\rangle . \\end{equation*} "}, {"front": "norm", "back": "For a mathematical object \\(\\mathbf{u}\\) with an inner product operator \\(\\langle ~,~ \\rangle\\), the norm is denoted by \\(\\| \\mathbf{u} \\|\\) and defined as \\begin{equation*} \\left \\Vert \\mathbf{u} \\right \\Vert = \\sqrt{\\langle \\mathbf{u}, \\mathbf{u} \\rangle }. \\end{equation*}"}, {"front": "unit vector", "back": "A vector \\(\\mathbf{v}\\) is a <I>unit vector</I> if \\(\\| \\mathbf{v} \\| =1.\\)"}, {"front": "distance between vectors", "back": "The <I>distance</I> between two \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is the norm of the difference between the vectors, \\begin{equation*} d\\left(\\mathbf{a}, \\mathbf{b}\\right) = \\left\\| \\mathbf{a} - \\mathbf{b} \\right\\| = \\left\\|\\mathbf{b} - \\mathbf{a} \\right\\|. \\end{equation*}"}];
+var frontColorsTnyaziMxtbko= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsTnyaziMxtbko= ["var(--dark-blue-gray)" ];
+var textColorsTnyaziMxtbko= ["var(--snow)" ];
 
 
         {
@@ -3308,7 +3692,7 @@ var textColorsgfacRIMuKubB= ["var(--snow)" ];
 
         fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/flashcards/5-vector-ops.json", {signal})
         .then(response => response.json())
-        .then(json => createCards("gfacRIMuKubB", "True", "False", "False", "", ""))
+        .then(json => createCards("TnyaziMxtbko", "True", "False", "False", "", ""))
         .catch(err => {
         console.log("Fetch error or timeout");
         try_create(); 
