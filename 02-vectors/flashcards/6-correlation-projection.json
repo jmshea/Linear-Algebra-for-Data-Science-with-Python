@@ -1,0 +1,27 @@
+
+[
+    {
+        "front": "correlation (vectors) <br> or <br> cosine similarity",
+        "back": "The <I>correlation</I> between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*}   r=  \\frac{{\\mathbf{a}} \\cdot \\mathbf{{b}} }{ \\Vert\\mathbf{{a}}\\Vert \\,\\Vert\\mathbf{{b}}\\Vert}. \\end{equation*} "
+    },
+    {
+        "front": "angle between vectors",
+        "back": "The angle between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*} \\theta = \\cos^{-1} \\left( \\frac{{\\mathbf{a}} \\cdot \\mathbf{{b}} }{ \\Vert\\mathbf{{a}}\\Vert \\,\\Vert\\mathbf{{b}}\\Vert}\\right). \\end{equation*}"
+    },
+    {
+        "front": "orthogonal vectors",
+        "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are <I>orthogonal</I> if and only if\n  \\begin{equation*} \\mathbf{a} \\cdot \\mathbf{b} = 0. \\end{equation*} "
+    },
+    {
+        "front": "orthonormal vectors",
+        "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are <I>orthonormal</I> if and only if\n  \\begin{equation*} \\mathbf{a} \\cdot \\mathbf{b} = 0 \\end{equation*} and \\begin{equation*}\\| \\mathbf{a} \\| = \\| \\mathbf{b} \\| = 1.\\end{equation*} "
+    },
+    {
+        "front": "scalar projection",
+        "back": "Given \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\), the <I>scalar projection</I> of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\) has magnitude equal to the length of the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). The sign is positive if that component of \\(\\mathbf{b}\\) is in the same direction as \\(\\mathbf{a}\\) and negative if not. It is given by\n  \\begin{align*} \\frac{ \\mathbf{b}  \\cdot \\mathbf{a}}{ \\| \\mathbf{a} \\|}. \\end{align*}"
+    },
+    {
+        "front": "vector projection",
+        "back": "Let \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) be \\(n\\)-dimensional vectors. Then  the <I>vector projection</I> of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\), denoted    \\(\\operatorname{proj}_{\\mathbf{a}} \\mathbf{b}\\), is the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). It is given by\n  \\begin{equation*} \\operatorname{proj}_{\\mathbf{a}} \\mathbf{b} =   \\frac{\\mathbf{b} \\cdot \\mathbf{a} } { \\left \\Vert \\mathbf{a} \\right \\Vert ^2} \\mathbf{a}. \\end{equation*} "
+    }
+]
