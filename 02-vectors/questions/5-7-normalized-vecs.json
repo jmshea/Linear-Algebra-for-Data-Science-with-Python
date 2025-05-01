@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the first component of the normalized vector?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.6,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the second component of the normalized vector?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.8,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the first component of the normalized vector? Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.58,
+                "correct": true,
+                "feedback": "Correct!",
+                "tolerance": 0.001
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-5 & 0\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the first component of the normalized vector?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}2 & 2 & -1\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the third component of the normalized vector? Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -0.33,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}4 & -3\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the second component of the normalized vector?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -0.6,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}0 & 5 & 0\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the second component of the normalized vector?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & 0 & 4\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the first component of the normalized vector?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.6,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-2 & -2 & -1\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the second component of the normalized vector? Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -0.67,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 2 & 2\\end{bmatrix}^T$. Normalize $\\mathbf{u}$ to create a unit vector. What is the first component of the normalized vector? Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.33,
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    }
+]
