@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm-squared of a vector is the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 2 & 2\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|^2$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 9,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that you can compute the norm-squared of a vector as the dot product of the vector with itself."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-3 & 0\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm of a vector is the square root of the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}2 & -2 & 1\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|^2$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 9,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm-squared of a vector is the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.73,
+                "correct": true,
+                "feedback": "Correct!",
+                "tolerance": 0.001
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm of a vector is the square root of the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}0 & 0 & 0\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm of a vector is the square root of the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-2 & 2\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|^2$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 8,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that you can compute the norm-squared of a vector as the dot product of the vector with itself."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}3 & -3 & 3\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 5.196,
+                "correct": true,
+                "feedback": "Correct!",
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm of a vector is the square root of the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}-1 & -1\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.414,
+                "correct": true,
+                "feedback": "Correct!",
+                "tolerance": 0.001
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the norm of a vector is the square root of the sum of the squares of its components."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{u} = \\begin{bmatrix}2 & 3 & 1\\end{bmatrix}^T$. Find $\\|\\mathbf{u}\\|^2$.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 14,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that you can compute the norm-squared of a vector as the dot product of the vector with itself."
+            }
+        ]
+    }
+]
