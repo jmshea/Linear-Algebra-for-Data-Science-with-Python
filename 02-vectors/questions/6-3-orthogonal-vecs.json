@@ -1,0 +1,162 @@
+[
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}2 & 2 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}4 & 4 & 2\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}3 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}3 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 4\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}2 & 3 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & -1 & 2\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}-4 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & -1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}4 & 2 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 1 & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & -1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-1 & 1 & -2\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}2 & 1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & -2 & -1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthogonal",
+                "correct": false,
+                "feedback": "Vectors $\\mathbf{a}$ and $\\mathbf{b}$ are orthogonal if $\\mathbf{a} \\cdot \\mathbf{b} = 0$ and are not orthogonal otherwise."
+            },
+            {
+                "answer": "Not orthogonal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    }
+]
