@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.32,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the second component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.76,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & 4 & 5\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & 4 & 5\\end{bmatrix}^T$. Find the second component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-3 & 3\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct! These vectors are orthogonal, so the vector projection is the zero vector."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 2 & 3\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & -1 & 4\\end{bmatrix}^T$. Find the third component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 2.57,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-2 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": -0.60,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-2 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the second component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.20,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2,
+                "correct": true,
+                "feedback": "Correct! In this case, $\\mathbf{b}$ is a scalar multiple of $\\mathbf{a}$, so the vector projection is simply $\\mathbf{b}$."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 4\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct! These vectors are orthogonal, so the vector projection is the zero vector."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    }
+]
