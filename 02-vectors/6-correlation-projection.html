@@ -11,12 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/02-vectors/6-correlation-projection.html" />
 <meta property="og:site_name" content="Project name not set" />
-<meta property="og:description" content="Interactive review questions coming soon! Self-Assessment: The following question can be used to check your understanding of the material covered in Section 2.6 of Linear Algebra for Data Science w..." />
+<meta property="og:description" content="~ Self-Assessment: The following question can be used to check your understanding of the material covered in Section 2.6 of Linear Algebra for Data Science with Python. Reload this page to get a ne..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/_images/social_previews/summary_02-vectors_6-correlation-projection_83110ff7.png" />
-<meta property="og:image:alt" content="Interactive review questions coming soon! Self-Assessment: The following question can be used to check your understanding of the material covered in Section 2.6 of Linear Algebra for Data Science w..." />
-<meta name="description" content="Interactive review questions coming soon! Self-Assessment: The following question can be used to check your understanding of the material covered in Section 2.6 of Linear Algebra for Data Science w..." />
+<meta property="og:image" content="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/_images/social_previews/summary_02-vectors_6-correlation-projection_90921a61.png" />
+<meta property="og:image:alt" content="~ Self-Assessment: The following question can be used to check your understanding of the material covered in Section 2.6 of Linear Algebra for Data Science with Python. Reload this page to get a ne..." />
+<meta name="description" content="~ Self-Assessment: The following question can be used to check your understanding of the material covered in Section 2.6 of Linear Algebra for Data Science with Python. Reload this page to get a ne..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>2.6. Vector Correlation and Projection &#8212; Linear Algebra for Data Science with Python</title>
@@ -81,6 +81,8 @@
                 gtag('config', 'G-C4ELG791RH');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"loader": {"load": ["[tex]/boldsymbol"]}, "tex": {"macros": {"P": "\\operatorname{P}"}, "packages": {"[+]": ["boldsymbol"]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '02-vectors/6-correlation-projection';</script>
     <link rel="canonical" href="https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/02-vectors/6-correlation-projection.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -404,15 +406,16 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="vector-correlation-and-projection">
 <h1><span class="section-number">2.6. </span>Vector Correlation and Projection<a class="headerlink" href="#vector-correlation-and-projection" title="Link to this heading">#</a></h1>
-<p><em>Interactive review questions coming soon!</em></p>
+<p><span class="math notranslate nohighlight">\(~\)</span></p>
 <div class="cell tag_remove-input docutils container">
 </div>
 <p><strong>Self-Assessment:</strong></p>
 <p>The following question can be used to check your understanding of the material covered in Section 2.6 of <em>Linear Algebra for Data Science with Python</em>.</p>
+<p>Reload this page to get a new selection of questions.</p>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="icvNklWAjqIz" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#icvNklWAjqIz {
+<div class="output text_html"><div id="pDdSRkgtvtOX" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#pDdSRkgtvtOX {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -613,7 +616,7 @@ document.write(`
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsicvNklWAjqIz=[
+</style></div><script type="application/javascript">var questionspDdSRkgtvtOX=[
     {
         "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}6 & 8\\end{bmatrix}^T$. Find the cosine similarity between $\\mathbf{a}$ and $\\mathbf{ b}$. Give your answers to 2 decimal places.",
         "type": "numeric",
@@ -1807,10 +1810,10 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/6-1-vector-correlation.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, icvNklWAjqIz))
+    .then(json => show_questions(json, pDdSRkgtvtOX))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsicvNklWAjqIz, icvNklWAjqIz);
+      show_questions(questionspDdSRkgtvtOX, pDdSRkgtvtOX);
     });
 }
 }
@@ -1818,8 +1821,8 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="MsCPdXByBmgh" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#MsCPdXByBmgh {
+<div class="output text_html"><div id="LFqtXqeSYkrg" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#LFqtXqeSYkrg {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -2020,7 +2023,7 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsMsCPdXByBmgh=[
+</style></div><script type="application/javascript">var questionsLFqtXqeSYkrg=[
     {
         "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$. Find the angle between $\\mathbf{a}$ and $\\mathbf{b}$ in degrees.",
         "type": "numeric",
@@ -2203,10 +2206,10 @@ if (typeof Question === 'undefined') {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/6-2-vector-angle.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, MsCPdXByBmgh))
+    .then(json => show_questions(json, LFqtXqeSYkrg))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsMsCPdXByBmgh, MsCPdXByBmgh);
+      show_questions(questionsLFqtXqeSYkrg, LFqtXqeSYkrg);
     });
 }
 }
@@ -2214,8 +2217,8 @@ if (typeof Question === 'undefined') {
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="dsJLBIaciEcz" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#dsJLBIaciEcz {
+<div class="output text_html"><div id="JhZPmAXLSLkm" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#JhZPmAXLSLkm {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -2416,7 +2419,7 @@ if (typeof Question === 'undefined') {
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsdsJLBIaciEcz=[
+</style></div><script type="application/javascript">var questionsJhZPmAXLSLkm=[
     {
         "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$ are:",
         "type": "multiple_choice",
@@ -2591,10 +2594,1185 @@ if (typeof Question === 'undefined') {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/6-3-orthogonal-vecs.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, dsJLBIaciEcz))
+    .then(json => show_questions(json, JhZPmAXLSLkm))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsdsJLBIaciEcz, dsJLBIaciEcz);
+      show_questions(questionsJhZPmAXLSLkm, JhZPmAXLSLkm);
+    });
+}
+}
+</script></div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div id="vLhhZumkxbGz" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#vLhhZumkxbGz {
+   --jq-multiple-choice-bg: #345995;
+   --jq-mc-button-bg: #fafafa;
+   --jq-mc-button-border: #e0e0e0e0;
+   --jq-mc-button-inset-shadow: #555555;
+   --jq-many-choice-bg: #e26d5a;
+   --jq-numeric-bg: #5bc0eb;
+   --jq-numeric-input-bg: #c0c0c0;
+   --jq-numeric-input-label: #101010;
+   --jq-numeric-input-shadow: #999999;
+   --jq-incorrect-color: #666666;
+   --jq-correct-color: #87a878;
+   --jq-text-color: #fafafa;
+}
+
+.Quiz {
+    max-width: 600px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-bottom: 15px;*/
+/*    padding-bottom: 4px;*/
+    padding-top: 4px;
+    line-height: 1.1;
+    font-size: 16pt;
+    border-radius: inherit;
+}
+
+.QuizCode {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.QuizCode>pre {
+    padding: 4px;
+}
+
+.Quiz code {
+    background-color: lightgray;
+    color: black;
+}
+
+.Quiz .QuizCode code {
+    background-color: inherit;
+    color: inherit;
+}
+
+
+.Quiz .MCButton code {
+    background-color: inherit;
+    color: inherit;
+}
+
+.MCButton .QuizCode {
+    text-align: left;
+}
+
+
+
+
+.Answer {
+    border-radius: inherit;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:480px) {
+    .Answer {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.Feedback {
+    font-size: 16pt;
+    text-align: center;
+/*    min-height: 2em;*/
+}
+
+.Input {
+    align: left;
+    font-size: 20pt;
+}
+
+.Input-text {
+    display: block;
+    margin: 10px;
+    color: inherit;
+    width: 140px;
+    background-color: var(--jq-numeric-input-bg);
+    color: var(--jq-text-color);
+    padding: 5px;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: 20pt;
+    border: none;
+    border-radius: 0.2rem;
+    transition: box-shadow 0.1s);
+}
+
+.Input-text:focus {
+    /*outline: none;*/
+    background-color: var(--jq-numeric-input-bg);
+    box-shadow: 0.6rem 0.8rem 1.4rem -0.5rem var(--jq-numeric-input-shadow);
+}
+
+.MCButton {
+    background: var(--jq-mc-button-bg);
+    border: 1px solid var(--jq-mc-button-border);
+    border-radius: inherit;
+    color: #333333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MCButton p {
+    color: inherit;
+}
+
+.MultipleChoiceQn {
+    padding: 10px;
+    background: var(--jq-multiple-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.ManyChoiceQn {
+    padding: 10px;
+    background: var(--jq-many-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.NumericQn {
+    background: var(--jq-numeric-bg);
+    border-radius: inherit;
+    color: var(--jq-text-color);
+    padding: 10px;
+}
+
+.NumericQn p {
+    color: inherit;
+}
+
+.InpLabel {
+    color: var(--jq-numeric-input-label);
+    float: left;
+    font-size: 15pt;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.incorrect {
+    color: var(--jq-incorrect-color);
+}
+
+.correct {
+    color: var(--jq-correct-color);
+}
+
+.correctButton {
+    /*
+    background: var(--jq-correct-color);
+   */
+    animation: correct-anim 0.6s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+.incorrectButton {
+    animation: incorrect-anim 0.8s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+@keyframes incorrect-anim {
+    100% {
+        background-color: var(--jq-incorrect-color);
+    }
+}
+
+@keyframes correct-anim {
+    100% {
+        background-color: var(--jq-correct-color);
+    }
+}
+</style></div><script type="application/javascript">var questionsvLhhZumkxbGz=[
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}}\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}}\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}\\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{3}}\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}}\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}\\frac{1}{\\sqrt{2}} &  -\\frac{1}{\\sqrt{2} } & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Even though these vectors have unit norm, the dot vector is not zero. Therefore, they are not orthonormal."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 0.5\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.5 & 0.5 & 0.5\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-0.5 & 0.5 & 0\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-1 & 1\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.6 & 0.8\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0.8 & -0.6\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.7 & 0.7\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0.7 & -0.7\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "These vectors are orthogonal. However, their norms are not equal to 1 (even though they are close to 1). Therefore, they are not orthonormal."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    },
+    {
+        "question": "The vectors $\\mathbf{a} = \\begin{bmatrix}0.5 & 0.5 & 0.5\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0.5 & -0.5 & -0.5\\end{bmatrix}^T$ are:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Orthonormal",
+                "correct": false,
+                "feedback": "Vectors are orthonormal if they are orthogonal (their dot product is 0) and each vector has a norm (length) of 1."
+            },
+            {
+                "answer": "Not orthonormal",
+                "correct": true,
+                "feedback": "Correct!"
+            }
+        ]
+    }
+]
+;
+
+if (typeof Question === 'undefined') {
+/*
+ * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
+ */
+{
+  const controller = new AbortController();
+  const signal = controller.signal;
+  // Abort fetch after 5 seconds
+  setTimeout(() => controller.abort(), 5000);
+  fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/6-4-orthonormal-vecs.json", { signal })
+    .then(response => response.json())
+    .then(json => show_questions(json, vLhhZumkxbGz))
+    .catch(err => {
+      console.log("Fetch error or timeout", err);
+      show_questions(questionsvLhhZumkxbGz, vLhhZumkxbGz);
+    });
+}
+}
+</script></div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div id="gcCkURfzkpNH" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#gcCkURfzkpNH {
+   --jq-multiple-choice-bg: #345995;
+   --jq-mc-button-bg: #fafafa;
+   --jq-mc-button-border: #e0e0e0e0;
+   --jq-mc-button-inset-shadow: #555555;
+   --jq-many-choice-bg: #e26d5a;
+   --jq-numeric-bg: #5bc0eb;
+   --jq-numeric-input-bg: #c0c0c0;
+   --jq-numeric-input-label: #101010;
+   --jq-numeric-input-shadow: #999999;
+   --jq-incorrect-color: #666666;
+   --jq-correct-color: #87a878;
+   --jq-text-color: #fafafa;
+}
+
+.Quiz {
+    max-width: 600px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-bottom: 15px;*/
+/*    padding-bottom: 4px;*/
+    padding-top: 4px;
+    line-height: 1.1;
+    font-size: 16pt;
+    border-radius: inherit;
+}
+
+.QuizCode {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.QuizCode>pre {
+    padding: 4px;
+}
+
+.Quiz code {
+    background-color: lightgray;
+    color: black;
+}
+
+.Quiz .QuizCode code {
+    background-color: inherit;
+    color: inherit;
+}
+
+
+.Quiz .MCButton code {
+    background-color: inherit;
+    color: inherit;
+}
+
+.MCButton .QuizCode {
+    text-align: left;
+}
+
+
+
+
+.Answer {
+    border-radius: inherit;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:480px) {
+    .Answer {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.Feedback {
+    font-size: 16pt;
+    text-align: center;
+/*    min-height: 2em;*/
+}
+
+.Input {
+    align: left;
+    font-size: 20pt;
+}
+
+.Input-text {
+    display: block;
+    margin: 10px;
+    color: inherit;
+    width: 140px;
+    background-color: var(--jq-numeric-input-bg);
+    color: var(--jq-text-color);
+    padding: 5px;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: 20pt;
+    border: none;
+    border-radius: 0.2rem;
+    transition: box-shadow 0.1s);
+}
+
+.Input-text:focus {
+    /*outline: none;*/
+    background-color: var(--jq-numeric-input-bg);
+    box-shadow: 0.6rem 0.8rem 1.4rem -0.5rem var(--jq-numeric-input-shadow);
+}
+
+.MCButton {
+    background: var(--jq-mc-button-bg);
+    border: 1px solid var(--jq-mc-button-border);
+    border-radius: inherit;
+    color: #333333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MCButton p {
+    color: inherit;
+}
+
+.MultipleChoiceQn {
+    padding: 10px;
+    background: var(--jq-multiple-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.ManyChoiceQn {
+    padding: 10px;
+    background: var(--jq-many-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.NumericQn {
+    background: var(--jq-numeric-bg);
+    border-radius: inherit;
+    color: var(--jq-text-color);
+    padding: 10px;
+}
+
+.NumericQn p {
+    color: inherit;
+}
+
+.InpLabel {
+    color: var(--jq-numeric-input-label);
+    float: left;
+    font-size: 15pt;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.incorrect {
+    color: var(--jq-incorrect-color);
+}
+
+.correct {
+    color: var(--jq-correct-color);
+}
+
+.correctButton {
+    /*
+    background: var(--jq-correct-color);
+   */
+    animation: correct-anim 0.6s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+.incorrectButton {
+    animation: incorrect-anim 0.8s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+@keyframes incorrect-anim {
+    100% {
+        background-color: var(--jq-incorrect-color);
+    }
+}
+
+@keyframes correct-anim {
+    100% {
+        background-color: var(--jq-correct-color);
+    }
+}
+</style></div><script type="application/javascript">var questionsgcCkURfzkpNH=[
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2.2,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & 4 & 5\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-3 & 3\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct! These vectors are orthogonal, so the scalar projection is 0."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 2 & 3\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & -1 & 4\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 3.21,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-2 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.34,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 3.46,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 4\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct! These vectors are orthogonal, so the scalar projection is 0."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & -1 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-1 & 3 & 0\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": -1.67,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}5 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-2 & -2\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -2,
+                "correct": true,
+                "feedback": "Correct!",
+                "tolerance": 0.01
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & -1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-2 & 2 & -2\\end{bmatrix}^T$. Find the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": -3.46,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the scalar projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\mathbf{b}\\cdot \\mathbf{a}/\\| \\mathbf{a} \\|.$"
+            }
+        ]
+    }
+]
+;
+
+if (typeof Question === 'undefined') {
+/*
+ * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
+ */
+{
+  const controller = new AbortController();
+  const signal = controller.signal;
+  // Abort fetch after 5 seconds
+  setTimeout(() => controller.abort(), 5000);
+  fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/6-5-scalar-proj.json", { signal })
+    .then(response => response.json())
+    .then(json => show_questions(json, gcCkURfzkpNH))
+    .catch(err => {
+      console.log("Fetch error or timeout", err);
+      show_questions(questionsgcCkURfzkpNH, gcCkURfzkpNH);
+    });
+}
+}
+</script></div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div id="iiQOUHMnXwgN" data-shufflequestions="True" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#iiQOUHMnXwgN {
+   --jq-multiple-choice-bg: #345995;
+   --jq-mc-button-bg: #fafafa;
+   --jq-mc-button-border: #e0e0e0e0;
+   --jq-mc-button-inset-shadow: #555555;
+   --jq-many-choice-bg: #e26d5a;
+   --jq-numeric-bg: #5bc0eb;
+   --jq-numeric-input-bg: #c0c0c0;
+   --jq-numeric-input-label: #101010;
+   --jq-numeric-input-shadow: #999999;
+   --jq-incorrect-color: #666666;
+   --jq-correct-color: #87a878;
+   --jq-text-color: #fafafa;
+}
+
+.Quiz {
+    max-width: 600px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-bottom: 15px;*/
+/*    padding-bottom: 4px;*/
+    padding-top: 4px;
+    line-height: 1.1;
+    font-size: 16pt;
+    border-radius: inherit;
+}
+
+.QuizCode {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.QuizCode>pre {
+    padding: 4px;
+}
+
+.Quiz code {
+    background-color: lightgray;
+    color: black;
+}
+
+.Quiz .QuizCode code {
+    background-color: inherit;
+    color: inherit;
+}
+
+
+.Quiz .MCButton code {
+    background-color: inherit;
+    color: inherit;
+}
+
+.MCButton .QuizCode {
+    text-align: left;
+}
+
+
+
+
+.Answer {
+    border-radius: inherit;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:480px) {
+    .Answer {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.Feedback {
+    font-size: 16pt;
+    text-align: center;
+/*    min-height: 2em;*/
+}
+
+.Input {
+    align: left;
+    font-size: 20pt;
+}
+
+.Input-text {
+    display: block;
+    margin: 10px;
+    color: inherit;
+    width: 140px;
+    background-color: var(--jq-numeric-input-bg);
+    color: var(--jq-text-color);
+    padding: 5px;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: 20pt;
+    border: none;
+    border-radius: 0.2rem;
+    transition: box-shadow 0.1s);
+}
+
+.Input-text:focus {
+    /*outline: none;*/
+    background-color: var(--jq-numeric-input-bg);
+    box-shadow: 0.6rem 0.8rem 1.4rem -0.5rem var(--jq-numeric-input-shadow);
+}
+
+.MCButton {
+    background: var(--jq-mc-button-bg);
+    border: 1px solid var(--jq-mc-button-border);
+    border-radius: inherit;
+    color: #333333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MCButton p {
+    color: inherit;
+}
+
+.MultipleChoiceQn {
+    padding: 10px;
+    background: var(--jq-multiple-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.ManyChoiceQn {
+    padding: 10px;
+    background: var(--jq-many-choice-bg);
+    color: var(--jq-text-color);
+    border-radius: inherit;
+}
+
+.NumericQn {
+    background: var(--jq-numeric-bg);
+    border-radius: inherit;
+    color: var(--jq-text-color);
+    padding: 10px;
+}
+
+.NumericQn p {
+    color: inherit;
+}
+
+.InpLabel {
+    color: var(--jq-numeric-input-label);
+    float: left;
+    font-size: 15pt;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.incorrect {
+    color: var(--jq-incorrect-color);
+}
+
+.correct {
+    color: var(--jq-correct-color);
+}
+
+.correctButton {
+    /*
+    background: var(--jq-correct-color);
+   */
+    animation: correct-anim 0.6s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+.incorrectButton {
+    animation: incorrect-anim 0.8s ease;
+    animation-fill-mode: forwards;
+    box-shadow: inset 0 0 5px var(--jq-mc-button-inset-shadow);
+    color: var(--jq-text-color);
+    /*outline: none;*/
+}
+
+@keyframes incorrect-anim {
+    100% {
+        background-color: var(--jq-incorrect-color);
+    }
+}
+
+@keyframes correct-anim {
+    100% {
+        background-color: var(--jq-correct-color);
+    }
+}
+</style></div><script type="application/javascript">var questionsiiQOUHMnXwgN=[
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.32,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the second component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.76,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & 4 & 5\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 0 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}3 & 4 & 5\\end{bmatrix}^T$. Find the second component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}2 & 2\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}-3 & 3\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct! These vectors are orthogonal, so the vector projection is the zero vector."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 2 & 3\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & -1 & 4\\end{bmatrix}^T$. Find the third component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 2.57,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-2 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": -0.60,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}-2 & 4\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}1 & 2\\end{bmatrix}^T$. Find the second component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "precision": 3,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1.20,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}1 & 1 & 1\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}2 & 2 & 2\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2,
+                "correct": true,
+                "feedback": "Correct! In this case, $\\mathbf{b}$ is a scalar multiple of $\\mathbf{a}$, so the vector projection is simply $\\mathbf{b}$."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    },
+    {
+        "question": "Let $\\mathbf{a} = \\begin{bmatrix}3 & 0\\end{bmatrix}^T$ and $\\mathbf{b} = \\begin{bmatrix}0 & 4\\end{bmatrix}^T$. Find the first component of the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$. Give your answer to 2 decimal places.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct! These vectors are orthogonal, so the vector projection is the zero vector."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $\\left( \\mathbf{b}\\cdot \\mathbf{a} / \\| \\mathbf{a} \\|^2\\right) \\mathbf{a}$."
+            }
+        ]
+    }
+]
+;
+
+if (typeof Question === 'undefined') {
+/*
+ * Attempt to fetch questions JSON, with timeout and fallback to embedded data.
+ */
+{
+  const controller = new AbortController();
+  const signal = controller.signal;
+  // Abort fetch after 5 seconds
+  setTimeout(() => controller.abort(), 5000);
+  fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/questions/6-6-vector-proj.json", { signal })
+    .then(response => response.json())
+    .then(json => show_questions(json, iiQOUHMnXwgN))
+    .catch(err => {
+      console.log("Fetch error or timeout", err);
+      show_questions(questionsiiQOUHMnXwgN, iiQOUHMnXwgN);
     });
 }
 }
@@ -2864,7 +4042,7 @@ if (typeof Question === 'undefined') {
     }
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="prnoIfEMPCKw" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="prnoIfEMPCKw-next" onclick="window.checkFlip('prnoIfEMPCKw')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="LIvsQWmASVQA" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="LIvsQWmASVQA-next" onclick="window.checkFlip('LIvsQWmASVQA')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -3338,17 +4516,17 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
 
 
         function try_create() {
-          if(document.getElementById("prnoIfEMPCKw")) {
-            createCards("prnoIfEMPCKw", "True", "False", "False", "", "");
+          if(document.getElementById("LIvsQWmASVQA")) {
+            createCards("LIvsQWmASVQA", "True", "False", "False", "", "");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsprnoIfEMPCKw=[{"front": "correlation (vectors) <br> or <br> cosine similarity", "back": "The <I>correlation</I> between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*}   r=  \\frac{{\\mathbf{a}} \\cdot \\mathbf{{b}} }{ \\Vert\\mathbf{{a}}\\Vert \\,\\Vert\\mathbf{{b}}\\Vert}. \\end{equation*} "}, {"front": "angle between vectors", "back": "The angle between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*} \\theta = \\cos^{-1} \\left( \\frac{{\\mathbf{a}} \\cdot \\mathbf{{b}} }{ \\Vert\\mathbf{{a}}\\Vert \\,\\Vert\\mathbf{{b}}\\Vert}\\right). \\end{equation*}"}, {"front": "orthogonal vectors", "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are <I>orthogonal</I> if and only if\n  \\begin{equation*} \\mathbf{a} \\cdot \\mathbf{b} = 0. \\end{equation*} "}, {"front": "orthonormal vectors", "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are <I>orthonormal</I> if and only if\n  \\begin{equation*} \\mathbf{a} \\cdot \\mathbf{b} = 0 \\end{equation*} and \\begin{equation*}\\| \\mathbf{a} \\| = \\| \\mathbf{b} \\| = 1.\\end{equation*} "}, {"front": "scalar projection", "back": "Given \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\), the <I>scalar projection</I> of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\) has magnitude equal to the length of the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). The sign is positive if that component of \\(\\mathbf{b}\\) is in the same direction as \\(\\mathbf{a}\\) and negative if not. It is given by\n  \\begin{align*} \\frac{ \\mathbf{b}  \\cdot \\mathbf{a}}{ \\| \\mathbf{a} \\|}. \\end{align*}"}, {"front": "vector projection", "back": "Let \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) be \\(n\\)-dimensional vectors. Then  the <I>vector projection</I> of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\), denoted    \\(\\operatorname{proj}_{\\mathbf{a}} \\mathbf{b}\\), is the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). It is given by\n  \\begin{equation*} \\operatorname{proj}_{\\mathbf{a}} \\mathbf{b} =   \\frac{\\mathbf{b} \\cdot \\mathbf{a} } { \\left \\Vert \\mathbf{a} \\right \\Vert ^2} \\mathbf{a}. \\end{equation*} "}];
-var frontColorsprnoIfEMPCKw= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsprnoIfEMPCKw= ["var(--dark-blue-gray)" ];
-var textColorsprnoIfEMPCKw= ["var(--snow)" ];
+var cardsLIvsQWmASVQA=[{"front": "correlation (vectors) <br> or <br> cosine similarity", "back": "The <I>correlation</I> between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*}   r=  \\frac{{\\mathbf{a}} \\cdot \\mathbf{{b}} }{ \\Vert\\mathbf{{a}}\\Vert \\,\\Vert\\mathbf{{b}}\\Vert}. \\end{equation*} "}, {"front": "angle between vectors", "back": "The angle between \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) is\n  \\begin{equation*} \\theta = \\cos^{-1} \\left( \\frac{{\\mathbf{a}} \\cdot \\mathbf{{b}} }{ \\Vert\\mathbf{{a}}\\Vert \\,\\Vert\\mathbf{{b}}\\Vert}\\right). \\end{equation*}"}, {"front": "orthogonal vectors", "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are <I>orthogonal</I> if and only if\n  \\begin{equation*} \\mathbf{a} \\cdot \\mathbf{b} = 0. \\end{equation*} "}, {"front": "orthonormal vectors", "back": "Vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) are <I>orthonormal</I> if and only if\n  \\begin{equation*} \\mathbf{a} \\cdot \\mathbf{b} = 0 \\end{equation*} and \\begin{equation*}\\| \\mathbf{a} \\| = \\| \\mathbf{b} \\| = 1.\\end{equation*} "}, {"front": "scalar projection", "back": "Given \\(n\\)-vectors \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\), the <I>scalar projection</I> of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\) has magnitude equal to the length of the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). The sign is positive if that component of \\(\\mathbf{b}\\) is in the same direction as \\(\\mathbf{a}\\) and negative if not. It is given by\n  \\begin{align*} \\frac{ \\mathbf{b}  \\cdot \\mathbf{a}}{ \\| \\mathbf{a} \\|}. \\end{align*}"}, {"front": "vector projection", "back": "Let \\(\\mathbf{a}\\) and \\(\\mathbf{b}\\) be \\(n\\)-dimensional vectors. Then  the <I>vector projection</I> of \\(\\mathbf{b}\\) onto \\(\\mathbf{a}\\), denoted    \\(\\operatorname{proj}_{\\mathbf{a}} \\mathbf{b}\\), is the vector in the direction of \\(\\mathbf{a}\\) that minimizes the error to \\(\\mathbf{b}\\). It is given by\n  \\begin{equation*} \\operatorname{proj}_{\\mathbf{a}} \\mathbf{b} =   \\frac{\\mathbf{b} \\cdot \\mathbf{a} } { \\left \\Vert \\mathbf{a} \\right \\Vert ^2} \\mathbf{a}. \\end{equation*} "}];
+var frontColorsLIvsQWmASVQA= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsLIvsQWmASVQA= ["var(--dark-blue-gray)" ];
+var textColorsLIvsQWmASVQA= ["var(--snow)" ];
 
 
         {
@@ -3359,7 +4537,7 @@ var textColorsprnoIfEMPCKw= ["var(--snow)" ];
 
         fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/02-vectors/flashcards/6-correlation-projection.json", {signal})
         .then(response => response.json())
-        .then(json => createCards("prnoIfEMPCKw", "True", "False", "False", "", ""))
+        .then(json => createCards("LIvsQWmASVQA", "True", "False", "False", "", ""))
         .catch(err => {
         console.log("Fetch error or timeout");
         try_create(); 
