@@ -23,10 +23,10 @@ sphinx:
     - sphinxext.opengraph
     - sphinx.ext.imgconverter
   config:
-    html_baseurl: "https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/"
+    html_baseurl: "https://la4ds.net/"
     #mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     #mathjax_path: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML 
-    ogp_site_url: "https://jmshea.github.io/Linear-Algebra-for-Data-Science-with-Python/"
+    ogp_site_url: "https://la4ds.net/"
     #ogp_image: "https://jmshea.github.io/Foundations-of-Data-Science-with-Python/_images/normal-people.png"
     ogp_description_length: 200
     #mathjax3_config: { loader: {load: ['[tex]/action']}, tex: {packages: {'[+]': ['action']}}}
@@ -42,5 +42,5 @@ sphinx:
 
 
 html:
-  base_url: https://jmshea.github.io/Foundations-of-Data-Science-with-Python/
+  base_url: https://la4ds.net/
   google_analytics_id: G-C4ELG791RH
