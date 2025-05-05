@@ -11,12 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://la4ds.net/02-vectors/7-summary.html" />
 <meta property="og:site_name" content="Project name not set" />
-<meta property="og:description" content="~ Self-Assessment: The following question can be used to check your understanding of the material covered in Chapter 2 of Linear Algebra for Data Science with Python. Reload this page to get a diff..." />
+<meta property="og:description" content="~ Key Take-aways:: Introduction to Vectors A vector is an ordered collection of numbers with accompanying mathematical operations.- Purpose: Vectors represent quantities with magnitude and directio..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://la4ds.net/_images/social_previews/summary_02-vectors_7-summary_828770b7.png" />
-<meta property="og:image:alt" content="~ Self-Assessment: The following question can be used to check your understanding of the material covered in Chapter 2 of Linear Algebra for Data Science with Python. Reload this page to get a diff..." />
-<meta name="description" content="~ Self-Assessment: The following question can be used to check your understanding of the material covered in Chapter 2 of Linear Algebra for Data Science with Python. Reload this page to get a diff..." />
+<meta property="og:image" content="https://la4ds.net/_images/social_previews/summary_02-vectors_7-summary_fef122a4.png" />
+<meta property="og:image:alt" content="~ Key Take-aways:: Introduction to Vectors A vector is an ordered collection of numbers with accompanying mathematical operations.- Purpose: Vectors represent quantities with magnitude and directio..." />
+<meta name="description" content="~ Key Take-aways:: Introduction to Vectors A vector is an ordered collection of numbers with accompanying mathematical operations.- Purpose: Vectors represent quantities with magnitude and directio..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>2.7. Chapter Summary &#8212; Linear Algebra for Data Science with Python</title>
@@ -379,7 +379,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -395,6 +397,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-take-aways">2.7.1. Key Take-aways:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -407,6 +417,87 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="chapter-summary">
 <h1><span class="section-number">2.7. </span>Chapter Summary<a class="headerlink" href="#chapter-summary" title="Link to this heading">#</a></h1>
 <p><span class="math notranslate nohighlight">\(~\)</span></p>
+<section id="key-take-aways">
+<h2><span class="section-number">2.7.1. </span>Key Take-aways:<a class="headerlink" href="#key-take-aways" title="Link to this heading">#</a></h2>
+<p><strong>Introduction to Vectors</strong></p>
+<ul class="simple">
+<li><p>A <strong>vector</strong> is an ordered collection of numbers with accompanying mathematical operations.</p>
+<ul>
+<li><p><strong>Purpose</strong>: Vectors represent quantities with magnitude and direction, and store collections of numerical data in science and data analysis.</p></li>
+<li><p><strong>Notation</strong>: Written as bold lowercase letters (e.g., <span class="math notranslate nohighlight">\(\mathbf{u}\)</span>)</p></li>
+<li><p><strong>Representation</strong>: Typically shown as a column of numbers enclosed in square brackets, like
+\begin{equation*}
+\mathbf{u} =
+\begin{bmatrix}
+0.75\
+-1\
+1.75\
+2.5
+\end{bmatrix}
+\end{equation*}</p></li>
+<li><p>or horizontally with transpose: <span class="math notranslate nohighlight">\(\begin{bmatrix} 0.75 ~~-1 ~~1.75 ~~2.5\end{bmatrix}^{\text{T}}\)</span></p></li>
+<li><p><strong>Components</strong>: Individual values accessed via indices (e.g., <span class="math notranslate nohighlight">\(u_i\)</span> for the <span class="math notranslate nohighlight">\(i\)</span>th component)</p></li>
+</ul>
+</li>
+<li><p>A <em>scalar</em> is a single numeric value; scalar variables are represented by italicized letters, like <span class="math notranslate nohighlight">\(c\)</span>.</p></li>
+<li><p><em>Characterization of vectors</em></p>
+<ul>
+<li><p><strong>Order</strong>: The number of axes needed to represent a mathematical object. Vectors are order 1, and scalars are order 0.</p></li>
+<li><p><strong>Size/dimension</strong>: Number of components in a vector. We say a vector with <span class="math notranslate nohighlight">\(n\)</span> components is an <span class="math notranslate nohighlight">\(n\)</span>-dimensional vector or just <span class="math notranslate nohighlight">\(n\)</span>-vector</p></li>
+</ul>
+</li>
+<li><p><em>Implementation</em></p>
+<ul>
+<li><p>Using NumPy, the most direct way to create a vector is to pass a list of values to the <code class="docutils literal notranslate"><span class="pre">np.array()</span></code> class constructor, like <code class="docutils literal notranslate"><span class="pre">u</span> <span class="pre">=</span> <span class="pre">np.array([1,</span> <span class="pre">4,</span> <span class="pre">9])</span></code>. Such a vector is neither explicitly a row-vector nor a column vector, but acts like a row vector in most NumPy operations.</p></li>
+<li><p>Using NumPy, row vectors can be created like <code class="docutils literal notranslate"><span class="pre">u</span> <span class="pre">=</span> <span class="pre">np.array([[1,</span> <span class="pre">4,</span> <span class="pre">9]])</span></code> – note the double square brackets. Column vectors are most easily created like <code class="docutils literal notranslate"><span class="pre">u</span> <span class="pre">=</span> <span class="pre">np.array([[1,</span> <span class="pre">4,</span> <span class="pre">9]]).T</span></code>.</p></li>
+<li><p>To create vectors in PyTorch, modify any of the above NumPy calls by replacing <code class="docutils literal notranslate"><span class="pre">np.array</span></code> by <code class="docutils literal notranslate"><span class="pre">torch.tensor</span></code>. For instance, <code class="docutils literal notranslate"><span class="pre">u2</span> <span class="pre">=</span> <span class="pre">torch.tensor([[1,</span> <span class="pre">4,</span> <span class="pre">9]])</span></code></p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Visualizing Vectors</strong></p>
+<ul class="simple">
+<li><p>Vectors are commonly displayed using <em>quiver plots</em> that show the vectors as arrows that use the components of the vector as displacements; if no starting point is specified for a vector, the origin is used.</p>
+<ul>
+<li><p>In 2-vectors, components represent <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> displacements: <span class="math notranslate nohighlight">\(\mathbf{a} = \begin{bmatrix} a_x &amp; a_y \end{bmatrix}.T\)</span></p></li>
+<li><p>Each vector has a tail (starting point) and a head (endpoint), with the arrow pointing to the head.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Applications of Vectors</strong></p>
+<ul class="simple">
+<li><p>Vectors can be used for many purposes, including:</p>
+<ul>
+<li><p><strong>Geometrical features</strong>: Vectors represent spatial location or displacement. Example: A robot’s movements shown as arrows, where consecutive vectors indicate path segments.</p></li>
+<li><p><strong>Multi-dimensional numerical data</strong>: Vectors store collections of related numerical values. Example: Health survey data with height and weight.</p></li>
+<li><p><strong>Time-series data</strong>: Vectors represent observations collected over time at regular intervals. Example: Annual temperature measurements or monthly average house prices in an area.</p></li>
+<li><p><strong>Distributional data</strong>: Vectors represent allocations across categories or proportional distributions. Example: stock market portfolio allocations.</p></li>
+</ul>
+</li>
+<li><p><em>Other visualization techniques</em></p>
+<ul>
+<li><p>Scatter plots are often used for large 2D data sets (less clutter than quiver plots)</p></li>
+<li><p>Bar charts are often used for distributional data</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Special Vectors</strong></p>
+<ul class="simple">
+<li><p><strong>Zero vector</strong>: A vector containing all zeros, denoted as <span class="math notranslate nohighlight">\(\mathbf{0}_n\)</span> for a vector of size <span class="math notranslate nohighlight">\(n\)</span>. In NumPy, created using <code class="docutils literal notranslate"><span class="pre">np.zeros(n)</span></code>.</p></li>
+<li><p><strong>Ones vector</strong>: A vector containing all ones, denoted as <span class="math notranslate nohighlight">\(\mathbf{1}_n\)</span> for a vector of size <span class="math notranslate nohighlight">\(n\)</span>. In NumPy, created using <code class="docutils literal notranslate"><span class="pre">np.ones(n)</span></code>.</p></li>
+<li><p><strong>Standard unit vector</strong>: A vector with all components equal to zero except one element that equals one. Denoted as <span class="math notranslate nohighlight">\(\mathbf{e}_i\)</span> where <span class="math notranslate nohighlight">\(i\)</span> is the position of the 1.</p></li>
+</ul>
+<p><strong>Vector Operations</strong></p>
+<ul class="simple">
+<li><p><strong>Vector addition</strong>: Component-wise addition: <span class="math notranslate nohighlight">\((\mathbf{a}+\mathbf{b})_i = a_i + b_i\)</span>.</p></li>
+<li><p><strong>Scalar-vector multiplication</strong>: Each component is multiplied by that scalar: <span class="math notranslate nohighlight">\((\alpha \mathbf{u})_i = \alpha u_i\)</span>.</p></li>
+<li><p><strong>Vector subtraction</strong>: Component-wise subtraction:
+<span class="math notranslate nohighlight">\((\mathbf{a}-\mathbf{b})_i = a_i - b_i\)</span>.</p></li>
+<li><p><strong>Hadamard (component-wise) product</strong>: Denoted as <span class="math notranslate nohighlight">\(\mathbf{u} \odot \mathbf{v}\)</span>, multiplies corresponding elements. In NumPy, uses the <code class="docutils literal notranslate"><span class="pre">*</span></code> operator.</p></li>
+<li><p><strong>Dot product</strong>: Multiplication between two vectors that produces a scalar: <span class="math notranslate nohighlight">\(\mathbf{u} \cdot \mathbf{v} = \sum_{i=0}^{n-1} u_i v_i\)</span>. In NumPy, calculated using the <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> operator.</p></li>
+<li><p><strong>Vector norm/length</strong>: Length of a vector defined as <span class="math notranslate nohighlight">\(\|\mathbf{b}\| = \sqrt{\mathbf{b} \cdot \mathbf{b}} = \sqrt{\sum_{i=0}^{n-1} b_i^2}\)</span>. In NumPy, calculated using <code class="docutils literal notranslate"><span class="pre">np.linalg.norm()</span></code>.</p></li>
+<li><p><strong>Unit vectors</strong>: Vectors with length 1, created by dividing a vector by its norm.</p></li>
+<li><p><strong>Distance between vectors</strong>: The norm of their difference: <span class="math notranslate nohighlight">\(\operatorname{d}(\mathbf{a},\mathbf{b}) = \|\mathbf{a}-\mathbf{b}\|\)</span>.</p></li>
+</ul>
 <p><strong>Self-Assessment:</strong></p>
 <p>The following question can be used to check your understanding of the material covered in Chapter 2 of <em>Linear Algebra for Data Science with Python</em>. Reload this page to get a different selection of practice questions.</p>
 <div class="cell tag_remove-input docutils container">
@@ -9175,6 +9266,7 @@ var textColorsIlyyVjYCNKvJ= ["var(--snow)" ];
         </script></div>
 </div>
 </section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -9230,6 +9322,21 @@ var textColorsIlyyVjYCNKvJ= ["var(--snow)" ];
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-take-aways">2.7.1. Key Take-aways:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
