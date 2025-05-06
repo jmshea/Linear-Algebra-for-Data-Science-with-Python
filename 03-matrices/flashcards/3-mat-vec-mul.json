@@ -1,0 +1,14 @@
+[
+    {
+        "front": "vector space",
+        "back": "A <I>vector space</I> consists of a set of vectors and\n  scalars, along with addition and multiplication operators, such that the\nresult of any scalar-vector multiplication and any addition of vectors in the\nvector space results in a vector contained in that vector space."
+    },
+    {
+        "front": "Euclidean vector space",
+        "back": "A <I>Euclidean\n    vector space</I> of dimension $n$ is denoted $\\mathbb{R}^n$ and contains all\n  real $n$-vectors."
+    },
+    {
+        "front": "linear transformation (from $\\mathbb{R}^n$ to $\\mathbb{R}^m$)",
+        "back": "Let $\\mathbf{M}$ be an $m \\times n$ real matrix. For any vector $\\mathbf{u} \\in \\mathbb{R}^n$, $\\mathbf{v} = \\mathbf{M} \\mathbf{u}$ has components that are a linear combination of the components of $\\mathbf{u}$, and $\\mathbf{v} \\in \\mathbb{R}^m$. We say that $\\mathbf{M}$ is a <I>linear transformation</I> from $\\mathbb{R}^n$ to $\\mathbb{R}^m$. "
+    }
+]
