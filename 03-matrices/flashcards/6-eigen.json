@@ -1,0 +1,14 @@
+[
+    {
+        "front": "eigenvector",
+        "back": "Given a square $n \\times n$ matrix $\\mathbf{M}$, a non-zero $n$-vector $\\mathbf{u}$ is  an <I>eigenvector</I> of $\\mathbf{M}$ if there exists a constant  $\\lambda$ such that \\begin{equation} \\mathbf{Mu} = \\lambda \\mathbf{u}. \\end{equation}"
+    },
+    {
+        "front": "eigenvalue",
+        "back": "Given a square $n \\times n$ matrix $\\mathbf{M}$, a constant $\\lambda$ is an <I>eigenvalue</I> of $\\mathbf{M}$ if there exists a non-zero vector $\\mathbf{u}$ such that \\[   \\mathbf{Mu} = \\lambda \\mathbf{u}. \\]"
+    },
+    {
+        "front": "modal matrix",
+        "back": "For a square matrix \\(\\mathbf{M}\\), the modal matrix is a matrix whose columns are the unit eigenvectors of \\(\\mathbf{M}\\)."
+    }
+]
