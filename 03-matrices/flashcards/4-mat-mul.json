@@ -1,0 +1,18 @@
+[
+    {
+        "front": "matrix multiplication <br>or<br>matrix product",
+        "back": "The <I>product</I> of matrices $\\mathbf{A}$ and $\\mathbf{B}$ is written \\(\\mathbf{A} \\mathbf{B}\\) and is defined if the inner dimensions of these matrices agree; that is, if \\(\\mathbf{A}\\) is a \\(k \\times \\ell\\) matrix and \\(\\mathbf{B}\\) is an \\(\\ell \\times m\\) matrix. In that case, the output is a \\(k \\times m\\) matrix \\(\\mathbf{C} = \\mathbf{A} \\mathbf{B}\\), where the \\(k,m\\mbox{th}\\) entry of \\(\\mathbf{C}\\) is given by \\(c_{k,m} = \\mathbf{a}_{k*} \\cdot \\mathbf{b}_m\\) (the dot product of the \\(k\\)th row of \\(\\mathbf{A}\\) with the \\(m\\)th column of \\(\\mathbf{B}\\) )."
+    },
+    {
+        "front": "orthogonal matrix",
+        "back": "A (real) square matrix whose columns are a set of orthonormal vectors."
+    },
+    {
+        "front": "Gram matrix",
+        "back": "For a matrix \\(\\mathbf{A}\\), the Gram matrix is the matrix whose \\(i,j\\)th entry is the dot product of columns \\(i\\) and \\(j\\) of \\(\\mathbf{A}\\). The Gram matrix can be calculated as \\(\\mathbf{A}^\\mbox{T} \\mathbf{A}\\)."
+    },
+    {
+        "front": "symmetric matrix",
+        "back": "A matrix \\(\\mathbf{M}\\) is symmetric if the \\(i,j\\mbox{th}\\) element is equal to the \\(j,i\\mbox{th}\\) element for any valid \\(i\\) and \\(j\\). Equivalently, \\(\\mathbf{M}^\\mbox{T} = \\mathbf{M}\\)."
+    }
+]
