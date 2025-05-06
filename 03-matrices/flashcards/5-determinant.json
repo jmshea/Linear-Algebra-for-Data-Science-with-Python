@@ -1,0 +1,14 @@
+[
+    {
+        "front": "determinant",
+        "back": "For a square matrix \\(\\mathbf{M}\\), the determinant is a\n  scalar value that is related to how \\(\\mathbf{M}\\) stretches or compresses\n  space if it is used as a linear transformation. The determinant of\n  $\\mathbf{M}$ is denoted by \\(\\det \\mathbf{M}\\) or \\(|\\mathbf{M}|\\). The\n  determinant may be positive, negative, or zero."
+    },
+    {
+        "front": "singular (matrix)",
+        "back": "A square matrix \\(\\mathbf{M}\\) is <I>singular</I> if \\(\\det~\\mathbf{M}=0\\)."
+    },
+    {
+        "front": "nonsingular (matrix)",
+        "back": "A square matrix \\(\\mathbf{M}\\) is <I>nonsingular</I> if \\(\\det~\\mathbf{M} \\ne 0\\)."
+    }
+]
