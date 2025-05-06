@@ -137,7 +137,7 @@
           "feedback": "Correct!"
         },
         {
-          "value": 1,
+          "value": 7,
           "correct": false,
           "feedback": "Incorrect. Recall that the indices are in row, column order."
         }
