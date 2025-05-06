@@ -1,0 +1,22 @@
+[
+    {
+        "front": "addition (matrices)",
+        "back": "For \\(m \\times n\\) matrices \\(\\mathbf{A}\\) and\n\\(\\mathbf{B}\\), the sum \\( \\mathbf{A} + \\mathbf{B}\\) is defined as the\nelementwise sum:\n\\begin{equation*} \\mathbf{A} + \\mathbf{B} = \\begin{bmatrix} a_{0,0} + b_{0,0}  & a_{0,1} + b_{0,1} & \\ldots & a_{0,n-1} + b_{0,n-1}  \\\\ a_{1,0} + b_{1,0}  & a_{1,1} + b_{1,1} & \\ldots & a_{1,n-1} + b_{0,n-1}  \\\\ \\vdots & \\vdots & \\ldots & \\vdots \\\\ a_{m-1,0} + b_{m-1,0}  & a_{m-1,1} + b_{m-1,1} & \\ldots & a_{m-1,n-1} + b_{m-1,n-1}  \\\\ \\end{bmatrix}. \\end{equation*} "
+    },
+    {
+        "front": "scalar-matrix multiplication",
+        "back": "For a matrix $\\mathbf{A}$ and a scalar $c$, the product $c \\mathbf{A} = \\mathbf{A}c$ is defined as the matrix whose entries are the product of $c$ and the corresponding entries of $\\mathbf{A}$:\\begin{equation*} c \\mathbf{A} = \\begin{bmatrix} c a_{0,0} & c a_{0,1} & \\ldots & c a_{0,n-1} \\\\ c a_{1,0} & c a_{1,1} & \\ldots & c a_{1,n-1} \\\\ \\vdots & \\vdots & \\ldots & \\vdots \\\\ c a_{m-1,0} & c a_{m-1,1} & \\ldots & c a_{m-1,n-1} \\\\ \\end{bmatrix}. \\end{equation*}"
+    },
+    {
+        "front": "matrix-vector multiplication<br>(row interpretation)",
+        "back": "For an $p \\times q$ matrix \\(\\mathbf{M}\\) and a $q \\times 1$ vector \\(\\mathbf{u}\\), the product \\(\\mathbf{M} \\mathbf{u}\\) is the $p \\times 1$ vector of dot products of the rows of $\\mathbf{M}$ with the vector $\\mathbf{u}$ given by\\begin{align*} \\begin{bmatrix} \\mathbf{m_{0\\ast}}\\cdot \\mathbf{u} \\\\ \\mathbf{m_{1\\ast}} \\cdot \\mathbf{u}\\\\ \\vdots \\\\ \\mathbf{m_{p-1\\ast}}\\cdot \\mathbf{u}\\\\ \\end{bmatrix}, \\end{align*} where $\\mathbf{m_{i\\ast}}$ is the $i$th row of $\\mathbf{M}$."
+    },
+    {
+        "front": "matrix-vector multiplication<br>(column interpretation)",
+        "back": "For an $p \\times q$ matrix \\(\\mathbf{M}\\) and a $q \\times 1$ vector \\(\\mathbf{u}\\), the product \\(\\mathbf{M} \\mathbf{u}\\) is the $p \\times 1$ vector \\begin{equation*} \\begin{bmatrix} u_0\\underset{|}{\\overset{|}{\\mathbf{m}_0}}   &+&  u_1\\underset{|}{\\overset{|}{\\mathbf{m}_1}} &+& \\ldots &+& u_{q-1} \\!\\!\\!\\!\\!\\underset{|}{\\overset{|}{\\,\\,\\,\\,\\,\\,\\mathbf{m}_{q-1}}} \\end{bmatrix}^, \\end{equation*} where $\\mathbf{m}_i$ is the $i$th column of $\\mathbf{M}$."
+    },
+    {
+        "front": "feature extraction",
+        "back": "The process of creating new features from raw data,\n  often with the intent of reducing the number of features."
+    }
+]
