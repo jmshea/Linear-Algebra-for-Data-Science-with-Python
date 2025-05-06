@@ -1,0 +1,162 @@
+[
+    {
+      "type": "numeric",
+        "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 3 & 4 \\\\ 5 & 6 \\end{bmatrix}\n\\end{equation}What is the value at index (1, 0)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 5,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 4,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 7 & 0 & 1 \\\\ 8 & 2 & 4 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (0, 2)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 1,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 8,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\\\ 5 & 6 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (2, 1)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 6,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 5,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 2 & 4 & 6 \\\\ 8 & 0 & 9 \\\\ 3 & 5 & 7 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (1, 2)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 9,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 5,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 9 & 8 \\\\ 7 & 6 \\\\ 5 & 4 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (0, 1)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 8,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 7,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 1 & 3 & 5 \\\\ 7 & 9 & 0 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (0, 0)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 1,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 7,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 6 & 5 \\\\ 4 & 3 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (1, 1)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 3,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+            "value": 6,
+            "correct": false,
+            "feedback": "Incorrect. Remember to use zero-based indexing."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 0 & 2 \\\\ 4 & 6 \\\\ 8 & 1 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (1, 0)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 4,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 6,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 9 & 1 & 7 \\\\ 3 & 2 & 8 \\\\ 6 & 5 & 4 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (2, 0)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 6,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+          "value": 1,
+          "correct": false,
+          "feedback": "Incorrect. Recall that the indices are in row, column order."
+        }
+      ]
+    },
+    {
+      "type": "numeric",
+      "question": "Consider the matrix:\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 7 & 4 \\\\ 2 & 9 \\end{bmatrix}\n\\end{equation}\nWhat is the value at index (1, 1)?  <i>(Assume zero-based indexing.)</i>",
+      "answers": [
+        {
+          "value": 9,
+          "correct": true,
+          "feedback": "Correct!"
+        },
+        {
+            "value": 7,
+            "correct": false,
+            "feedback": "Incorrect. Remember to use zero-based indexing."
+        }
+      ]
+    }
+]
