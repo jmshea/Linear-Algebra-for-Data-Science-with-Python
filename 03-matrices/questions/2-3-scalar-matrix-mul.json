@@ -1,0 +1,194 @@
+[
+    {
+        "question": "Find the (1, 0) entry of $\\alpha \\mathbf{A}$, where \\begin{align*} \\alpha = 3 && A = \\begin{bmatrix} 2 & -1 \\\\ -3 & 1 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -9,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (2, 2) entry of $\\beta \\mathbf{C}$, where \\begin{align*} \\beta = -2 && C = \\begin{bmatrix} 1 & 0 & -1 \\\\ 2 & 3 & 0 \\\\ -1 & 1 & 2 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -4,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": -6,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (0, 2) entry of $\\gamma \\mathbf{E}$, where \\begin{align*} \\gamma = -3 && E = \\begin{bmatrix} 3 & -1 & 2 \\\\ 1 & 1 & 0 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": -6,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (2, 0) entry of $\\delta \\mathbf{G}$, where \\begin{align*} \\delta = -1 && G = \\begin{bmatrix} 2 & 0 \\\\ 3 & -1 \\\\ -2 & 2 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 2,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (1, 1) entry of $c \\mathbf{J}$, where \\begin{align*} c = 2 && J = \\begin{bmatrix} 1 & 1 & -1 \\\\ 2 & -1 & 0 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -2,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": 2,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (0, 0) entry of $\\alpha \\mathbf{L}$, where \\begin{align*} \\alpha = -3 && L = \\begin{bmatrix} -1 & 2 \\\\ 1 & 3 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (1, 2) entry of $b \\mathbf{N}$, where \\begin{align*} b = 2 && N = \\begin{bmatrix} 2 & 3 & -2 \\\\ -3 & 0 & 1 \\\\ 3 & -2 & 1 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 2,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": 6,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (0, 1) entry of $h \\mathbf{P}$, where \\begin{align*} h = -2 && P = \\begin{bmatrix} 1 & -2 & 1 \\\\ 3 & 0 & 2 \\\\ -1 & 2 & -2 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 4,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (2, 1) entry of $\\ell \\mathbf{R}$, where \\begin{align*} \\ell = 3 && R = \\begin{bmatrix} 0 & -1 \\\\ -2 & 0 \\\\ -1 & 2 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 6,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": -6,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    },
+    {
+        "question": "Find the (1, 0) entry of $q \\mathbf{T}$, where \\begin{align*} q = 0 && T = \\begin{bmatrix} 2 & -1 & 1 \\\\ -2 & 2 & 0 \\end{bmatrix} \\end{align*} ",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that scalar multiplication involves multiplying each entry by the scalar."
+            }
+        ]
+    }
+]
