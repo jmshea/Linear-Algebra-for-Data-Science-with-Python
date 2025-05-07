@@ -28,6 +28,12 @@
                 "feedback": "Correct."
             },
             {
+                "type": "value",
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
                 "type": "default",
                 "feedback": "Incorrect. Recall that matrix addition is componentwise addition."
             }
@@ -79,6 +85,12 @@
                 "feedback": "Correct."
             },
             {
+                "type": "value",
+                "value": 4,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
                 "type": "default",
                 "feedback": "Incorrect. Recall that matrix addition is componentwise addition."
             }
@@ -113,6 +125,12 @@
                 "feedback": "Correct."
             },
             {
+                "type": "value",
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
                 "type": "default",
                 "feedback": "Incorrect. Recall that matrix addition is componentwise addition."
             }
@@ -145,6 +163,12 @@
                 "value": 7,
                 "correct": true,
                 "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
             },
             {
                 "type": "default",
