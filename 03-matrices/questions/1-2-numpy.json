@@ -1,0 +1,295 @@
+[
+    {
+        "type": "numeric",
+        "question": "Consider the code below. What is the value of U[0,1]? <br><i>NOTE: not V[0,1].</i>",
+        "answers": [
+            {
+                "value": 4,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that V is a view of U."
+            }
+        ],
+        "code": "U = np.array([[1,2],\n              [3,4]])\nV = U\nU[0,1] += 1\nV[0,1] += 1"
+    },
+    {
+        "type": "numeric",
+        "question": "Consider the code below. What is the value of V[0,1]? <br><i>NOTE: not U[0,1].</i>",
+        "answers": [
+            {
+                "value": 4,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that V is a view of U."
+            }
+        ],
+        "code": "U = np.array([[1,2],\n              [3,4]])\nV = U\nU[0,1] += 1\nV[0,1] += 1"
+    },
+    {
+        "type": "numeric",
+        "question": "Consider the code below. What is the value of V[0,1]? <br><i>NOTE: not U[0,1].</i>",
+        "answers": [
+            {
+                "value": 3,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "value": 4,
+                "correct": false,
+                "feedback": "Incorrect. Note that V is a copy of U, not a view of U."
+            }
+        ],
+        "code": "U = np.array([[1,2],\n              [3,4]])\nV = U.copy()\nU[0,1] += 1\nV[0,1] += 1"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "answers": [
+            {
+                "answer": "[1, 2]",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "[1, 3]",
+                "correct": false,
+                "feedback": "Incorrect. The colon is in the axis 1 (columns) position."
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code. A colon is used to select all the values along an axis of the array."
+            }
+        ],
+        "code": "U = np.array([[1,2],\n              [3,4]])\nprint(U[0,:])"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "answers": [
+            {
+                "answer": "[1, 2]",
+                "correct": false,
+                "feedback": "Incorrect. The colon is in the axis 0 (rows) position."
+            },
+            {
+                "answer": "[1, 3]",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code. A colon is used to select all the values along an axis of the array."
+            }
+        ],
+        "code": "U = np.array([[1,2],\n              [3,4]])\nprint(U[:,0])"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "answers": [
+            {
+                "answer": "[4, 5]",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "answer": "[1, 2]",
+                "correct": false,
+                "feedback": "Incorrect. Note that the index 1 specifies row 1 (the second row)."
+            },
+            {
+                "answer": "[4, 5, 6]",
+                "correct": false,
+                "feedback": "Incorrect. Note that the upper endpoints of ranges are not included in the range, so :2 includes 0 and 1, but not 2." 
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code. A colon followed by a number selects all indices up to, but not including, that number."
+            }
+        ],
+        "code": "U = np.array([[1,2,3],\n                [4,5,6]])\nprint(U[1,:2])"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "code": "[[0, 0]]",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "code": "[[0]\n [0]]",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "code": "[[1, 0]\n [0, 2]]",
+                "correct": false,
+                "feedback": "Incorrect. The arguments of np.zeros() are the shape of the array, not the values." 
+            },
+            {
+                "code": "[[0, 1]\n [2, 0]]",
+                "correct": false,
+                "feedback": "Incorrect. The arguments of np.zeros() are the shape of the array, not the values." 
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code."
+            }
+        ],
+        "code": "U = np.zeros( (1, 2) )"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "code": "[[1, 1]]",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "code": "[[1]\n [1]]",
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "code": "[[1, 1]\n [1, 2]]",
+                "correct": false,
+                "feedback": "Incorrect. The arguments of np.ones() are the shape of the array, not the values." 
+            },
+            {
+                "code": "[[1, 1]\n [2, 1]]",
+                "correct": false,
+                "feedback": "Incorrect. The arguments of np.ones() are the shape of the array, not the values." 
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code."
+            }
+        ],
+        "code": "U = np.ones( (2, 1) )"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "code": "[[2, 1]]",
+                "correct": false
+            },
+            {
+                "code": "[[2]\n [1]]",
+                "correct": false
+            },
+            {
+                "code": "[[2, 0]\n [0, 1]]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "code": "[[0, 2]\n [1, 0]]",
+                "correct": false,
+                "feedback": "Incorrect. The arguments appear on the main diagonal, which is the diagonal from the top left to the bottom right."
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code."
+            }
+        ],
+        "code": "U = np.diag( (2, 1) )"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "code": "[[2, 1]]",
+                "correct": false
+            },
+            {
+                "code": "[[2*i, 1*i]]",
+                "correct": false
+            },
+            {
+                "code": "[[2]\n [1]]",
+                "correct": false
+            },
+            {
+                "code": "[[2, 0]\n [0, 1]]",
+                "correct": false,
+                "feedback": "Correct."
+            },
+            {
+                "code": "[[0, 2]\n [1, 0]]",
+                "correct": false
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": true,
+                "feedback": "Correct, np.eye() expects an integer argument."
+            }
+        ],
+        "code": "U = np.eye( (2, 1) )"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "What does the code below return?",
+        "shuffle_answers": true,
+        "answers": [
+            {
+                "code": "[[2, 2]]",
+                "correct": false,
+                "feedback": "Incorrect. This function creates an identity matrix, which is a square matrix."
+            },
+            {
+                "code": "[[2]\n [2]]",
+                "correct": false,
+                "feedback": "Incorrect. This function creates an identity matrix, which is a square matrix."
+
+            },
+            {
+                "code": "[[1, 0]\n [0, 1]]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "code": "[[2, 0]\n [0, 2]]",
+                "correct": false,
+                "feedback": "Incorrect. This function creates an identity matrix, which contains only 0s and 1s."
+
+            },
+            {
+                "code": "[[0, 2]\n [2, 0]]",
+                "correct": false,
+                "feedback": "Incorrect. This function creates an identity matrix, which contains only 0s and 1s."
+            },
+            {
+                "answer": "Syntax Error",
+                "correct": false,
+                "feedback": "Incorrect. This is valid code."
+            }
+        ],
+        "code": "U = np.eye( 2 )"
+    }
+]
