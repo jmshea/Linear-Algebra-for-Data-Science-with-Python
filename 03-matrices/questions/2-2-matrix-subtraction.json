@@ -1,0 +1,196 @@
+[
+    {
+        "question": "Find the (1, 0) entry of $\\mathbf{A} - \\mathbf{B}$, where \\begin{align*} A  = \\begin{bmatrix} 4 & 3 \\newline 1 & 2 \\end{bmatrix} && B= \\begin{bmatrix} -2 & -1 \\newline -3 & 0 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 4,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (2, 2) entry of $\\mathbf{C} - \\mathbf{D}$, where \\begin{align*} C  = \\begin{bmatrix} 1 & 0 & -4 \\newline 2 & 3 & 4 \\newline -1 & 0 & 2 \\end{bmatrix} && D= \\begin{bmatrix} -1 & -2 & 1 \\newline 4 & 0 & -3 \\newline 0 & 2 & 3 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (0, 2) entry of $\\mathbf{E} - \\mathbf{F}$, where \\begin{align*} E  = \\begin{bmatrix} 3 & -1 & 2 \\newline 1 & 4 & 0 \\end{bmatrix} && F= \\begin{bmatrix} -2 & 0 & 1 \\newline 3 & -3 & 4 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (2, 0) entry of $\\mathbf{G} - \\mathbf{H}$, where \\begin{align*} G  = \\begin{bmatrix} 2 & -1 \\newline 3 & 4 \\newline 3 & 1 \\end{bmatrix} && H= \\begin{bmatrix} 0 & 2 \\newline -3 & 0 \\newline -2 & -1 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (1, 1) entry of $\\mathbf{J} - \\mathbf{K}$, where \\begin{align*} J  = \\begin{bmatrix} 1 & 3 & -1 \\newline 2 & -2 & 0 \\end{bmatrix} && K= \\begin{bmatrix} 3 & 1 & -2 \\newline -2 & 4 & 1 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -6,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": -2,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (0, 0) entry of $\\mathbf{L} - \\mathbf{M}$, where \\begin{align*} L  = \\begin{bmatrix} -1 & 2 \\newline 3 & 4 \\end{bmatrix} && M= \\begin{bmatrix} 0 & -2 \\newline 1 & 0 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (1, 2) entry of $\\mathbf{N} - \\mathbf{O}$, where \\begin{align*} N  = \\begin{bmatrix} 4 & 1 & 0 \\newline -3 & -2 & 1 \\newline 3 & 2 & -1 \\end{bmatrix} && O= \\begin{bmatrix} -1 & 2 & 3 \\newline 4 & -2 & 0 \\newline -3 & -1 & 4 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": -1,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (0, 1) entry of $\\mathbf{P} - \\mathbf{Q}$, where \\begin{align*} P  = \\begin{bmatrix} 2 & 2 & 1 \\newline 4 & 0 & 3 \\newline -1 & 1 & -4 \\end{bmatrix} && Q= \\begin{bmatrix} 1 & -3 & 0 \\newline -4 & 4 & 1 \\newline 0 & 2 & -2 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (2, 1) entry of $\\mathbf{R} - \\mathbf{S}$, where \\begin{align*} R  = \\begin{bmatrix} 0 & 1 \\newline 2 & -1 \\newline -3 & 4 \\end{bmatrix} && S= \\begin{bmatrix} 2 & -3 \\newline -1 & 0 \\newline -2 & 3 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "value",
+                "value": 3,
+                "correct": false,
+                "feedback": "Incorrect. Note that these questions use zero-based indexing."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    },
+    {
+        "question": "Find the (1, 0) entry of $\\mathbf{T} - \\mathbf{U}$, where \\begin{align*} T  = \\begin{bmatrix} 3 & -2 & 0 \\newline -1 & 1 & 2 \\end{bmatrix} && U= \\begin{bmatrix} -4 & 3 & 1 \\newline 2 & -1 & 0 \\end{bmatrix}\\end{align*} ",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": -3,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect. Recall that matrix subtraction is componentwise."
+            }
+        ]
+    }
+]
