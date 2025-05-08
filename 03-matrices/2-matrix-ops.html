@@ -11,12 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://la4ds.net/03-matrices/2-matrix-ops.html" />
 <meta property="og:site_name" content="Project name not set" />
-<meta property="og:description" content="Terminology Review: Self-Assessment Questions: The following question can be used to check your understanding of the material covered in Section 3.2 of Linear Algebra for Data Science with Python. ..." />
+<meta property="og:description" content="~ Terminology Review: Self-Assessment Questions: The following question can be used to check your understanding of the material covered in Section 3.2 of Linear Algebra for Data Science with Python..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://la4ds.net/_images/social_previews/summary_03-matrices_2-matrix-ops_54f7ced6.png" />
-<meta property="og:image:alt" content="Terminology Review: Self-Assessment Questions: The following question can be used to check your understanding of the material covered in Section 3.2 of Linear Algebra for Data Science with Python. ..." />
-<meta name="description" content="Terminology Review: Self-Assessment Questions: The following question can be used to check your understanding of the material covered in Section 3.2 of Linear Algebra for Data Science with Python. ..." />
+<meta property="og:image" content="https://la4ds.net/_images/social_previews/summary_03-matrices_2-matrix-ops_0a5d4e83.png" />
+<meta property="og:image:alt" content="~ Terminology Review: Self-Assessment Questions: The following question can be used to check your understanding of the material covered in Section 3.2 of Linear Algebra for Data Science with Python..." />
+<meta name="description" content="~ Terminology Review: Self-Assessment Questions: The following question can be used to check your understanding of the material covered in Section 3.2 of Linear Algebra for Data Science with Python..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>3.2. Matrix Operations &#8212; Linear Algebra for Data Science with Python</title>
@@ -81,6 +81,8 @@
                 gtag('config', 'G-C4ELG791RH');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"loader": {"load": ["[tex]/boldsymbol"]}, "tex": {"macros": {"P": "\\operatorname{P}"}, "packages": {"[+]": ["boldsymbol"]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '03-matrices/2-matrix-ops';</script>
     <link rel="canonical" href="https://la4ds.net/03-matrices/2-matrix-ops.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -415,6 +417,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="matrix-operations">
 <h1><span class="section-number">3.2. </span>Matrix Operations<a class="headerlink" href="#matrix-operations" title="Link to this heading">#</a></h1>
+<p><span class="math notranslate nohighlight">\(~\)</span></p>
 <div class="cell tag_remove-input docutils container">
 </div>
 <section id="terminology-review">
@@ -683,7 +686,7 @@ document.write(`
     }
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="yGTHKWvTPJdz" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="yGTHKWvTPJdz-next" onclick="window.checkFlip('yGTHKWvTPJdz')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="TrYcAaEokkkH" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="TrYcAaEokkkH-next" onclick="window.checkFlip('TrYcAaEokkkH')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -1157,17 +1160,17 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
 
 
         function try_create() {
-          if(document.getElementById("yGTHKWvTPJdz")) {
-            createCards("yGTHKWvTPJdz", "True", "False", "False", "", "");
+          if(document.getElementById("TrYcAaEokkkH")) {
+            createCards("TrYcAaEokkkH", "True", "False", "False", "", "");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsyGTHKWvTPJdz=[{"front": "addition (matrices)", "back": "For \\(m \\times n\\) matrices \\(\\mathbf{A}\\) and\n\\(\\mathbf{B}\\), the sum \\( \\mathbf{A} + \\mathbf{B}\\) is defined as the\nelementwise sum:\n\\begin{equation*} \\mathbf{A} + \\mathbf{B} = \\begin{bmatrix} a_{0,0} + b_{0,0}  & a_{0,1} + b_{0,1} & \\ldots & a_{0,n-1} + b_{0,n-1}  \\\\ a_{1,0} + b_{1,0}  & a_{1,1} + b_{1,1} & \\ldots & a_{1,n-1} + b_{0,n-1}  \\\\ \\vdots & \\vdots & \\ldots & \\vdots \\\\ a_{m-1,0} + b_{m-1,0}  & a_{m-1,1} + b_{m-1,1} & \\ldots & a_{m-1,n-1} + b_{m-1,n-1}  \\\\ \\end{bmatrix}. \\end{equation*} "}, {"front": "scalar-matrix multiplication", "back": "For a matrix $\\mathbf{A}$ and a scalar $c$, the product $c \\mathbf{A} = \\mathbf{A}c$ is defined as the matrix whose entries are the product of $c$ and the corresponding entries of $\\mathbf{A}$:\\begin{equation*} c \\mathbf{A} = \\begin{bmatrix} c a_{0,0} & c a_{0,1} & \\ldots & c a_{0,n-1} \\\\ c a_{1,0} & c a_{1,1} & \\ldots & c a_{1,n-1} \\\\ \\vdots & \\vdots & \\ldots & \\vdots \\\\ c a_{m-1,0} & c a_{m-1,1} & \\ldots & c a_{m-1,n-1} \\\\ \\end{bmatrix}. \\end{equation*}"}, {"front": "matrix-vector multiplication<br>(row interpretation)", "back": "For an $p \\times q$ matrix \\(\\mathbf{M}\\) and a $q \\times 1$ vector \\(\\mathbf{u}\\), the product \\(\\mathbf{M} \\mathbf{u}\\) is the $p \\times 1$ vector of dot products of the rows of $\\mathbf{M}$ with the vector $\\mathbf{u}$ given by\\begin{align*} \\begin{bmatrix} \\mathbf{m_{0\\ast}}\\cdot \\mathbf{u} \\\\ \\mathbf{m_{1\\ast}} \\cdot \\mathbf{u}\\\\ \\vdots \\\\ \\mathbf{m_{p-1\\ast}}\\cdot \\mathbf{u}\\\\ \\end{bmatrix}, \\end{align*} where $\\mathbf{m_{i\\ast}}$ is the $i$th row of $\\mathbf{M}$."}, {"front": "matrix-vector multiplication<br>(column interpretation)", "back": "For an $p \\times q$ matrix \\(\\mathbf{M}\\) and a $q \\times 1$ vector \\(\\mathbf{u}\\), the product \\(\\mathbf{M} \\mathbf{u}\\) is the $p \\times 1$ vector \\begin{equation*} \\begin{bmatrix} u_0\\underset{|}{\\overset{|}{\\mathbf{m}_0}}   &+&  u_1\\underset{|}{\\overset{|}{\\mathbf{m}_1}} &+& \\ldots &+& u_{q-1} \\!\\!\\!\\!\\!\\underset{|}{\\overset{|}{\\,\\,\\,\\,\\,\\,\\mathbf{m}_{q-1}}} \\end{bmatrix}^, \\end{equation*} where $\\mathbf{m}_i$ is the $i$th column of $\\mathbf{M}$."}, {"front": "feature extraction", "back": "The process of creating new features from raw data,\n  often with the intent of reducing the number of features."}];
-var frontColorsyGTHKWvTPJdz= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsyGTHKWvTPJdz= ["var(--dark-blue-gray)" ];
-var textColorsyGTHKWvTPJdz= ["var(--snow)" ];
+var cardsTrYcAaEokkkH=[{"front": "addition (matrices)", "back": "For \\(m \\times n\\) matrices \\(\\mathbf{A}\\) and\n\\(\\mathbf{B}\\), the sum \\( \\mathbf{A} + \\mathbf{B}\\) is defined as the\nelementwise sum:\n\\begin{equation*} \\mathbf{A} + \\mathbf{B} = \\begin{bmatrix} a_{0,0} + b_{0,0}  & a_{0,1} + b_{0,1} & \\ldots & a_{0,n-1} + b_{0,n-1}  \\\\ a_{1,0} + b_{1,0}  & a_{1,1} + b_{1,1} & \\ldots & a_{1,n-1} + b_{0,n-1}  \\\\ \\vdots & \\vdots & \\ldots & \\vdots \\\\ a_{m-1,0} + b_{m-1,0}  & a_{m-1,1} + b_{m-1,1} & \\ldots & a_{m-1,n-1} + b_{m-1,n-1}  \\\\ \\end{bmatrix}. \\end{equation*} "}, {"front": "scalar-matrix multiplication", "back": "For a matrix $\\mathbf{A}$ and a scalar $c$, the product $c \\mathbf{A} = \\mathbf{A}c$ is defined as the matrix whose entries are the product of $c$ and the corresponding entries of $\\mathbf{A}$:\\begin{equation*} c \\mathbf{A} = \\begin{bmatrix} c a_{0,0} & c a_{0,1} & \\ldots & c a_{0,n-1} \\\\ c a_{1,0} & c a_{1,1} & \\ldots & c a_{1,n-1} \\\\ \\vdots & \\vdots & \\ldots & \\vdots \\\\ c a_{m-1,0} & c a_{m-1,1} & \\ldots & c a_{m-1,n-1} \\\\ \\end{bmatrix}. \\end{equation*}"}, {"front": "matrix-vector multiplication<br>(row interpretation)", "back": "For an $p \\times q$ matrix \\(\\mathbf{M}\\) and a $q \\times 1$ vector \\(\\mathbf{u}\\), the product \\(\\mathbf{M} \\mathbf{u}\\) is the $p \\times 1$ vector of dot products of the rows of $\\mathbf{M}$ with the vector $\\mathbf{u}$ given by\\begin{align*} \\begin{bmatrix} \\mathbf{m_{0\\ast}}\\cdot \\mathbf{u} \\\\ \\mathbf{m_{1\\ast}} \\cdot \\mathbf{u}\\\\ \\vdots \\\\ \\mathbf{m_{p-1\\ast}}\\cdot \\mathbf{u}\\\\ \\end{bmatrix}, \\end{align*} where $\\mathbf{m_{i\\ast}}$ is the $i$th row of $\\mathbf{M}$."}, {"front": "matrix-vector multiplication<br>(column interpretation)", "back": "For an $p \\times q$ matrix \\(\\mathbf{M}\\) and a $q \\times 1$ vector \\(\\mathbf{u}\\), the product \\(\\mathbf{M} \\mathbf{u}\\) is the $p \\times 1$ vector \\begin{equation*} \\begin{bmatrix} u_0\\underset{|}{\\overset{|}{\\mathbf{m}_0}}   &+&  u_1\\underset{|}{\\overset{|}{\\mathbf{m}_1}} &+& \\ldots &+& u_{q-1} \\!\\!\\!\\!\\!\\underset{|}{\\overset{|}{\\,\\,\\,\\,\\,\\,\\mathbf{m}_{q-1}}} \\end{bmatrix}^, \\end{equation*} where $\\mathbf{m}_i$ is the $i$th column of $\\mathbf{M}$."}, {"front": "feature extraction", "back": "The process of creating new features from raw data,\n  often with the intent of reducing the number of features."}];
+var frontColorsTrYcAaEokkkH= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsTrYcAaEokkkH= ["var(--dark-blue-gray)" ];
+var textColorsTrYcAaEokkkH= ["var(--snow)" ];
 
 
         {
@@ -1178,7 +1181,7 @@ var textColorsyGTHKWvTPJdz= ["var(--snow)" ];
 
         fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/03-matrices/flashcards/2-matrix-ops.json", {signal})
         .then(response => response.json())
-        .then(json => createCards("yGTHKWvTPJdz", "True", "False", "False", "", ""))
+        .then(json => createCards("TrYcAaEokkkH", "True", "False", "False", "", ""))
         .catch(err => {
         console.log("Fetch error or timeout");
         try_create(); 
@@ -1192,8 +1195,8 @@ var textColorsyGTHKWvTPJdz= ["var(--snow)" ];
 <p>The following question can be used to check your understanding of the material covered in Section 3.2 of <em>Linear Algebra for Data Science with Python</em>. Reload this page to get a different set of questions.</p>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="ahuobvrcLQgj" data-shufflequestions="False" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#ahuobvrcLQgj {
+<div class="output text_html"><div id="amfzUSkFsIow" data-shufflequestions="False" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="3" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#amfzUSkFsIow {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -1394,7 +1397,7 @@ var textColorsyGTHKWvTPJdz= ["var(--snow)" ];
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsahuobvrcLQgj=[
+</style></div><script type="application/javascript">var questionsamfzUSkFsIow=[
     {
         "question": "Find the (1, 0) entry of $\\mathbf{A} + \\mathbf{B}$, where \\begin{align*} A  = \\begin{bmatrix} 4 & -1 \\newline -3 & 2 \\end{bmatrix} && B= \\begin{bmatrix} -2 & 3 \\newline 1 & 0 \\end{bmatrix}\\end{align*} ",
         "type": "numeric",
@@ -2613,10 +2616,10 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/03-matrices/questions/2-1-matrix-addition.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, ahuobvrcLQgj))
+    .then(json => show_questions(json, amfzUSkFsIow))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsahuobvrcLQgj, ahuobvrcLQgj);
+      show_questions(questionsamfzUSkFsIow, amfzUSkFsIow);
     });
 }
 }
@@ -2624,8 +2627,8 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="NbJRhmGZfbIC" data-shufflequestions="False" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#NbJRhmGZfbIC {
+<div class="output text_html"><div id="cJcLycNlJQvM" data-shufflequestions="False" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#cJcLycNlJQvM {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -2826,7 +2829,7 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsNbJRhmGZfbIC=[
+</style></div><script type="application/javascript">var questionscJcLycNlJQvM=[
     {
         "question": "Find the (1, 0) entry of $\\mathbf{A} - \\mathbf{B}$, where \\begin{align*} A  = \\begin{bmatrix} 4 & 3 \\newline 1 & 2 \\end{bmatrix} && B= \\begin{bmatrix} -2 & -1 \\newline -3 & 0 \\end{bmatrix}\\end{align*} ",
         "type": "numeric",
@@ -4045,10 +4048,10 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/03-matrices/questions/2-2-matrix-subtraction.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, NbJRhmGZfbIC))
+    .then(json => show_questions(json, cJcLycNlJQvM))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsNbJRhmGZfbIC, NbJRhmGZfbIC);
+      show_questions(questionscJcLycNlJQvM, cJcLycNlJQvM);
     });
 }
 }
@@ -4064,8 +4067,8 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output text_html"><div id="jRMqMuwLEGps" data-shufflequestions="False" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
-#jRMqMuwLEGps {
+<div class="output text_html"><div id="BXrMSGUprAAk" data-shufflequestions="False" data-shuffleanswers="True" data-preserveresponses="false" data-numquestions="2" data-maxwidth="600" style="border-radius: 10px; text-align: left"><style>
+#BXrMSGUprAAk {
    --jq-multiple-choice-bg: #345995;
    --jq-mc-button-bg: #fafafa;
    --jq-mc-button-border: #e0e0e0e0;
@@ -4266,7 +4269,7 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
         background-color: var(--jq-correct-color);
     }
 }
-</style></div><script type="application/javascript">var questionsjRMqMuwLEGps=[
+</style></div><script type="application/javascript">var questionsBXrMSGUprAAk=[
     {
         "question": "Find the (1, 0) entry of $\\alpha \\mathbf{A}$, where \\begin{align*} \\alpha = 3 && A = \\begin{bmatrix} 2 & -1 \\\\ -3 & 1 \\end{bmatrix} \\end{align*} ",
         "type": "numeric",
@@ -5483,10 +5486,10 @@ function make_string(qa, outerqDiv, qDiv, aDiv, id) {
   setTimeout(() => controller.abort(), 5000);
   fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/03-matrices/questions/2-3-scalar-matrix-mul.json", { signal })
     .then(response => response.json())
-    .then(json => show_questions(json, jRMqMuwLEGps))
+    .then(json => show_questions(json, BXrMSGUprAAk))
     .catch(err => {
       console.log("Fetch error or timeout", err);
-      show_questions(questionsjRMqMuwLEGps, jRMqMuwLEGps);
+      show_questions(questionsBXrMSGUprAAk, BXrMSGUprAAk);
     });
 }
 }
