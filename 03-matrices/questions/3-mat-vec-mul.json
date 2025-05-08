@@ -1,0 +1,110 @@
+[
+  {
+    "question": "A Euclidean vector space of dimension \\( n \\) is denoted by:",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "\\(\\mathbb{R}^n\\)",
+        "correct": true
+      },
+      {
+        "answer": "\\(\\mathbb{C}^n\\)",
+        "correct": false
+      },
+      {
+        "answer": "\\(\\mathbb{Z}^n\\)",
+        "correct": false
+      },
+      {
+        "answer": "\\(\\mathbb{N}^n\\)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "A vector space is closed under scalar multiplication and vector addition.",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": true
+      },
+      {
+        "answer": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "For any \\( n \\)-vector \\( \\mathbf{u} \\) and an \\( m \\times n \\) matrix \\( \\mathbf{M} \\), \\(\\mathbf{v} = \\mathbf{M} \\mathbf{u}\\) is an \\( m \\)-vector.",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": true
+      },
+      {
+        "answer": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+      "question": "In general, for matrix-vector multiplication, the length of the output vector depends only on the length of the input vector and not the direction in which that vector is pointing.",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "True",
+        "correct": false
+      },
+      {
+        "answer": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "When multiplying an \\( n \\)-vector by an \\( m \\times n \\) matrix, what is the dimensionality of the resulting vector?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "n",
+        "correct": false
+      },
+      {
+        "answer": "m",
+        "correct": true
+      },
+      {
+        "answer": "m + n",
+        "correct": false
+      },
+      {
+        "answer": "m - n",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What geometric shape does a linear transformation map a square region into in 2-D space?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "A parallelogram.",
+        "correct": true
+      },
+      {
+        "answer": "A circle.",
+        "correct": false
+      },
+      {
+        "answer": "A triangle.",
+        "correct": false
+      },
+      {
+        "answer": "A square.",
+        "correct": false
+      }
+    ]
+  }
+]
