@@ -1,7 +1,7 @@
 [
     {
         "front": "matrix multiplication <br>or<br>matrix product",
-        "back": "The <I>product</I> of matrices $\\mathbf{A}$ and $\\mathbf{B}$ is written \\(\\mathbf{A} \\mathbf{B}\\) and is defined if the inner dimensions of these matrices agree; that is, if \\(\\mathbf{A}\\) is a \\(k \\times \\ell\\) matrix and \\(\\mathbf{B}\\) is an \\(\\ell \\times m\\) matrix. In that case, the output is a \\(k \\times m\\) matrix \\(\\mathbf{C} = \\mathbf{A} \\mathbf{B}\\), where the \\(k,m\\mbox{th}\\) entry of \\(\\mathbf{C}\\) is given by \\(c_{k,m} = \\mathbf{a}_{k*} \\cdot \\mathbf{b}_m\\) (the dot product of the \\(k\\)th row of \\(\\mathbf{A}\\) with the \\(m\\)th column of \\(\\mathbf{B}\\) )."
+        "back": "The <I>product</I> of $k \\times \\ell $ matrix $\\mathbf{A}$ and  $\\ell \\times m$ matrix $\\mathbf{B}$ is a \\(k \\times m\\) matrix \\(\\mathbf{C} = \\mathbf{A} \\mathbf{B}\\), where \\(c_{k,m} = \\mathbf{a}_{k*} \\cdot \\mathbf{b}_m\\) (the dot product of the \\(k\\)th row of \\(\\mathbf{A}\\) with the \\(m\\)th column of \\(\\mathbf{B}\\) )."
     },
     {
         "front": "orthogonal matrix",
