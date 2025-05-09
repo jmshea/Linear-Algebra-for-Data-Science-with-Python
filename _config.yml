@@ -38,7 +38,14 @@ sphinx:
         macros:
           "P" : "\\operatorname{P}"
         packages:
-          '[+]': ['boldsymbol']
+         '[+]': ['boldsymbol']
+    html_theme_options:
+      repository_url: https://github.com/jmshea/Linear-Algebra-for-Data-Science-with-Python
+      use_issues_button: true
+      use_download_button: false
+      use_repository_button: true
+      use_edit_page_button: false
+      home_page_in_toc: true
 
 
 html:
