@@ -1,0 +1,48 @@
+[
+    {
+        "question": "What is the NumPy command to find the determinant of a matrix?",
+        "type": "string",
+        "input_width": 8,
+        "answers": [
+            {
+                "answer": "np.linalg.det()",
+                "correct": true,
+                "feedback": "Correct (assuming NumPy has been imported to the usual namespace, np)."
+            },
+            {
+                "answer": "numpy.linalg.det()",
+                "correct": true,
+                "feedback": "Correct, if NumPy has been imported as 'import numpy'."
+            },
+            {
+                "answer": "la.det()",
+                "correct": true,
+                "feedback": "Correct, if NumPy has been imported as 'import numpy.linalg as la'."
+            },
+            {
+                "answer": "np.linalg.det",
+                "correct": true,
+                "feedback": "Correct (assuming NumPy has been imported to the usual namespace, np)."
+            },
+            {
+                "answer": "numpy.linalg.det",
+                "correct": true,
+                "feedback": "Correct, if NumPy has been imported as 'import numpy'."
+            },
+            {
+                "answer": "la.det",
+                "correct": true,
+                "feedback": "Correct, if NumPy has been imported as 'import numpy.linalg as la'."
+            },
+            {
+                "answer": "det",
+                "correct": false,
+                "feedback": "Assume that the det() function is not imported into global and answer how det() would be called."
+            },
+            {
+                "type": "default",
+                "feedback": "A correct response was not detected, but your answer may still be correct. If you think your answer is correct, try resubmitting but removing any spaces in your answer."
+            }
+        ]
+    }
+]

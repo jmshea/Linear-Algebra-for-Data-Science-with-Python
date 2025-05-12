@@ -1,0 +1,162 @@
+[
+  {
+    "type": "numeric",
+    "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 3 & 4 \\\\ 5 & 6 \\end{bmatrix}\n\\end{equation}",
+    "answers": [
+      {
+        "value": -2,
+        "correct": true,
+        "feedback": "Correct!"
+      },
+      {
+          "type": "default",
+          "correct": false,
+          "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+      }
+    ]
+  },
+    {
+        "type": "numeric",
+        "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} -1 & 5 \\\\ 3 & -2 \\end{bmatrix}\n\\end{equation}",
+        "answers": [
+            {
+                "value": -13,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+            }
+    ]
+  },
+  {
+    "type": "numeric",
+    "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 2 & -3 \\\\ -4 & 5 \\end{bmatrix}\n\\end{equation}",
+    "answers": [
+      {
+        "value": -2,
+        "correct": true,
+          "feedback": "Correct!"
+      },
+        {
+            "type": "default",
+            "correct": false,
+            "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+        }
+    ]
+  },
+    {
+        "type": "numeric",
+        "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 0 & 1 \\\\ -5 & 3 \\end{bmatrix}\n\\end{equation}",
+        "answers": [
+            {
+                "value": 5,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+            }
+        ]
+    },
+    {
+        "type": "numeric",
+        "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 4 & -2 \\\\ -1 & 5 \\end{bmatrix} \\end{equation}",
+        "answers": [
+            {
+                "value": 18,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+      }
+    ]
+  },
+  {
+    "type": "numeric",
+    "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} -5 & 3 \\\\ 4 & -1 \\end{bmatrix}\n\\end{equation}",
+    "answers": [
+      {
+        "value": -7,
+        "correct": true,
+        "feedback": "Correct!"
+      },
+      {
+          "type": "default",
+          "correct": false,
+          "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+      }
+    ]
+  },
+    {
+        "type": "numeric",
+        "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 4 & -2 \\\\ -6 & 3 \\end{bmatrix}\n\\end{equation}",
+        "answers": [
+            {
+                "value": 0,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+            }
+        ]
+    },
+    {
+        "type": "numeric",
+        "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 3 & -4 \\\\ -2 & 1 \\end{bmatrix}\n\\end{equation}",
+        "answers": [
+            {
+                "value": -5,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+      }
+    ]
+  },
+  {
+      "type": "numeric",
+      "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 0 & -3 \\\\ 2 & -4 \\end{bmatrix}\n\\end{equation}",
+      "answers": [
+          {
+              "value": 6,
+              "correct": true,
+              "feedback": "Correct!"
+          },
+          {
+              "type": "default",
+              "correct": false,
+              "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+          }
+      ]
+  },
+    {
+        "type": "numeric",
+        "question": "Find the determinant of the following matrix by hand (not using NumPy or a calculator):\n\\begin{equation}\n\\mathbf{M} = \\begin{bmatrix} 2 & 3 \\\\ -1 & -5 \\end{bmatrix}\n\\end{equation}",
+        "answers": [
+            {
+                "value": -7,
+                "correct": true,
+                "feedback": "Correct!"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Recall that the determinant of a 2x2 matrix $$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ is computed as $ad - bc$."
+            }
+    ]
+  }
+]
