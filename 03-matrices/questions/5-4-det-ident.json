@@ -1,0 +1,22 @@
+[
+  {
+    "type": "numeric",
+    "question": "Find the determinant of the following 4x4 identity matrix by hand (do <b>not</b> use NumPy or a calculator):\n\\begin{equation}\n\\mathbf{I} = \\begin{bmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{bmatrix}\n\\end{equation}",
+    "answers": [
+      {
+        "value": 1,
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "numeric",
+    "question": "Find the determinant of the following 3x3 identity matrix by hand (do <b>not</b> use NumPy or a calculator):\n\\begin{equation}\n\\mathbf{I} = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}\n\\end{equation}",
+    "answers": [
+      {
+        "value": 1,
+        "correct": true
+      }
+    ]
+  }
+]
