@@ -12,6 +12,7 @@ document.getElementById('vector-plot').addEventListener('keydown', function(even
 
     const key = event.key;
 
+    // Prevent any key that is not in the allowedKeys list
     if (!allowedKeys.includes(key)) {
         event.preventDefault();
         return;
@@ -19,25 +20,48 @@ document.getElementById('vector-plot').addEventListener('keydown', function(even
 
     const textarea = event.target;
 
+    // Check for the left bracket (`[`) and ensure it's unique per line
     if (key === '[') {
         const cursorPosition = textarea.selectionStart;
+
+
+        // Get the content up to and including the current line
         const valueUpToCursor = textarea.value.substring(0, cursorPosition);
         const lastLineBreak = valueUpToCursor.lastIndexOf('\n');
         const currentLine = valueUpToCursor.substring(lastLineBreak + 1);
+
+
+        // Check if the current line already contains `[` and prevent insertion if so
         if (currentLine.includes('[')) {
             event.preventDefault();
             return;
         }
     }
 
+    // Check for the right bracket (`]`) and advance to next line if it is pressed
     if (key === ']') {
+        // Get the cursor position
         const cursorPosition = textarea.selectionStart;
+        // Get the content up to and including the current line
+        const valueUpToCursor = textarea.value.substring(0, cursorPosition);
+        // Prevent the default right bracket input behavior
         event.preventDefault();
-        textarea.value = textarea.value.substring(0, cursorPosition) + ']' +
+
+        // Insert the right bracket followed by a newline
+        textarea.value = textarea.value.substring(0, cursorPosition) + ']\n[' +
             textarea.value.substring(cursorPosition);
-        textarea.selectionStart = textarea.selectionEnd = cursorPosition + 1;
+
+        // Move the cursor position to after the new line
+        textarea.selectionStart = textarea.selectionEnd = cursorPosition + 3;
         plotVectors();
     }
+
+    //     event.preventDefault();
+    //     textarea.value = textarea.value.substring(0, cursorPosition) + ']' +
+    //         textarea.value.substring(cursorPosition);
+    //     textarea.selectionStart = textarea.selectionEnd = cursorPosition + 1;
+    //     plotVectors();
+    // }
 });
 
 let x_min = -5, x_max = 5, y_min = -5, y_max = 5;
@@ -205,10 +229,13 @@ function plotVectors() {
         xaxis: { range: [x_min, x_max] },
         yaxis: { range: [y_min, y_max] },
         showlegend: false,
+        // autosize: true,
         annotations: annotations
     };
 
-    Plotly.newPlot('plot', traces, layout);
+    var config = {responsive: true}
+
+    Plotly.newPlot('plot', traces, layout, config);
 }
 
 function parseVectors(input) {

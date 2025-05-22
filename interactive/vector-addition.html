@@ -6,19 +6,110 @@
     <title>Vector Sum Plotter</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
-        #plot {
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #444;
+        }
+        #intro {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        #container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
             width: 100%;
+        }
+        #vector-input {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        textarea {
             height: 600px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            resize: none;
+        }
+        #plot {
+            flex: 1;
+            height: 600px;
+        }
+        #instructions {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            #container {
+                flex-direction: column;
+                align-items: center;
+            }
+            textarea {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Vector Plotter</h1>
-    <p>Enter a sequence of 2D vectors in the format:</p>
-    <p>[x1, y1]<br>[x2, y2]<br>&hellip;</p>
-    <p>The plot will show how to find the sum of the vectors by concatenating vectors such that the tail of each vector is at the head of the previous vector. The orange, dashed vector represents the resulting sum of all entered vectors.</p>
-    <textarea id="vector-plot" rows="10" cols="50" placeholder="Enter vectors here"></textarea>
-    <div id="plot"></div>
+    <h1>Vector Sum Plotter</h1>
+    <div id="intro">
+        <p>Use this interactive tool to visualize how to find the sum of a sequence of vectors.</p>
+        <p>Enter a sequence of 2D vectors in the format:</p>
+        <p>[x1, y1]<br>[x2, y2]<br>&hellip;</p>
+        <p>The sum can be found by concatenating vectors such that the tail of each vector is at the head of the previous vector. The sum of the vectors has its head at the head of the last of these concatenated vectors, and its tail at the origin. The sum is shown as an orange, dashed vector.</p>
+        <p> </p>
+        <p> See below the plot for things to try.</p>
+    </div>
+    <div id="container">
+        <div id="vector-input">
+            <textarea id="vector-plot" placeholder="Enter vectors here"></textarea>
+        </div>
+        <div id="plot"></div>
+    </div>
+    <div id="instructions">
+        <p><b>Things to try:</b></p>
+        <ul>
+            <li>Start with a pair of vectors like [1, 1] and [4, 1].</li>
+            <li>Compare the sum if you enter the vectors in different orders!</li>
+            <li>What happens if you enter vectors that are scaled versions of each other, like [1, 1] and [3, 3]?</li>
+            <li>Try entering vectors with zero components</li>
+            <li>Try entering vectors with negative components</li>
+            <li>Does the sum of two long vectors always yield a long vector? What is the longest possible vector you can create from two vectors of given lengths? What is the shortest possible vector?</li>
+            <li>Try entering more than two vectors.</li>
+        </ul>
+    </div>
 
     <script src="vector-addition.js"></script>
 </body>
