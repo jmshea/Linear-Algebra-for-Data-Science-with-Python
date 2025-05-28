@@ -11,10 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://la4ds.net/03-matrices/6-eigen.html" />
 <meta property="og:site_name" content="Project name not set" />
+<meta property="og:description" content="~" />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://la4ds.net/_images/social_previews/summary_03-matrices_6-eigen_a69f0927.png" />
-<meta property="og:image:alt" content="" />
+<meta property="og:image" content="https://la4ds.net/_images/social_previews/summary_03-matrices_6-eigen_5bbf429f.png" />
+<meta property="og:image:alt" content="~" />
+<meta name="description" content="~" />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>3.6. Eigenvalues and Eigenvectors &#8212; Linear Algebra for Data Science with Python</title>
@@ -66,6 +68,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"loader": {"load": ["[tex]/boldsymbol"]}, "tex": {"macros": {"P": "\\operatorname{P}"}, "packages": {"[+]": ["boldsymbol"]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '03-matrices/6-eigen';</script>
     <link rel="canonical" href="https://la4ds.net/03-matrices/6-eigen.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -388,6 +392,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="eigenvalues-and-eigenvectors">
 <h1><span class="section-number">3.6. </span>Eigenvalues and Eigenvectors<a class="headerlink" href="#eigenvalues-and-eigenvectors" title="Link to this heading">#</a></h1>
+<p><span class="math notranslate nohighlight">\(~\)</span></p>
 <div class="cell tag_remove-input docutils container">
 </div>
 <!--
@@ -660,7 +665,7 @@ The following question can be used to check your understanding of the material c
     }
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="GdkuSvByJKyr" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="GdkuSvByJKyr-next" onclick="window.checkFlip('GdkuSvByJKyr')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="tIRlIqMiYAZw" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="tIRlIqMiYAZw-next" onclick="window.checkFlip('tIRlIqMiYAZw')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -778,12 +783,14 @@ function slide2(containerId) {
     next.classList.add('hide');
 
     //container.classList.add("prepare");
-    
+
     container.className="flip-container slide";
+
     backcard.parentElement.removeChild(frontcard);
     backcard.parentElement.appendChild(frontcard);
+
     setTimeout(slideback, 600, container, frontcard, backcard, next);
-    
+
 }
 
 
@@ -815,15 +822,16 @@ function cleanup(container, frontcard, backcard, next) {
 
     let cardOrder = JSON.parse(container.dataset.cardOrder);
 
-    var cards=eval('cards'+container.id);
+    //var cards=eval('cards'+container.id);
+    var cards=JSON.parse(container.dataset.cards);
 
     var flipper=createOneCard(container, false, cards, cardOrder[cardnum], cardnum);
     container.append(flipper);
     cardnum= (cardnum+1) % parseInt(container.dataset.numCards);
-    if ((cardnum == 0) && (container.dataset.shuffleCards == "True")) {
+    if ((cardnum == 0) && (container.dataset.shuffleCards == "true")) {
         cardOrder = randomOrderArray(parseInt(container.dataset.numCards));
         container.dataset.cardOrder = JSON.stringify(cardOrder);
-        console.log(cardOrder);
+        //console.log(cardOrder);
     }
 
     container.dataset.cardnum=cardnum;
@@ -878,9 +886,15 @@ function cleanup(container, frontcard, backcard, next) {
 
 
 function createOneCard  (mydiv, frontCard, cards, cardnum, seq) {
+    /*
     var colors=eval('frontColors'+mydiv.id);
     var backColors=eval('backColors'+mydiv.id);
     var textColors=eval('textColors'+mydiv.id);
+    */
+    var colors = JSON.parse(mydiv.dataset.frontColors);
+    var backColors = JSON.parse(mydiv.dataset.backColors);
+    var textColors = JSON.parse(mydiv.dataset.textColors);
+
     //console.log(backColors)
 
     var flipper = document.createElement('div');
@@ -980,18 +994,18 @@ function createStructuredData(mydiv, cards, title, subject) {
 
 
 
-function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
+function createCards(id, cards, keyControl, grabFocus, shuffleCards, title, subject,
+                    frontColors, backColors, textColors) {
     console.log(id);
 
     var mydiv=document.getElementById(id);
     /*mydiv.onclick = window.flipCard(mydiv);*/
     /*
-    mydiv.addEventListener('click', function(){window.flipCard(mydiv);}, false);
-    mydiv.addEventListener('keydown', function(event){window.checkKey(mydiv,event);}, true);
+      mydiv.addEventListener('click', function(){window.flipCard(mydiv);}, false);
+      mydiv.addEventListener('keydown', function(event){window.checkKey(mydiv,event);}, true);
     */
     mydiv.onclick = function(){window.flipCard(mydiv);};
-    //console.log(keyControl);
-    if (keyControl == "True"){
+    if (keyControl == true){
         mydiv.onkeydown = function(event){window.checkKey(mydiv,event);};
     }
     /* mydiv.addEventListener('keydown', function(event){event.stopPropagation(); console.log(event); event.preventDefault();}, true); */
@@ -999,19 +1013,25 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
 
     //console.log(mydiv);
 
-    var cards=eval('cards'+id);
+    // var cards=eval('cards'+id);
+    // Store cards and color data in the container's dataset for later access in cleanup()
+    mydiv.dataset.cards = JSON.stringify(cards);
+    mydiv.dataset.frontColors = JSON.stringify(frontColors);
+    mydiv.dataset.backColors = JSON.stringify(backColors);
+    mydiv.dataset.textColors = JSON.stringify(textColors);
+
     mydiv.dataset.cardnum=0;
     mydiv.dataset.numCards=cards.length;
 
     mydiv.dataset.shuffleCards = shuffleCards;
     var cardOrder;
-    if (shuffleCards == "True"){
+    if (shuffleCards == true){
         cardOrder = randomOrderArray(cards.length);
     } else {
         cardOrder = Array.from({ length: cards.length }, (_, index) => index);
     }
     mydiv.dataset.cardOrder = JSON.stringify(cardOrder);
-    console.log(mydiv.dataset.cardOrder);
+    //console.log(mydiv.dataset.cardOrder);
 
 
     mydiv.addEventListener('swiped-left', function(e) {
@@ -1123,7 +1143,7 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
         next.innerHTML="Next >";
     }
 
-    if (grabFocus == "True" )
+    if (grabFocus == true )
         mydiv.focus();
 
     return flipper;
@@ -1132,36 +1152,20 @@ function createCards(id, keyControl, grabFocus, shuffleCards, title, subject) {
 
 
 
-
-        function try_create() {
-          if(document.getElementById("GdkuSvByJKyr")) {
-            createCards("GdkuSvByJKyr", "True", "False", "False", "", "");
-          } else {
-             setTimeout(try_create, 200);
-          }
-        };
-    
-var cardsGdkuSvByJKyr=[{"front": "eigenvector", "back": "Given a square $n \\times n$ matrix $\\mathbf{M}$, a non-zero $n$-vector $\\mathbf{u}$ is  an <I>eigenvector</I> of $\\mathbf{M}$ if there exists a constant  $\\lambda$ such that \\begin{equation} \\mathbf{Mu} = \\lambda \\mathbf{u}. \\end{equation}"}, {"front": "eigenvalue", "back": "Given a square $n \\times n$ matrix $\\mathbf{M}$, a constant $\\lambda$ is an <I>eigenvalue</I> of $\\mathbf{M}$ if there exists a non-zero vector $\\mathbf{u}$ such that \\[   \\mathbf{Mu} = \\lambda \\mathbf{u}. \\]"}, {"front": "modal matrix", "back": "For a square matrix \\(\\mathbf{M}\\), the modal matrix is a matrix whose columns are the unit eigenvectors of \\(\\mathbf{M}\\)."}];
-var frontColorsGdkuSvByJKyr= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsGdkuSvByJKyr= ["var(--dark-blue-gray)" ];
-var textColorsGdkuSvByJKyr= ["var(--snow)" ];
-
-
-        {
-        const jmscontroller = new AbortController();
-        const signal = jmscontroller.signal;
-
-        setTimeout(() => jmscontroller.abort(), 5000);
-
-        fetch("https://raw.githubusercontent.com/jmshea/Linear-Algebra-for-Data-Science-with-Python/main/03-matrices/flashcards/6-eigen.json", {signal})
-        .then(response => response.json())
-        .then(json => createCards("GdkuSvByJKyr", "True", "False", "False", "", ""))
-        .catch(err => {
-        console.log("Fetch error or timeout");
-        try_create(); 
-        });
-        }
-        </script></div>
+var cardstIRlIqMiYAZw = [{"front": "eigenvector", "back": "Given a square $n \\times n$ matrix $\\mathbf{M}$, a non-zero $n$-vector $\\mathbf{u}$ is  an <I>eigenvector</I> of $\\mathbf{M}$ if there exists a constant  $\\lambda$ such that \\begin{equation} \\mathbf{Mu} = \\lambda \\mathbf{u}. \\end{equation}"}, {"front": "eigenvalue", "back": "Given a square $n \\times n$ matrix $\\mathbf{M}$, a constant $\\lambda$ is an <I>eigenvalue</I> of $\\mathbf{M}$ if there exists a non-zero vector $\\mathbf{u}$ such that \\[   \\mathbf{Mu} = \\lambda \\mathbf{u}. \\]"}, {"front": "modal matrix", "back": "For a square matrix \\(\\mathbf{M}\\), the modal matrix is a matrix whose columns are the unit eigenvectors of \\(\\mathbf{M}\\)."}];
+var frontColorstIRlIqMiYAZw = ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)"];
+var backColorstIRlIqMiYAZw = ["var(--dark-blue-gray)"];
+var textColorstIRlIqMiYAZw = ["var(--snow)"];
+(function() {
+    var observer = new MutationObserver(function(mutations, obs) {
+    var el = document.getElementById("tIRlIqMiYAZw");
+    if (el) {
+    createCards("tIRlIqMiYAZw", cardstIRlIqMiYAZw, true, false, false, "", "", frontColorstIRlIqMiYAZw, backColorstIRlIqMiYAZw, textColorstIRlIqMiYAZw);
+    obs.disconnect();
+    }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    })();</script></div>
 </div>
 </section>
 
