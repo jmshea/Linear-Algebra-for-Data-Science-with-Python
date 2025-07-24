@@ -46,6 +46,8 @@ sphinx:
       use_repository_button: true
       use_edit_page_button: false
       home_page_in_toc: true
+      analytics:
+        google_analytics_id: G-C4ELG791RH
 
 
 html:
